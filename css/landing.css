@@ -1,0 +1,331 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+ *, *:before, *:after, html{
+   box-sizing: border-box;
+ }
+body{
+  background-color: #b3b3b3;
+}
+.container{
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: flex-end;
+  width: 100%;
+  padding: 0px 35px;
+}
+#bg-img{
+  background: url('../img/digital-marketing-1527799_1920.png') top/85% no-repeat #b3b3b3;
+  height: 100px;
+}
+section{
+  margin: 0 auto;
+  width: 100%;
+}
+.button-signin{
+  width: 100%;
+  border-radius: 0 0 0 0;
+  background-color: rgba(0,0,0,0); border: none;
+}
+.button-1,
+.main-button-1{
+  width: 100%;
+}
+.button-2,
+.main-button-2{
+  width: 50%;
+}
+.button-1,
+.button-2,
+.main-button-1,
+.main-button-2{
+  text-align: center;
+  display: inline-block;
+  border: .5px solid black;
+  height: 35px;
+  padding: 8px 16px;
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+}
+.main-button-1:hover,
+.main-button-2:hover{
+  background-color: rgba(190, 100, 100, .5);
+}
+.S-LG{
+  display: none;
+  visibility: hidden;
+}
+.icon > svg {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: #828282; }
+.social-media-list{
+  list-style: none;
+  list-style-position: inside;
+  margin-left: -50px;
+}
+/* ==========================================================================
+    Tool Box
+   ========================================================================== */
+#modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+#modal-container:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 1s;
+}
+
+#modal-container:target {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s, visibility 1s;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+@media only screen and (min-width: 480px){
+  .H-SM{
+    display: none;
+    visibility: hidden;
+  }
+  #bg-img{
+    height: 210px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .H-MD{
+    display: none;
+    visibility: hidden;
+  }
+  #bg-img{
+    height: 250px;
+  }
+  .container{
+    flex-flow: row;
+    align-items: baseline;
+  }
+}
+
+@media only screen and (min-width: 900px){
+  .H-LG{
+    display: none;
+    visibility: hidden;
+  }
+  .S-LG{
+    display: block;
+    visibility: visible;
+  }
+  #bg-img-main{
+    background: url('../img/digital-marketing-1563467_1920.png') top/55% no-repeat #b3b3b3;
+  }
+  .container{
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;;
+    margin: 15px;
+    position: fixed;
+    bottom: 0;
+  }
+  section{
+    margin: 15px;
+    padding: 15px;
+    width: 25%;
+  }
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
