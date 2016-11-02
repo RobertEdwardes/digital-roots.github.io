@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://digitalroots.io//blog/</link>
-    <atom:link href="http://digitalroots.io//blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Oct 2016 05:29:17 -0400</pubDate>
-    <lastBuildDate>Mon, 31 Oct 2016 05:29:17 -0400</lastBuildDate>
+    <title>Digital Roots Blog</title>
+    <description>Engaging activistes and voter through cutting endge digitial and grassroots stratiegies. That deliver the hard fought elections</description>
+    <link>http://digitalroots.io//</link>
+    <atom:link href="http://digitalroots.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Nov 2016 15:26:34 -0400</pubDate>
+    <lastBuildDate>Wed, 02 Nov 2016 15:26:34 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -28,8 +27,8 @@
 
 </description>
         <pubDate>Mon, 31 Oct 2016 05:25:53 -0400</pubDate>
-        <link>http://digitalroots.io//blog/jekyll/update/2016/10/31/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://digitalroots.io//blog/jekyll/update/2016/10/31/welcome-to-jekyll.html</guid>
+        <link>http://digitalroots.io//welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://digitalroots.io//welcome-to-jekyll</guid>
         
         
         <category>jekyll</category>
