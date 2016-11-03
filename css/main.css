@@ -49,6 +49,18 @@ textarea {
     padding: 0.2em 0;
 }
 
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+html{
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  margin: 15px;
+  overflow: hidden;
+}
+
 .container{
   display: flex;
 }
@@ -96,6 +108,11 @@ div.hello-bar{
 
 .container-hero-hello-bar{
   margin-top: 45px;
+  max-width: 950px;
+  width: 100%;
+  height: auto;
+}
+.container-hero{
   max-width: 950px;
   width: 100%;
   height: auto;
