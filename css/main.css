@@ -48,3 +48,55 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
+
+.container{
+  display: flex;
+}
+
+.flex-form{
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.flex-form textarea{
+  resize: none;
+  height: 250px;
+}
+
+div.hello-bar{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.hello-bar > form{
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.hello-bar input, .hello-bar button{
+  height: 35px;
+}
+
+.hello-bar input{
+  flex-grow: 4;
+}
+
+.hello-bar button{
+  flex-grow: 1;
+}
+
+.container-hero-hello-bar{
+  margin-top: 45px;
+  max-width: 950px;
+  width: 100%;
+  height: auto;
+}
