@@ -210,3 +210,9 @@ div.hello-bar{
   width: 100%;
   height: auto;
 }
+
+.button-signin, .hello-bar button{
+  width: 100%;
+  border-radius: 0 0 0 0;
+  background-color: rgba(0,0,0,0); border: none;
+}
