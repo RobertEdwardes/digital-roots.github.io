@@ -205,12 +205,16 @@ body{
 .container-hero-hello-bar{
   margin-top: 76px;
   max-width: 950px;
-  width: 100% !important:
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
   height: auto;
 }
 .container-hero{
   max-width: 950px;
-  width: 100% !important:
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
   height: auto;
 }
 
