@@ -224,3 +224,14 @@ p.center-padding{
   text-align: center;
   margin: 0 75px;
 }
+
+.button-signin{
+  width: 100%;
+  border-radius: 0 0 0 0;
+  background-color: rgba(0,0,0,0); border: none;
+}
+
+.button-1,
+.main-button-1{
+  width: 100%;
+}
