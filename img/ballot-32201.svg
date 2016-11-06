@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="144" height="144" viewBox="0 0 144 144" xmlns="http://www.w3.org/2000/svg">
+<svg width="250" height="250" viewBox="0 0 265 259" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <marker id="ArrowEnd" markerHeight="3" markerUnits="strokeWidth" markerWidth="4" orient="auto" refX="0" refY="5" viewBox="0 0 10 10">
 <path d="m0,0 10,5-10,5v-10z"/>
