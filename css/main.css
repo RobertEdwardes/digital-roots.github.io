@@ -151,11 +151,14 @@ html{
 body{
   font-size: 16px;
   margin: 15px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container{
   display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .flex-form{
@@ -169,7 +172,7 @@ body{
   height: 250px;
 }
 
-div.hello-bar{
+.hello-bar{
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -215,4 +218,9 @@ div.hello-bar{
   width: 100%;
   border-radius: 0 0 0 0;
   background-color: rgba(0,0,0,0); border: none;
+}
+
+p.center-padding{
+  text-align: center;
+  margin: 0 75px;
 }
