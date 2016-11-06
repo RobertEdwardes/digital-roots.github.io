@@ -190,8 +190,9 @@ body{
   flex-flow: row wrap;
 }
 
-.hello-bar input, .hello-bar button{
+.hello-bar input, .hello-bar button, .hello-bar .button{
   height: 35px;
+  width: 100%;
 }
 
 .hello-bar input{
@@ -214,19 +215,7 @@ body{
   height: auto;
 }
 
-.button-signin, .hello-bar button{
-  width: 100%;
-  border-radius: 0 0 0 0;
-  background-color: rgba(0,0,0,0); border: none;
-}
-
 p.center-padding{
   text-align: center;
   margin: 0 75px;
-}
-
-.button-signin{
-  width: 100%;
-  border-radius: 0 0 0 0;
-  background-color: rgba(0,0,0,0); border: none;
 }
