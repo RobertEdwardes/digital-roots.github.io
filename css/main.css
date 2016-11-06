@@ -150,7 +150,6 @@ html{
 }
 body{
   font-size: 16px;
-  margin: 15px;
   overflow-x: hidden;
 }
 
@@ -177,8 +176,9 @@ body{
   overflow: hidden;
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;;
   top: 0;
+  background-color: rgba(59, 59, 59, 0.5 )
 }
 
 .hello-bar > form{
