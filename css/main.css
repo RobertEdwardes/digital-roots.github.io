@@ -151,6 +151,7 @@ html{
 body{
   font-size: 16px;
   overflow-x: hidden;
+  background-color: #b3b3b3;
 }
 
 .container{
@@ -204,7 +205,7 @@ body{
 }
 
 .container-hero-hello-bar{
-  margin-top: 76px;
+  margin-top: 70px;
   max-width: 950px;
   width: 100% !important;
   height: auto;
