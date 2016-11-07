@@ -216,7 +216,8 @@ body{
   height: auto;
 }
 
-p.center-padding{
+p.hero{
   text-align: center;
   margin: 0 75px;
+  color: white;
 }
