@@ -207,26 +207,29 @@ body{
 .container-hero-hello-bar{
   margin-top: 70px;
   max-width: 950px;
-  width: 100% !important;
   height: auto;
   position: relative;
-  width: 100%; /* for IE 6 */
+  width: 100%;
 }
 .container-hero{
   max-width: 950px;
-  width: 100% !important;
   height: auto;
   position: relative;
-  width: 100%; /* for IE 6 */
+  width: 100%;
 }
 
-p.hero-center-padding{
+p.center-padding{
   text-align: center;
   margin: 0 75px;
   color: white;
-  position: absolute;
-  top: 200px;
-  left: 0;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
+}
+
+.hero-text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 10px;
+  width: 100%;
 }
