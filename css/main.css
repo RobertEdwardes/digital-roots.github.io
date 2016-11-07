@@ -209,15 +209,24 @@ body{
   max-width: 950px;
   width: 100% !important;
   height: auto;
+  position: relative;
+  width: 100%; /* for IE 6 */
 }
 .container-hero{
   max-width: 950px;
   width: 100% !important;
   height: auto;
+  position: relative;
+  width: 100%; /* for IE 6 */
 }
 
-p.center-padding{
+p.hero-center-padding{
   text-align: center;
   margin: 0 75px;
   color: white;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
 }
