@@ -217,14 +217,12 @@ img{
 }
 
 .container-hero-hello-bar{
-  margin-top: 70px;
-  max-width: 950px;
+  margin-top: 70px
   height: auto;
   position: relative;
   width: 100%;
 }
 .container-hero{
-  max-width: 950px;
   height: auto;
   position: relative;
   width: 100%;
