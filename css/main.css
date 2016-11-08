@@ -160,9 +160,11 @@ img{
 }
 
 .img-MD-size{
-  max-width: 144px;
+  max-width: 175px;
 }
-
+.container-wrap{
+  padding: 0 15px;
+}
 .container{
   display: flex;
   flex-flow: column;
@@ -243,8 +245,9 @@ p.center-padding{
   width: 100%;
 }
 
-@media and screen (min-width: 600px){
+@media screen (min-width: 600px){
   .container{
     flex-flow: row nowrap;
+    align-items: flex-start;
   }
 }
