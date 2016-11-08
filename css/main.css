@@ -151,7 +151,7 @@ html{
 body{
   font-size: 16px;
   overflow-x: hidden;
-  background-color: #b3b3b3
+  background-color: #b3b3b3;
 }
 
 img{
@@ -165,6 +165,8 @@ img{
 .container-wrap{
   padding: 0 15px;
   max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container{
   display: flex;
