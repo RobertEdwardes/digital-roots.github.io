@@ -193,7 +193,8 @@ img{
   justify-content: center;
   position: fixed;;
   top: 0;
-  background-color: rgba(59, 59, 59, 0.5 )
+  background-color: rgba(59, 59, 59, 0.5 );
+  z-index: 100;
 }
 
 .hello-bar > form{
@@ -219,7 +220,7 @@ img{
 }
 
 .container-hero-hello-bar{
-  margin-top: 70px
+  margin-top: 70px;
   height: auto;
   position: relative;
   width: 100%;
