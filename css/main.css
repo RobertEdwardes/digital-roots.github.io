@@ -159,6 +159,10 @@ img{
   height: auto;
 }
 
+.img-MD-size{
+  max-width: 144px;
+}
+
 .container{
   display: flex;
   flex-flow: column;
