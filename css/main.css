@@ -233,3 +233,9 @@ p.center-padding{
   padding: 20px 10px;
   width: 100%;
 }
+
+@media and screen (min-width: 600px){
+  .container{
+    flex-flow: row wrap;
+  }
+}
