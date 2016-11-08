@@ -154,6 +154,11 @@ body{
   background-color: #b3b3b3;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
 .container{
   display: flex;
   flex-flow: column;
@@ -236,6 +241,6 @@ p.center-padding{
 
 @media and screen (min-width: 600px){
   .container{
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
   }
 }
