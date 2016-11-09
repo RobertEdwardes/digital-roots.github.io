@@ -246,10 +246,3 @@ p.center-padding{
   padding: 20px 10px;
   width: 100%;
 }
-
-@media screen (min-width: 600px){
-  .container{
-    flex-flow: row nowrap;
-    align-items: flex-start;
-  }
-}
