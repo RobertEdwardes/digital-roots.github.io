@@ -226,9 +226,9 @@ section{
     -webkit-justify-content: space-between;
     -ms-justidy-content: space-between;
     justify-content: space-between;
-    -webkit-align-items: flex-end;
-    -ms-align-items: flex-end;
-    align-items: flex-end;;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
     margin: 15px;
     position: fixed;
     bottom: 0;
