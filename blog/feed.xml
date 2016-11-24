@@ -2,12 +2,215 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital Roots</title>
-    <description>Engaging activistes and voter through cutting endge digitial and grassroots stratiegies. That deliver the hard fought elections</description>
+    <description>Engaging activistes and voter through cutting endge digitial and grassroots stratiegies. That deliver the hard fought elections &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
     <link>http://digitalroots.io/blog/</link>
     <atom:link href="http://digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Nov 2016 06:40:13 -0500</pubDate>
-    <lastBuildDate>Fri, 18 Nov 2016 06:40:13 -0500</lastBuildDate>
+    <pubDate>Thu, 24 Nov 2016 14:24:04 -0500</pubDate>
+    <lastBuildDate>Thu, 24 Nov 2016 14:24:04 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Maryland GOP | Site Audit</title>
+        <description>&lt;p&gt;With 2016 over and 2018 being more crucial for Republicans in Maryland than ever I though it might be a good time to go through the Maryland GOP and Local GOP Clubs to see how their digital footprint looks. To start off I though I would take a look at the Maryland State Party Website. Each audit will limited, due to the lack of access to Google Analytics and Search Console, to the landing page and contain 5 parts.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Accessibility&lt;/li&gt;
+  &lt;li&gt;Indexability&lt;/li&gt;
+  &lt;li&gt;On-Page Ranking Factors&lt;/li&gt;
+  &lt;li&gt;Off-Page Ranking Factors&lt;/li&gt;
+  &lt;li&gt;Competitive Analysis&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;maryland-republican-party---seo-audit&quot;&gt;Maryland Republican Party - SEO Audit&lt;/h1&gt;
+
+&lt;h2 id=&quot;accessibility&quot;&gt;Accessibility&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;mdgop.org&quot;&gt;Maryland Republican Party&lt;/a&gt; has done the worst possible thing you can do for Search Engine Optimization and the is having your &lt;a href=&quot;http://www.digitalroots.io/blog/robots/&quot;&gt;robot.txt&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;User-Angent: *
+
+Disallow: /
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is telling all crawlers that they are not allowed on the site which keep Search Engines from indexing any pages. In the case of mdgop.org they still index for exact search words and phrases because of sites linking back to it, but it is for from ideal. Beyond that, things start to look better.&lt;/p&gt;
+
+&lt;p&gt;The site seems to be fine there are no Robots Meta Tags, but because of the robots.txt the site that is index is a 404 error page. Also, they seem to have XML Sitemap, but don’t have it at in the footer. This is something that should be added because Google recommends it. They do avoid using Flash and JavaScript Navigation, which help the Crawlability.&lt;/p&gt;
+
+&lt;p&gt;The site architecture and performance is another mix bag. While the site architecture is simple and allows for easy access the site take a little over 4 seconds to load which &lt;a href=&quot;https://blog.kissmetrics.com/loading-time/&quot;&gt;can cause problems&lt;/a&gt; they should enable compression, use browser caching, and minify files. On the mobile site they need to increase the size of social links so that they are fat finger friendly.&lt;/p&gt;
+
+&lt;h3 id=&quot;indexability&quot;&gt;Indexability&lt;/h3&gt;
+
+&lt;h4 id=&quot;site-and-page-search&quot;&gt;Site and Page search&lt;/h4&gt;
+
+&lt;p&gt;Despite the &lt;a href=&quot;http: //www.digitalroots.io/blog/robots/&quot;&gt;robots.txt&lt;/a&gt; mdgop.org does index and has a reported 169 pages indexed, and on mdgop.org page search it shows up in position number one, but no other page shows up.&lt;/p&gt;
+
+&lt;h4 id=&quot;brand-search&quot;&gt;Brand Search&lt;/h4&gt;
+
+&lt;p&gt;These searches seem to have had a major effect from the &lt;a href=&quot;http://www.digitalroots.io/blog/robots/&quot;&gt;robots.txt&lt;/a&gt; because the only mdgop domain that showed when I searched Maryland Republican Party, Maryland GOP and mdgop was &lt;a href=&quot;http://www.mdgop.org/site/lookup.asp?c=9sILJXMCLdJ0H&amp;amp;b=5916197&quot; rel=&quot;nofollow&quot;&gt;mdgop.com&lt;/a&gt; which was in position 5, 8 and 1 respectively but both lead to a 404 pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/MDGOP-SERP-Maryland-Republican-Party.png&quot; alt=&quot;Image of Google SERP for Maryland Republican Party&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That being said, because of Google My Business the Maryland Republican Party does show up on the right in the knowledge panel, but only when you search Maryland Republican Party.&lt;/p&gt;
+
+&lt;h2 id=&quot;on-page-ranking-factors&quot;&gt;On-Page Ranking Factors&lt;/h2&gt;
+
+&lt;h4 id=&quot;urls&quot;&gt;URLs&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;mdgop.org&quot;&gt;Maryland Republican Party&lt;/a&gt; site has a good url that contains relevant keywords, are short and user friendly, and avoids the most common problems with urls, but should use hyphens( - ) instead of underscores( _ ).&lt;/p&gt;
+
+&lt;h4 id=&quot;content&quot;&gt;Content&lt;/h4&gt;
+
+&lt;p&gt;The Maryland Republican Party has regular post, but are lacking in length and have no keywords. Maryland GOP could try to use narrative post about what the party is currently doing in the community and have volunteers talk about how they got involved with the party. They could also answer questions “like where do I vote” and “how to run for office”.&lt;/p&gt;
+
+&lt;h5 id=&quot;keywords&quot;&gt;Keywords&lt;/h5&gt;
+
+&lt;p&gt;Current Top 5 Keywords by traffic:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Keyword&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Percent of Search Traffic&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1. republican convention&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;44.97%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2. maryland republican party&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;15.46%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3. maryland gop&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;5.75%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4. maryland republican primary&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4.53%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5. maryland republican delegates&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4.31%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;They seem to only be getting traffic from republican subject queries this likely means that they are only drawing in republican voters though search and should try to answer election questions.&lt;/p&gt;
+
+&lt;p&gt;For ranking with keywords the most important measures are &lt;a href=&quot;https://www.drumbeatmarketing.net/marketing-blog/what-is-page-authority&quot;&gt;Page Authority(PA)&lt;/a&gt; and &lt;a href=&quot;http://www.shoutmeloud.com/domain-authority.html&quot;&gt;Domain Authority(DA)&lt;/a&gt; mdgop.org is PA: 55/100 DA: 46/100.&lt;/p&gt;
+
+&lt;p&gt;GOP: Volume 300k - 1.5m Difficulty 83 Opportunity 64 Potential 80&lt;/p&gt;
+
+&lt;p&gt;The top 3 sites PA was between 49 - 86 and DA were between 84 - 100 for GOP making it hard to make meaningful gains, and because Google views it as a national keyword trying to use local key-phrases isn’t possible.&lt;/p&gt;
+
+&lt;p&gt;Where to vote: Volume 11.5k - 30.3l Difficulty 70 Opportunity 52 Potential 67&lt;/p&gt;
+
+&lt;p&gt;The top 3 sites PA was 60 -71 and DA 57 - 75, but Google treats this a a local search to some degree so while it may be hard to rank nationally if they continue down the local search path it will  be one of the easer key-phrases to rank with&lt;/p&gt;
+
+&lt;p&gt;Where to vote in Maryland: Volume 101 - 200 Difficulty 38 Opportunity 46 Potential&lt;/p&gt;
+
+&lt;p&gt;The  top 3 site are the same without Maryland added. With Google looking at their query as a local search more this key-phrase will help you with local SEO, and during midterms the election is more likely to drive local searches over nation ones.&lt;/p&gt;
+
+&lt;p&gt;Republican Beliefs : Volume 4.3k - 6.5k Difficulty 31 Opportunity 64 Potential 72&lt;/p&gt;
+
+&lt;p&gt;The top sites Page Authority was between 24 - 25 and Domain Authority was between 22 - 36 for Republican Beliefs and while it has much less volume the ability to rank well for this keyword. It also is a keyword that will fit in naturally with narrative content.&lt;/p&gt;
+
+&lt;h3 id=&quot;html-markuphttpwwwdigitalrootsioblogseo-basics&quot;&gt;&lt;a href=&quot;http://www.digitalroots.io/blog/SEO-Basics&quot;&gt;HTML Markup&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The Maryland Republican Party’s HTML Markup is lacking in a number of areas&lt;/p&gt;
+
+&lt;h5 id=&quot;title-tag&quot;&gt;Title Tag&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;The Maryland Republican Party’s site has a good title tag, and uses the proper format they might want to replace the dash (-) with a vertical bar (&lt;/td&gt;
+          &lt;td&gt;).&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;meta-description&quot;&gt;Meta Description&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;They are lacking any Meta Description on all of their pages. One thing that they can add is a general description of each page, and what can be found on it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;other-head-tags&quot;&gt;Other &amp;lt;head&amp;gt; Tags&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The rest of head&amp;gt; section seems to be in good shape with the exception of the social media tags. The Facebook tag doesn’t have a picture of the landing page and the description for Facebook is “Joe Cluster, Executive Director of the Maryland Republican Party, was recently appointed to the Maryland House of Delegates and is leaving the Party on December 31, 2016. The MDGOP is..” because the ‘og: description’ property should be explicitly provided. For twitter the description is blank causing a similar problem to Facebook and has no picture, which means that they are losing out on making their tweets more fat finger friendly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;image&quot;&gt;Image&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Images has no ALT text this is a huge problem. The best ALT text for the landing page image is “Maryland Republican Governor Larry Hogan Greets excited crowd “. Also try to use &lt;code class=&quot;highlighter-rouge&quot;&gt;scrset&lt;/code&gt; to help with load times.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;other-body-tags&quot;&gt;Other Body Tags&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Join Governor Larry Hogan &amp;amp; the Maryland Republican Party to change Maryland for the better!” should be in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; tag.
+Also they should remove the commit above the header due to Internet Explorer, along with removing the end tag &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/form&amp;gt;&lt;/code&gt; that has no open element, and the unclosed element &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div class=&quot;row&quot;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;off-page-ranking-factors&quot;&gt;Off-Page Ranking Factors&lt;/h2&gt;
+
+&lt;p&gt;Overall the off-page factors are defiantly the strongest part of the website. It has high quality back links from newspapers and government sites, and lacks any spam quality links. The one suggestion I would give them is that try to reach out to influences both locally and nationally through social media. Also, they need to start to focus on Key Performance Indicators like email sign up or RSVP for an event.&lt;/p&gt;
+
+&lt;h2 id=&quot;competitive-analysis-mddemsorg&quot;&gt;Competitive Analysis (mddems.org)&lt;/h2&gt;
+
+&lt;p&gt;The final peace of the Site Audit is to look at Maryland Republican Party main competitor Maryland Democratic Party.&lt;/p&gt;
+
+&lt;p&gt;Top 5 Keywords by traffic:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Keyword&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Percent of Search Traffic&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1. maryland voter registration&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;15.42%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2. maryland democratic party&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;13.53%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3. md party&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;8.27%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4. democratic party website&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;5.10%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5. maryland democratic delegates&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.93%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Their keywords seem to be border, and 2 of the keywords are generic searches with Maryland voter registration being their best performing. This is a keyword that the MD GOP should target because it is a basic search for new voters that could be more persuadable. In terms of backlink opportunities there seems to not be any given they are earning them through affiliate organizations and news stories. That being said linking with other GOP groups is something that could benefit The Republicans site.&lt;/p&gt;
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+        <pubDate>Thu, 24 Nov 2016 00:00:00 -0500</pubDate>
+        <link>http://digitalroots.io/blog/mdgop-seo/</link>
+        <guid isPermaLink="true">http://digitalroots.io/blog/mdgop-seo/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Campaign Social Media Strategy</title>
@@ -218,11 +421,7 @@
 &lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
 
 &lt;p&gt;Social Media Strategies aren’t like any other strategy you will have for your campaign because of the flex able nature of social media platforms. That is why you should always have a clear list of rules and ethics that will guide you through every situation while making sure that you have clear, measurable, and meaningful goals for your social media strategy.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;
-</description>
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Fri, 18 Nov 2016 00:00:00 -0500</pubDate>
         <link>http://digitalroots.io/blog/social-media-policy/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/social-media-policy/</guid>
@@ -520,7 +719,7 @@
     &lt;p&gt;&lt;a href=&quot;http://help.yandex.com/webmaster/controlling-robot/html.xml&quot;&gt;Yandex has a help page for HTML meta tags.&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-</description>
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 16 Nov 2016 00:00:00 -0500</pubDate>
         <link>http://digitalroots.io/blog/robots/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/robots/</guid>
@@ -844,10 +1043,7 @@ Schema.org vocabulary can be used with many different encodings, including RDFa,
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;SEO is a major pillar of your digital foot print&lt;/strong&gt; and take time to produce strong results, but will have a longer lasting effect unlike PPC campaigns when they’re done the benefits go with them. That’s why at &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt; make sure we are using the best tactics at the beginning of our development so our customers don’t lose any ground.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;
-</description>
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Fri, 11 Nov 2016 00:00:00 -0500</pubDate>
         <link>http://digitalroots.io/blog/SEO-Basics/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/SEO-Basics/</guid>
@@ -888,11 +1084,7 @@ Schema.org vocabulary can be used with many different encodings, including RDFa,
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;
-</description>
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 09 Nov 2016 00:00:00 -0500</pubDate>
         <link>http://digitalroots.io/blog/yard-sign-list/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/yard-sign-list/</guid>
@@ -1423,7 +1615,7 @@ RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
 RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/vincentorback/WebP-images-with-htaccess&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
-</description>
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Sat, 05 Nov 2016 00:00:00 -0400</pubDate>
         <link>http://digitalroots.io/blog/htaccess-snippets/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/htaccess-snippets/</guid>
@@ -1750,10 +1942,7 @@ Example: What if I wanted to target a message to Republicans, in precinct DV12 o
 &lt;h2 id=&quot;conclusion&quot;&gt;CONCLUSION&lt;/h2&gt;
 
 &lt;p&gt;In writing your campaign plan, your strategy will depend heavily on the type of race you have If you are the only Republican in a heavily Republican open district, then your race is going to be significantly different than most challengers. Please keep in mind that 95% of incumbents get re-elected. Therefore, if you are a challenger that intends to be a part of the 5%, you must 1) be aggressive, 2) door knock every door (at least once), 3) start early, 4) raise a lot of money, 5) use “voting” issues to take voters away from your opponent, and 6) take some risks. Too many challengers are afraid to take risks. Challengers are frequently so afraid of offending anyone that they run bland campaigns that don’t make a case for kicking the incumbent out of office.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;
-</description>
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Fri, 04 Nov 2016 00:00:00 -0400</pubDate>
         <link>http://digitalroots.io/blog/Campaign-Plan/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/Campaign-Plan/</guid>
@@ -1822,10 +2011,7 @@ Example: What if I wanted to target a message to Republicans, in precinct DV12 o
 &lt;p&gt;Prescription: Make it clear what’s in it for them, and they will do what you need done. Resume builders are all about the bottom line. If they seem dissatisfied with the work they’re doing, offer them a title promotion to sweeten the deal. They will generally clean toilets as long as they get to put deputy something-or-other on their resume.&lt;/p&gt;
 
 &lt;p&gt;Each volunteer is obviously a unique individual, but many of them can be categorized. The sooner you figure out what they’re looking to get out of the experience, the easier it will be to develop the tools to get what you need out of them. After all, if your campaign can’t motivate people who are already supporters, how can you expect to influence voters?&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;
-</description>
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Tue, 29 Dec 2015 00:00:00 -0500</pubDate>
         <link>http://digitalroots.io/blog/recruit/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/recruit/</guid>
@@ -1853,10 +2039,7 @@ It’s not enough to have a good domain name, when you make it an integral part 
 Register your domain name with all the big search engines. There are over 900 search engines these days, but only about 30 – 40 that really matter. Many companies have services that will register your web site for a low fee. It’s important to have this done at least once a month for four months.
 Display your domain name prominently in your direct mail, literature, notepads, radio ads, print ads and television ads. It will raise your individual name identification while creating an effective tool for organizational politics.
 The bottom line is simple: In politics today, you need a domain name. Don’t wait, Ted Cruz wishes he had moved earlier to get &lt;a href=&quot;http://www.tedcruz.com&quot;&gt;www.tedcurz.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;
-</description>
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Wed, 25 Nov 2015 00:00:00 -0500</pubDate>
         <link>http://digitalroots.io/blog/domain-name/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/domain-name/</guid>
@@ -1885,50 +2068,10 @@ The bottom line is simple: In politics today, you need a domain name. Don’t wa
 &lt;p&gt;Socialmention unlike Buzzsumo and Topsy focuses on real-time search results this means that is doesn’t automatically sort by popularity or volume. The big advantage of Social mention is you can see the latest tweets, blog posts and other social posts about any topic you choose, from any time, or from a specific time like the past hour for the past month.&lt;/p&gt;
 
 &lt;p&gt;Along the left side you can see some basic stats about your chosen keyword, such as the sentiment and reach. There is other useful information that you can use to dive deeper into what content is popular available too, like the top tweeters tweeting about your topic and the most popular related hashtags.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;
-</description>
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
         <pubDate>Tue, 22 Sep 2015 00:00:00 -0400</pubDate>
         <link>http://digitalroots.io/blog/Social-Media-Tracker/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/Social-Media-Tracker/</guid>
-        
-        
-        <category>Digital</category>
-        
-      </item>
-    
-      <item>
-        <title>Price Per Click Guide</title>
-        <description>&lt;p&gt;With voter moving to digital platform social media like Facebook and YouTube, campaigns need to make sure that they treat their digital campaign like it’s own campaign with the ability to fundraise, voter ID, voter registration, and GOTV. This will allow it to work to enhance your traditional campaign beyond a strictly digital strategy. The biggest thing is that digital campaign brings in more reliable voter’s date making measurements. This is a huge improvement because currently canvassing has to do some guesswork about whether the support is real or the voter was being polite, and trying to end the conversation. While you can train voters to mitigate this digital look beyond what they say and take into consideration how long they spend on a page, what pages they looked at, and are able to see what they are talking about throw tags. Also, it is much better at targeting voter because of the range of option from demographics to time and even IP addresses. When looking at digital platform, there are some basics that are shared with all of the options.&lt;/p&gt;
-
-&lt;h3 id=&quot;there-are-3-way-you-can-bid-with-digital-platforms&quot;&gt;There are 3 way you can bid with digital platforms&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/0505496001433988952-ppc intro-html-44bd1ed20.jpg&quot; alt=&quot;bad example of digital GOTV Get out the Vote&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Each platform allows for different bids, but you will always run into some combination of these 3, and for most people CPC and CPA are the best because it allows any individual to set up an ad that does well because they mitigate the need for staff to do ad copy and test. That being said the cheapest if you have the stuff already is CPM because you are able to get the cost per click much lower since you bid for 1000 impressions at a time at a low rate. Also, CPM is the best way to do voter outreach for a GOTV.&lt;/p&gt;
-
-&lt;p&gt;A digital
-  GOTV is one of the best ways to target the &lt;a href=&quot;http://www.voterparticipation.org/the-rising-american-electorate/&quot;&gt;Rising American Electorate&lt;/a&gt;, but there are few things that you should
-  keep in mind&lt;/p&gt;
-
-&lt;h3 id=&quot;avoid-lots-of-text&quot;&gt;Avoid Lots of Text&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/blog/img/0505496001433988952-ppc%20intro-html-m166e5a40.jpg&quot; alt=&quot;bad example of digital GOTV Get out the Vote&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;have-a-picture&quot;&gt;Have A Picture&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/blog/img/0505496001433988952-ppc%20intro-html-mcd0f885.jpg&quot; alt=&quot;example with the best picture for digital GOTV Get out the Vote&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;keep-it-short&quot;&gt;Keep it short&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/blog/img/0505496001433988952-ppc%20intro-html-m3474715b.jpg&quot; alt=&quot;fat fing design for digital GOTV Get out the Vote&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;While Cost Per Impression work great for GOTV you are going to want to use Cost Per Click or Cost Per Action for digital fundraising. This will allow you to pay for only the view that clicks on the ad. This means that if you have done your targeting and ad copy correct, then the visitor will have a likely chance a donating given they were drawn in by the ad.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 15 Sep 2015 00:00:00 -0400</pubDate>
-        <link>http://digitalroots.io/blog/PPC-Guide/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/PPC-Guide/</guid>
         
         
         <category>Digital</category>
