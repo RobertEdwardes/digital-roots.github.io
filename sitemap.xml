@@ -4,112 +4,111 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
 <url>
   <loc>http://www.digitalroots.io/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/about/index.html</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/index.html</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/sitemap.html</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/about/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.digitalroots.io/blog/mdgop-seo/</loc>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/social-media-policy/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/robots/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/SEO-Basics/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/yard-sign-list/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/htaccess-snippets/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/Campaign-Plan/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/recruit/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/domain-name/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/Social-Media-Tracker/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/PPC-Guide/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.digitalroots.io/blog/Jebs-Problem/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.digitalroots.io/blog/Jeb's-Problem/</loc>
-  <lastmod>2016-11-18T11:42:10+00:00</lastmod>
+  <lastmod>2016-11-24T21:00:29+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
