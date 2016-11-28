@@ -5,9 +5,134 @@
     <description>Engaging activistes and voter through cutting endge digitial and grassroots stratiegies. That deliver the hard fought elections &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
     <link>http://digitalroots.io/blog/</link>
     <atom:link href="http://digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Nov 2016 14:24:04 -0500</pubDate>
-    <lastBuildDate>Thu, 24 Nov 2016 14:24:04 -0500</lastBuildDate>
+    <pubDate>Mon, 28 Nov 2016 10:42:07 -0500</pubDate>
+    <lastBuildDate>Mon, 28 Nov 2016 10:42:07 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Quick Start SEO Checklist</title>
+        <description>&lt;p&gt;Search Engine Optimization(SEO) is a broad field with technical and creative part. This is a basic check list that should be used to make sure you have done the bare minimum.&lt;/p&gt;
+
+&lt;h2 id=&quot;on-pagetechnical&quot;&gt;On-Page/Technical&lt;/h2&gt;
+
+&lt;p&gt;On-Page and Technical side of SEO is the part that you can do right away, and can be broken down into code and keywords. The basic checklist for On-Page and Technical SEO are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;check your &lt;a href=&quot;/blog/SEO-Basic&quot;&gt;robots.txt&lt;/a&gt; it should be clear if it looks like this:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;user-agent: *&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Disallow: /&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;this tells search engines to ignore your site so the first thing to is remove, remove the backslash (/)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;make sure that you don’t have meat name=”robots” &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;content=&quot;noindex&quot; /&amp;gt;&lt;/code&gt; [content value can be anything else] (/blog/robots) but &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;content=&quot;noindex&quot;&lt;/code&gt; tell search engines not to index just like robot.txt&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure that there is no 404 pages with &lt;a href=&quot;https://www.google.com/webmasters/&quot;&gt;search console&lt;/a&gt; or &lt;a href=&quot;https://www.screamingfrog.co.uk/seo-spider/&quot;&gt;Screaming Frog&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Title tags should be structured (page title&lt;/td&gt;
+          &lt;td&gt;brand name)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;URLs should use hyphens( - ) over underscore( _ ) for spaces&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;markup-and-speed&quot;&gt;Markup and Speed&lt;/h3&gt;
+
+&lt;p&gt;Page speed is one of the most important parts of a website because studies have shown that most users won’t wait more than 4 seconds. Markup also helps a site have a better social media precinct because of image cards on Facebook and Twitter, and you need schema mark-up for Google Snippets.&lt;/p&gt;
+
+&lt;p&gt;&lt;a herf=&quot;#hide-show-1&quot;&gt;Read More &lt;/a&gt;&lt;/p&gt;
+
+&lt;div id=&quot;hide-show-1&quot;&gt;
+
+&lt;h4&gt;&lt;a id=&quot;Markup_and_Structure_Data_0&quot;&gt;&lt;/a&gt;Markup and Structure Data&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;go through &lt;a href=&quot;www.schema.org&quot;&gt;scheme.org&lt;/a&gt;, and make sure that you are using proper tags&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.seoskeptic.com/json-ld-big-day-at-google/&quot;&gt;Google seems to prefer JSON-LD&lt;/a&gt; ,but has said they won’t prioritize one over the other&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Look at APIs to see what you should use (IE. Pinterest need microdata if you have multiple objects on a page)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure that there is an image on the &lt;code&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This makes sure that all posts and tweets are fat finger friendly and will stand out in the fields&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If available use tester to make sure that they are working properly&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;a id=&quot;Optimizing_for_Speed_14&quot;&gt;&lt;/a&gt;Optimizing for Speed&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure that you use appropriate image size to reduce load time. There is also &lt;code&gt;scrset&lt;/code&gt; that allows for a better responsive images.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use GZip to compress files&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This can be done in the .htaccess file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Minify your files(IE. CSS, JS, HTML)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use a Content Deliver System like &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure if you use a platform like Wordpress you take the necessary steps to &lt;a href=&quot;http://www.wpbeginner.com/common-wordpress-errors-and-how-to-fix-them/&quot;&gt;avoid any problems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;a id=&quot;ContentOffPage_28&quot;&gt;&lt;/a&gt;Content/Off-Page&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;content should be above 300 words.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;While there is no hard rule for this, but content with 1700 to 3000 words seems to do the best.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Post around 300 words also ranks well, but they are more time sensitive (IE. breaking news)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure that you have outbound link. They act like citations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use &lt;a href=&quot;/blog/Social-Media-Tracker&quot;&gt;content tools&lt;/a&gt; like &lt;a href=&quot;www.buzzsumo.com&quot;&gt;Buzzsumo&lt;/a&gt; to see what content from a sit or on a subject is being shared and where.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;a id=&quot;Outreach_40&quot;&gt;&lt;/a&gt;Outreach&lt;/h3&gt;
+&lt;p&gt;Google use links and social media are a measure of popularity and there are a number of things you can do the focus on your social media platform and the links you have going to your site.&lt;/p&gt;
+&lt;h4&gt;&lt;a id=&quot;Backlinks_44&quot;&gt;&lt;/a&gt;Backlinks&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure if you are a chapter or branch of an organization that you have both outbound links (links going to them) and inbound links (links gong for you).&lt;/li&gt;
+&lt;li&gt;Reach out to news site that have done articles for you and try to get backlinks from them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+        <pubDate>Mon, 28 Nov 2016 00:00:00 -0500</pubDate>
+        <link>http://digitalroots.io/blog/seo-checklist/</link>
+        <guid isPermaLink="true">http://digitalroots.io/blog/seo-checklist/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Maryland GOP | Site Audit</title>
@@ -49,7 +174,7 @@ Disallow: /
 
 &lt;p&gt;These searches seem to have had a major effect from the &lt;a href=&quot;http://www.digitalroots.io/blog/robots/&quot;&gt;robots.txt&lt;/a&gt; because the only mdgop domain that showed when I searched Maryland Republican Party, Maryland GOP and mdgop was &lt;a href=&quot;http://www.mdgop.org/site/lookup.asp?c=9sILJXMCLdJ0H&amp;amp;b=5916197&quot; rel=&quot;nofollow&quot;&gt;mdgop.com&lt;/a&gt; which was in position 5, 8 and 1 respectively but both lead to a 404 pages.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/MDGOP-SERP-Maryland-Republican-Party.png&quot; alt=&quot;Image of Google SERP for Maryland Republican Party&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/img/MDGOP-SERP-Maryland-Republican-Party.png&quot; alt=&quot;Image of Google SERP for Maryland Republican Party&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;That being said, because of Google My Business the Maryland Republican Party does show up on the right in the knowledge panel, but only when you search Maryland Republican Party.&lt;/p&gt;
 
@@ -2044,37 +2169,6 @@ The bottom line is simple: In politics today, you need a domain name. Don’t wa
         <link>http://digitalroots.io/blog/domain-name/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/domain-name/</guid>
         
-        
-      </item>
-    
-      <item>
-        <title>Tools to follow social media</title>
-        <description>&lt;p&gt;Figuring out what is trending on Twitter can be difficult. Do you use the advance search to look for keywords? Do you look at a list of thought leader every day? Check to see what’s on your timeline?&lt;/p&gt;
-
-&lt;p&gt;There are a lot of tools out there that can help you discover what is popular right now to help you reach out to your targeted audience. Below are three that are some of the best around&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/buzzsumo.jpg&quot; alt=&quot;Buzzsumo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Buzzzsumo searches Twitter for the most popular keywords or domains and can show results by time period, from last 24 hours up to a year. The best thing about Buzzsumo is that it tracks keywords and domains across multiple social media site including Google + this will allow you to add your two cents to the conversation no matter where it is.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/topsy.jpg&quot; alt=&quot;Topsy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Topsy is a social search engine that displays results similar to Google. One of the biggest advantages to Topsy is that it offers a more immediate time filter the Buzzsumo ranging from the past hour to 30 days. You can also filter by links, videos, tweets, and by relevancy.&lt;/p&gt;
-
-&lt;p&gt;One of the biggest advantages of Topsy is that it goes further with Topsy Analytics. There you can look at the volume of tweets sent each day and compare them to up to 2 other keywords.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/img/socialmention.jpg&quot; alt=&quot;Socialmention&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Socialmention unlike Buzzsumo and Topsy focuses on real-time search results this means that is doesn’t automatically sort by popularity or volume. The big advantage of Social mention is you can see the latest tweets, blog posts and other social posts about any topic you choose, from any time, or from a specific time like the past hour for the past month.&lt;/p&gt;
-
-&lt;p&gt;Along the left side you can see some basic stats about your chosen keyword, such as the sentiment and reach. There is other useful information that you can use to dive deeper into what content is popular available too, like the top tweeters tweeting about your topic and the most popular related hashtags.&lt;/p&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
-        <pubDate>Tue, 22 Sep 2015 00:00:00 -0400</pubDate>
-        <link>http://digitalroots.io/blog/Social-Media-Tracker/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/Social-Media-Tracker/</guid>
-        
-        
-        <category>Digital</category>
         
       </item>
     
