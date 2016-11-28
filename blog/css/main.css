@@ -315,6 +315,12 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+[id*="hide-show-"]:not(:target) {
+  display: none; }
+
+[id*="hide-show-"]:target {
+  display: block; }
+
 /**
  * Syntax highlighting styles
  */
