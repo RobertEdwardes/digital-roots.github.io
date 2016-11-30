@@ -5,8 +5,8 @@
     <description>Engaging activistes and voter through cutting endge digitial and grassroots stratiegies. That deliver the hard fought elections &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
     <link>http://digitalroots.io/blog/</link>
     <atom:link href="http://digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Nov 2016 10:42:07 -0500</pubDate>
-    <lastBuildDate>Mon, 28 Nov 2016 10:42:07 -0500</lastBuildDate>
+    <pubDate>Wed, 30 Nov 2016 18:05:07 -0500</pubDate>
+    <lastBuildDate>Wed, 30 Nov 2016 18:05:07 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -50,7 +50,7 @@
 
 &lt;p&gt;Page speed is one of the most important parts of a website because studies have shown that most users won’t wait more than 4 seconds. Markup also helps a site have a better social media precinct because of image cards on Facebook and Twitter, and you need schema mark-up for Google Snippets.&lt;/p&gt;
 
-&lt;p&gt;&lt;a herf=&quot;#hide-show-1&quot;&gt;Read More &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#hide-show-1&quot;&gt;Read More &lt;/a&gt;&lt;/p&gt;
 
 &lt;div id=&quot;hide-show-1&quot;&gt;
 
@@ -150,7 +150,7 @@
 
 &lt;h2 id=&quot;accessibility&quot;&gt;Accessibility&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;mdgop.org&quot;&gt;Maryland Republican Party&lt;/a&gt; has done the worst possible thing you can do for Search Engine Optimization and the is having your &lt;a href=&quot;http://www.digitalroots.io/blog/robots/&quot;&gt;robot.txt&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.mdgop.org/&quot;&gt;Maryland Republican Party&lt;/a&gt; has done the worst possible thing you can do for Search Engine Optimization and the is having your &lt;a href=&quot;../robots/&quot;&gt;robot.txt&lt;/a&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;User-Angent: *
 
