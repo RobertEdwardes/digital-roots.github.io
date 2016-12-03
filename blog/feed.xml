@@ -5,9 +5,152 @@
     <description>Engaging activistes and voter through cutting endge digitial and grassroots stratiegies. That deliver the hard fought elections &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
     <link>http://digitalroots.io/blog/</link>
     <atom:link href="http://digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Nov 2016 18:05:07 -0500</pubDate>
-    <lastBuildDate>Wed, 30 Nov 2016 18:05:07 -0500</lastBuildDate>
+    <pubDate>Sat, 03 Dec 2016 17:31:20 -0500</pubDate>
+    <lastBuildDate>Sat, 03 Dec 2016 17:31:20 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Volunteer Relations System</title>
+        <description>&lt;p&gt;Volunteers are the life blood or non-for profits, campaigns, and political parties, and while where and how you recruit them is important keeping motivated and involved not just through the campaign, but in between is important to making sure hat you have the support to make the calls and knock the doors to win. Here at Digitalroots has written about how to &lt;a href=&quot;.. /blog/recruit/&quot;&gt;identify and manage volunteer&lt;/a&gt;, but we have never talked about how to build a system that will help you retain first time volunteers and keep them through the winter and off cycle slumps.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-case-for-a-program&quot;&gt;The Case for a Program&lt;/h3&gt;
+
+&lt;p&gt;When maintaining volunteers there are a number of challenges that every organization faces:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Reducing ‘churn’&lt;/li&gt;
+  &lt;li&gt;Engaging or growing current volunteering&lt;/li&gt;
+  &lt;li&gt;Increasing loyalty to the organization&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These issues are best faced with a loyalty program because there are a number of advantages over the average volunteers:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Stay active over a long period of time&lt;/li&gt;
+  &lt;li&gt;More likely to suggest people volunteers&lt;/li&gt;
+  &lt;li&gt;Spend more time volunteering&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;how-to-building-the-system&quot;&gt;How to Building the System&lt;/h1&gt;
+
+&lt;p&gt;While each system will be different in a number of key ways there are some rules of thumbs to make sure that the program is successful. The key parts are broken down into the key element of every loyalty program and the mechanics that make the program function on a day to day basis.&lt;/p&gt;
+
+&lt;h3 id=&quot;loyalty-levers&quot;&gt;Loyalty Levers&lt;/h3&gt;
+
+&lt;h4 id=&quot;rewards&quot;&gt;Rewards&lt;/h4&gt;
+
+&lt;p&gt;Rewards are the backbone of the system and can be the most difficult. The rewards can be done in a few ways, but they revolve around accumulating points so that you can receive an award. The points system can be a as simple as receiving the reward after you reach a certain number of points.&lt;/p&gt;
+
+&lt;p&gt;An example of this is Duncan Donuts were once you acquire 200 points you are automatically issued a coupon for a free drink. Or as complicated as the ones most hotel use where you can exchange points like cash for food drinks and discount rooms. Unlike Duncan Donuts these systems allow for greater choice for the user, and create a more customized experience through the different services. The tradeoff for these systems is that changing the system can cause a friction point with your supporters making it harder to fix.&lt;/p&gt;
+
+&lt;h4 id=&quot;recognition&quot;&gt;Recognition&lt;/h4&gt;
+
+&lt;p&gt;Recognition is what keeps people engaged in the program this is because it allow the individual to feel like they are making progress by reaching new levels or gathering badges.&lt;/p&gt;
+
+&lt;p&gt;Recognition though isn’t just a statics it also has to come with benefits that are more constant rather than one time. One of the most common examples is when loyalty program members get a preferred customer hotline. For some organization, it could be an extended early bird special for events and fundraisers.&lt;/p&gt;
+
+&lt;h4 id=&quot;relevance&quot;&gt;Relevance&lt;/h4&gt;
+
+&lt;p&gt;Relevance is what will help you get new members to join the program. This is by far one of the most important parts of the program because using the program can quickly become irrelevant if you can’t gain and active members that will use your loyalty program.&lt;/p&gt;
+
+&lt;p&gt;The biggest friction points are the forms to sign-up are too long and ask for for more information then need to start. The thing to remember is that you can always get more information from a member once they are active. The other fiction point of relevance is the rewards while it can be easy to avoid on simpler systems more complex ones will have to figure out what members what and what is relevant to the as their status and use of the program goes up.&lt;/p&gt;
+
+&lt;h3 id=&quot;different-kinds-of-loyalty&quot;&gt;Different Kinds of Loyalty&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Mercenary&lt;/strong&gt; - were they are only loyal because it is the best offer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Inertia&lt;/strong&gt; - were they stay in the program because they have already invest money or time(IE. money on a loyalty card)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;True&lt;/strong&gt; - were they believe in the organization and don’t need to be incentivize to support it.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most volunteers will get involved because they fall under true loyalty, but because there are often multiple organizations that advocate for similar issues we need to create inertia loyalty to try to get volunteers to prioritize our efforts over those of allied organizations, and give them a reason to stay on board after the first event (reduce churn).&lt;/p&gt;
+
+&lt;h3 id=&quot;basic-part-to-a-program&quot;&gt;Basic Part to a Program&lt;/h3&gt;
+
+&lt;p&gt;There are 4 basic parts to every loyalty program, which are the currency, status, enrollment &amp;amp; activation, and partnerships. While most organizations have national, local, and state chapters the ability to do partnerships are limited because of the risk of sharing a volunteer list and the different laws. That is why it is best for organization with multiple levels of organizations should run the program at the state level and allow local branches to join the statewide program directly rather than working in parallel.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Currency (Points) - This is the most significant decision in creating a loyalty program, and is the major supporter of the loyalty lever Reward. The two parts that need to be addressed is the member and organization side:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Decisions that effect Members:&lt;/p&gt;
+
+        &lt;ol&gt;
+          &lt;li&gt;
+            &lt;p&gt;How can the currency be earned: It could be for social media activity or for canvassing and phone banking.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;How easy the process is to use them: Does the reward automatically trigger once reaching a certain value or does the person have to spend them.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;What is the value of the rewards.&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Decisions that effect Organization:&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;Breakage: ‘points’ earned by volunteers but are never used, typically stated as a percentage of the total.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Administrative Cost: annual costs associated with maintaining, and growing the program.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Reward Cost: financial value of any program award that a consumer receives and uses&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Status - is especially important element of a loyalty program because it creates value beyond the points system and supports the loyalty lever Recognition:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Statues have to mean something: That means the there should a desirable benefit for these “special volunteers”, and should be a continuing benefit unlike currency benefits.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enrollment &amp;amp; Activation - All programs start with enrolling (acquiring) and activating (on-boarding) a new member done well it will support the loyalty lever Relevance. The key points are:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Make the process simple&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Minimize the information that is “required”&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Enable enrollment to happen across many channels.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Tell them only what they need to get started&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tracking-key-performance-indicators-kpi&quot;&gt;Tracking Key Performance Indicators (KPI)&lt;/h2&gt;
+
+&lt;p&gt;The biggest difference between private business and non-for profits is the KPIs. In business it is based around how much more a member spends. For non-for profits they could use a program for donations, but it would be better at attracting retaining and mobilizing voters. So the KPIs should be based events, voter contact, and volunteer referred rather than a monetary value or social media engagement (IE. reviews and generated content).&lt;/p&gt;
+
+&lt;p&gt;Setting your KPIs to focus on volunteers will have a larger return because investing in a grassroots program can be a time consuming and labor intensive effort. With a loyalty system is is well built you can reduce voluntary churn between election, allowing you to start more aggressively and spend more time growing from last year progress rather than rebuilding last year team.&lt;/p&gt;
+ &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+        <pubDate>Sat, 03 Dec 2016 00:00:00 -0500</pubDate>
+        <link>http://digitalroots.io/blog/volunteer-system/</link>
+        <guid isPermaLink="true">http://digitalroots.io/blog/volunteer-system/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Quick Start SEO Checklist</title>
@@ -2140,34 +2283,6 @@ Example: What if I wanted to target a message to Republicans, in precinct DV12 o
         <pubDate>Tue, 29 Dec 2015 00:00:00 -0500</pubDate>
         <link>http://digitalroots.io/blog/recruit/</link>
         <guid isPermaLink="true">http://digitalroots.io/blog/recruit/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Secrets of Political Domain Names</title>
-        <description>&lt;p&gt;More and more candidates are registering domain names for their campaigns and web sites. Even more, cybersquatters are doing the same for “up and coming” political stars so they can resell it back to the candidate when they seek higher office. Reserving a domain name for the World Wide Web should be a simple issue and if you follow these rules, it will be:&lt;/p&gt;
-
-&lt;p&gt;Don’t Wait to Reserve Your Domain Name!
-Even if you’re not ready to build a web site yet or establish your presence on the Web, go ahead and reserve your domain name. It’s inexpensive and it could save you money later. Reserving a domain name will typically cost around $70, but some companies will charge as little as $60 and others will charge as much as $100. It can be worth it to pay a little more if some consulting comes with it. But if you know what you want, you should be able to get it for $70. Keep in mind that you are only purchasing a two-year license for the name, but you have the right to renew it after that period should you choose. Most Internet design companies will reserve the name for you and there are numerous places on the Web to reserve it yourself with a credit card.&lt;/p&gt;
-
-&lt;p&gt;Choose a name that is easy to remember and will stand the test of time.
-Don’t make your domain name complicated. If you run into a voter on the street and they ask where they can sign up to help, an easy to remember domain name is critical. I generally recommend to candidates that their political domain name be the same as their given name. In other words, if your name is Rand Paul, then reserve the name &lt;a href=&quot;http://randpaul.com&quot;&gt;www.randpaul.com&lt;/a&gt; or www.randpaul.org for you web domain. The reasons are simple: first, if people can remember your name, they can find you on the web. Second, no matter what office you seek or what year you run, it can travel with you. Finally, if you succeed and get elected, you can also transform it into a constituent site for your office – something that can’t be said for a campaign related domain name (like www.electrandpaul.com). For those three reasons, I see no reason to complicate the matter further.&lt;/p&gt;
-
-&lt;p&gt;If the domain name you want is unavailable, keep it simple.
-Sometimes www.randpaul.com is not available - especially if it’s a common name. As Mick Jagger would say, “Sometimes you don’t get what you want, you get what you need.” So, choose a domain name that is also simple and portable through different offices and years. Consider a name like www.randforusa.com or www.randonworks.org.&lt;/p&gt;
-
-&lt;p&gt;Once you have an effective domain name, let everyone know about it.
-It’s not enough to have a good domain name, when you make it an integral part of your election effort, be sure to advertise it properly. Consider these mediums as you pursue your name identification.&lt;/p&gt;
-
-&lt;p&gt;Some candidates now are putting their domain names on their yard signs: JohnSmith.com instead of the standard Vote for John Smith. I have mixed feelings about this, but you saw some of this with signs in the Presidential campaigns this year.
-Register your domain name with all the big search engines. There are over 900 search engines these days, but only about 30 – 40 that really matter. Many companies have services that will register your web site for a low fee. It’s important to have this done at least once a month for four months.
-Display your domain name prominently in your direct mail, literature, notepads, radio ads, print ads and television ads. It will raise your individual name identification while creating an effective tool for organizational politics.
-The bottom line is simple: In politics today, you need a domain name. Don’t wait, Ted Cruz wishes he had moved earlier to get &lt;a href=&quot;http://www.tedcruz.com&quot;&gt;www.tedcurz.com&lt;/a&gt;.&lt;/p&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
-        <pubDate>Wed, 25 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://digitalroots.io/blog/domain-name/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/domain-name/</guid>
         
         
       </item>
