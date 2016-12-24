@@ -5,13 +5,13 @@
     <description>Engaging activistes and voter through cutting endge digitial and grassroots stratiegies. That deliver the hard fought elections &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
     <link>http://digitalroots.io/blog/</link>
     <atom:link href="http://digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Dec 2016 08:52:22 -0500</pubDate>
-    <lastBuildDate>Wed, 14 Dec 2016 08:52:22 -0500</lastBuildDate>
+    <pubDate>Fri, 23 Dec 2016 22:16:25 -0500</pubDate>
+    <lastBuildDate>Fri, 23 Dec 2016 22:16:25 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Twitterbots and Campaigns</title>
-        <description>&lt;p&gt;With social media proving itself to be worth an investment and integration at the start of a campaign, there are still a lot of decisions that a campaign will have to make that go beyond a &lt;a href=&quot;../blog/social-media-policy/&quot;&gt;social media policy and strategy&lt;/a&gt;. The decisions that go beyond strategy and policy include paid vs organic outreach and whether or not you are going to use a beats to help you with your online presence, which recent research has shown can have a meaningful effect even in some of the largest campaigns. Philip Howard, Professor of Internet Studies at the Oxford Internet Institute, comments:&lt;/p&gt;
+        <description>&lt;p&gt;With social media proving itself to be worth an investment and integration at the start of a campaign, there are still a lot of decisions that a campaign will have to make that go beyond a &lt;a href=&quot;../social-media-policy/&quot;&gt;social media policy and strategy&lt;/a&gt;. The decisions that go beyond strategy and policy include paid vs organic outreach and whether or not you are going to use a beats to help you with your online presence, which recent research has shown can have a meaningful effect even in some of the largest campaigns. Philip Howard, Professor of Internet Studies at the Oxford Internet Institute, comments:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;‘We can’t say who was behind the highly automated pro-Trump accounts but they were purposeful, thoughtful and deliberate about when to release messages, what those messages should be, and what their targets were. We found similarities in the rhythm of the pro-Trump Twitter campaign and that successfully employed by the Leave campaign in the run up to the EU referendum in the UK.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
@@ -354,7 +354,7 @@
 
 &lt;h2 id=&quot;accessibility&quot;&gt;Accessibility&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.mdgop.org/&quot;&gt;Maryland Republican Party&lt;/a&gt; has done the worst possible thing you can do for Search Engine Optimization and the is having your &lt;a href=&quot;../robots/&quot;&gt;robot.txt&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.mdgop.org/&quot;&gt;Maryland Republican Party&lt;/a&gt; has done the worst possible thing you can do for Search Engine Optimization and the is having your &lt;a href=&quot;http://www.digitalroots.io/blog/robots/&quot;&gt;robot.txt&lt;/a&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;User-Angent: *
 
@@ -372,7 +372,7 @@ Disallow: /
 
 &lt;h4 id=&quot;site-and-page-search&quot;&gt;Site and Page search&lt;/h4&gt;
 
-&lt;p&gt;Despite the &lt;a href=&quot;http: //www.digitalroots.io/blog/robots/&quot;&gt;robots.txt&lt;/a&gt; mdgop.org does index and has a reported 169 pages indexed, and on mdgop.org page search it shows up in position number one, but no other page shows up.&lt;/p&gt;
+&lt;p&gt;Despite the &lt;a href=&quot;http://www.digitalroots.io/blog/robots/&quot;&gt;robots.txt&lt;/a&gt; mdgop.org does index and has a reported 169 pages indexed, and on mdgop.org page search it shows up in position number one, but no other page shows up.&lt;/p&gt;
 
 &lt;h4 id=&quot;brand-search&quot;&gt;Brand Search&lt;/h4&gt;
 
