@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #e6e6e6;
+  background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -178,7 +178,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #e6e6e6;
+      background-color: #fdfdfd;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -314,12 +314,6 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
-
-[id*="hide-show-"]:not(:target) {
-  display: none; }
-
-[id*="hide-show-"]:target {
-  display: block; }
 
 /**
  * Syntax highlighting styles

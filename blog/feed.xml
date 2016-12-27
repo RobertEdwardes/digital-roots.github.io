@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital Roots</title>
-    <description>Engaging activistes and voter through cutting endge digitial and grassroots stratiegies. That deliver the hard fought elections &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
-    <link>http://digitalroots.io/blog/</link>
-    <atom:link href="http://digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Dec 2016 22:16:25 -0500</pubDate>
-    <lastBuildDate>Fri, 23 Dec 2016 22:16:25 -0500</lastBuildDate>
+    <description>Engaging activities and voter through cutting edge digital and grassroots strategies. That deliver the hardest fought elections</description>
+    <link>http://www.digitalroots.io/blog/</link>
+    <atom:link href="http://www.digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 27 Dec 2016 12:29:33 -0500</pubDate>
+    <lastBuildDate>Tue, 27 Dec 2016 12:29:33 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -47,10 +47,7 @@
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;While twitter bots have been attributed in having an effect on an election, there still isn’t much data to know if there is any real impact, but thanks to the Python Library &lt;a href=&quot;https://github.com/esdalmaijer/markovbot&quot;&gt;Markovbot&lt;/a&gt; it is possible to set-up and try for both local and state based races. The only things you keep in mind are:
-1. What kind of bot will do(ie. retweet, post new content, respond other members)
-2. what will be your keywords, target string an conversation depth
-3. When will it start and stop&lt;/p&gt;
+&lt;p&gt;While twitter bots have been attributed in having an effect on an election, there still isn’t much data to know if there is any real impact, but thanks to the Python Library &lt;a href=&quot;https://github.com/esdalmaijer/markovbot&quot;&gt;Markovbot&lt;/a&gt; it is possible to set-up and try for both local and state based races. The only things you keep in mind are: 1. What kind of bot will do(ie. retweet, post new content, respond other members) 2. what will be your keywords, target string an conversation depth 3. When will it start and stop&lt;/p&gt;
 
 &lt;p&gt;If you set the twitter bolt upright and make sure they have a positive and promoting message for the candidate or organization, then it will have the best opponent to have an impact on the election,&lt;/p&gt;
 
@@ -62,17 +59,151 @@
   &lt;li&gt;http://phys.org/news/2016-11-twitter-bots-affected-presidential-campaign.html&lt;/li&gt;
   &lt;li&gt;http://phys.org/news/2016-12-unbelievable-news-true.html&lt;/li&gt;
 &lt;/ol&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+</description>
         <pubDate>Wed, 14 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://digitalroots.io/blog/twitter-bot-campaign/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/twitter-bot-campaign/</guid>
+        <link>http://www.digitalroots.io/blog/twitter-bot-campaign/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/twitter-bot-campaign/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>TEST PAGE</title>
+        <description>&lt;p&gt;Search Engine Optimization(SEO) is a broad field with technical and creative part. This is a basic check list that should be used to make sure you have done the bare minimum.&lt;/p&gt;
+
+&lt;h2 id=&quot;on-pagetechnical&quot;&gt;On-Page/Technical&lt;/h2&gt;
+
+&lt;p&gt;On-Page and Technical side of SEO is the part that you can do right away, and can be broken down into code and keywords. The basic checklist for On-Page and Technical SEO are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;check your &lt;a href=&quot;../SEO-Basics&quot;&gt;robots.txt&lt;/a&gt; it should be clear if it looks like this:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;user-agent: *&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Disallow: /&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;this tells search engines to ignore your site so the first thing to is remove, remove the backslash (/)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;make sure that you don’t have meat name=”robots” &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;content=&quot;noindex&quot; /&amp;gt;&lt;/code&gt; [content value can be anything else] (/blog/robots) but &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;content=&quot;noindex&quot;&lt;/code&gt; tell search engines not to index just like robot.txt&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure that there is no 404 pages with &lt;a href=&quot;https://www.google.com/webmasters/&quot;&gt;search console&lt;/a&gt; or &lt;a href=&quot;https://www.screamingfrog.co.uk/seo-spider/&quot;&gt;Screaming Frog&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Title tags should be structured (page title&lt;/td&gt;
+          &lt;td&gt;brand name)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;URLs should use hyphens( - ) over underscore( _ ) for spaces&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;markup-and-speed&quot;&gt;Markup and Speed&lt;/h3&gt;
+
+&lt;p&gt;Page speed is one of the most important parts of a website because studies have shown that most users won’t wait more than 4 seconds. Markup also helps a site have a better social media precinct because of image cards on Facebook and Twitter, and you need schema mark-up for Google Snippets.&lt;/p&gt;
+
+&lt;h4 id=&quot;markup-and-structure-data&quot;&gt;Markup and Structure Data&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;go through &lt;a href=&quot;http://schema.org/&quot;&gt;scheme.org&lt;/a&gt;, and make sure that you are using proper tags&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://www.seoskeptic.com/json-ld-big-day-at-google/&quot;&gt;Google seems to prefer JSON-LD&lt;/a&gt; ,but has said they won’t prioritize one over the other&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Look at APIs to see what you should use (IE. Pinterest need microdata if you have multiple objects on a page)&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure that there is an image on the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;This makes sure that all posts and tweets are fat finger friendly and will stand out in the fields&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If available use tester to make sure that they are working properly&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;optimizing-for-speed&quot;&gt;Optimizing for Speed&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure that you use appropriate image size to reduce load time. There is also &lt;code class=&quot;highlighter-rouge&quot;&gt;scrset&lt;/code&gt; that allows for a better responsive images.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use GZip to compress files&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;This can be done in the .htaccess file&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Minify your files(IE. CSS, JS, HTML)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use a Content Deliver System like &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Make sure if you use a platform like Wordpress you take the necessary steps to &lt;a href=&quot;http://www.wpbeginner.com/common-wordpress-errors-and-how-to-fix-them/&quot;&gt;avoid any problems&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contentoff-page&quot;&gt;Content/Off-Page&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;content should be above 300 words.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;While there is no hard rule for this, but content with 1700 to 3000 words seems to do the best.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Post around 300 words also ranks well, but they are more time sensitive (IE. breaking news)&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure that you have outbound link. They act like citations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use &lt;a href=&quot;/blog/Social-Media-Tracker&quot;&gt;content tools&lt;/a&gt; like &lt;a href=&quot;http://buzzsumo.com/&quot;&gt;Buzzsumo&lt;/a&gt; to see what content from a sit or on a subject is being shared and where.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;outreach&quot;&gt;Outreach&lt;/h3&gt;
+
+&lt;p&gt;Google use links and social media are a measure of popularity and there are a number of things you can do the focus on your social media platform and the links you have going to your site.&lt;/p&gt;
+
+&lt;h4 id=&quot;backlinks&quot;&gt;Backlinks&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make sure if you are a chapter or branch of an organization that you have both outbound links (links going to them) and inbound links (links gong for you).&lt;/li&gt;
+  &lt;li&gt;Reach out to news site that have done articles for you and try to get backlinks from them&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 09 Dec 2016 00:00:00 -0500</pubDate>
+        <link>http://www.digitalroots.io/blog/seo-checklist/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/seo-checklist/</guid>
         
         
       </item>
     
       <item>
         <title>Volunteer Relations System</title>
-        <description>&lt;p&gt;Volunteers are the life blood or non-for profits, campaigns, and political parties, and while where and how you recruit them is important keeping motivated and involved not just through the campaign, but in between is important to making sure hat you have the support to make the calls and knock the doors to win. Here at Digitalroots has written about how to &lt;a href=&quot;../blog/recruit/&quot;&gt;identify and manage volunteer&lt;/a&gt;, but we have never talked about how to build a system that will help you retain first time volunteers and keep them through the winter and off cycle slumps.&lt;/p&gt;
+        <description>&lt;p&gt;Volunteers are the life blood or non-for profits, campaigns, and political parties, and while where and how you recruit them is important keeping motivated and involved not just through the campaign, but in between is important to making sure hat you have the support to make the calls and knock the doors to win. Here at Digitalroots has written about how to &lt;a href=&quot;../recruit/&quot;&gt;identify and manage volunteer&lt;/a&gt;, but we have never talked about how to build a system that will help you retain first time volunteers and keep them through the winter and off cycle slumps.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-case-for-a-program&quot;&gt;The Case for a Program&lt;/h3&gt;
 
@@ -205,135 +336,10 @@
 &lt;p&gt;The biggest difference between private business and non-for profits is the KPIs. In business it is based around how much more a member spends. For non-for profits they could use a program for donations, but it would be better at attracting retaining and mobilizing voters. So the KPIs should be based events, voter contact, and volunteer referred rather than a monetary value or social media engagement (IE. reviews and generated content).&lt;/p&gt;
 
 &lt;p&gt;Setting your KPIs to focus on volunteers will have a larger return because investing in a grassroots program can be a time consuming and labor intensive effort. With a loyalty system is is well built you can reduce voluntary churn between election, allowing you to start more aggressively and spend more time growing from last year progress rather than rebuilding last year team.&lt;/p&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+</description>
         <pubDate>Sat, 03 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://digitalroots.io/blog/volunteer-system/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/volunteer-system/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Quick Start SEO Checklist</title>
-        <description>&lt;p&gt;Search Engine Optimization(SEO) is a broad field with technical and creative part. This is a basic check list that should be used to make sure you have done the bare minimum.&lt;/p&gt;
-
-&lt;h2 id=&quot;on-pagetechnical&quot;&gt;On-Page/Technical&lt;/h2&gt;
-
-&lt;p&gt;On-Page and Technical side of SEO is the part that you can do right away, and can be broken down into code and keywords. The basic checklist for On-Page and Technical SEO are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;check your &lt;a href=&quot;/blog/SEO-Basics&quot;&gt;robots.txt&lt;/a&gt; it should be clear if it looks like this:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;user-agent: *&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Disallow: /&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;this tells search engines to ignore your site so the first thing to is remove, remove the backslash (/)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;make sure that you don’t have meat name=”robots” &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;content=&quot;noindex&quot; /&amp;gt;&lt;/code&gt; [content value can be anything else] (/blog/robots) but &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;content=&quot;noindex&quot;&lt;/code&gt; tell search engines not to index just like robot.txt&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Make sure that there is no 404 pages with &lt;a href=&quot;https://www.google.com/webmasters/&quot;&gt;search console&lt;/a&gt; or &lt;a href=&quot;https://www.screamingfrog.co.uk/seo-spider/&quot;&gt;Screaming Frog&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Title tags should be structured (page title&lt;/td&gt;
-          &lt;td&gt;brand name)&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-  &lt;li&gt;URLs should use hyphens( - ) over underscore( _ ) for spaces&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;markup-and-speed&quot;&gt;Markup and Speed&lt;/h3&gt;
-
-&lt;p&gt;Page speed is one of the most important parts of a website because studies have shown that most users won’t wait more than 4 seconds. Markup also helps a site have a better social media precinct because of image cards on Facebook and Twitter, and you need schema mark-up for Google Snippets.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#hide-show-1&quot;&gt;Read More &lt;/a&gt;&lt;/p&gt;
-
-&lt;div id=&quot;hide-show-1&quot;&gt;
-
-&lt;h4&gt;&lt;a id=&quot;Markup_and_Structure_Data_0&quot;&gt;&lt;/a&gt;Markup and Structure Data&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;go through &lt;a href=&quot;http://schema.org/&quot;&gt;scheme.org&lt;/a&gt;, and make sure that you are using proper tags&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.seoskeptic.com/json-ld-big-day-at-google/&quot;&gt;Google seems to prefer JSON-LD&lt;/a&gt; ,but has said they won’t prioritize one over the other&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Look at APIs to see what you should use (IE. Pinterest need microdata if you have multiple objects on a page)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Make sure that there is an image on the &lt;code&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This makes sure that all posts and tweets are fat finger friendly and will stand out in the fields&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If available use tester to make sure that they are working properly&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;&lt;a id=&quot;Optimizing_for_Speed_14&quot;&gt;&lt;/a&gt;Optimizing for Speed&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Make sure that you use appropriate image size to reduce load time. There is also &lt;code&gt;scrset&lt;/code&gt; that allows for a better responsive images.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Use GZip to compress files&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This can be done in the .htaccess file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Minify your files(IE. CSS, JS, HTML)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Use a Content Deliver System like &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;Cloudflare&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Make sure if you use a platform like Wordpress you take the necessary steps to &lt;a href=&quot;http://www.wpbeginner.com/common-wordpress-errors-and-how-to-fix-them/&quot;&gt;avoid any problems&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;a id=&quot;ContentOffPage_28&quot;&gt;&lt;/a&gt;Content/Off-Page&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;content should be above 300 words.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;While there is no hard rule for this, but content with 1700 to 3000 words seems to do the best.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Post around 300 words also ranks well, but they are more time sensitive (IE. breaking news)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Make sure that you have outbound link. They act like citations.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Use &lt;a href=&quot;/blog/Social-Media-Tracker&quot;&gt;content tools&lt;/a&gt; like &lt;a href=&quot;http://buzzsumo.com/&quot;&gt;Buzzsumo&lt;/a&gt; to see what content from a sit or on a subject is being shared and where.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;a id=&quot;Outreach_40&quot;&gt;&lt;/a&gt;Outreach&lt;/h3&gt;
-&lt;p&gt;Google use links and social media are a measure of popularity and there are a number of things you can do the focus on your social media platform and the links you have going to your site.&lt;/p&gt;
-&lt;h4&gt;&lt;a id=&quot;Backlinks_44&quot;&gt;&lt;/a&gt;Backlinks&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Make sure if you are a chapter or branch of an organization that you have both outbound links (links going to them) and inbound links (links gong for you).&lt;/li&gt;
-&lt;li&gt;Reach out to news site that have done articles for you and try to get backlinks from them&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
-        <pubDate>Mon, 28 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://digitalroots.io/blog/seo-checklist/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/seo-checklist/</guid>
+        <link>http://www.digitalroots.io/blog/volunteer-system/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/volunteer-system/</guid>
         
         
       </item>
@@ -356,10 +362,12 @@
 
 &lt;p&gt;&lt;a href=&quot;http://www.mdgop.org/&quot;&gt;Maryland Republican Party&lt;/a&gt; has done the worst possible thing you can do for Search Engine Optimization and the is having your &lt;a href=&quot;http://www.digitalroots.io/blog/robots/&quot;&gt;robot.txt&lt;/a&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;User-Angent: *
+&lt;div class=&quot;highlighter-rouge&quot;&gt;
 
-Disallow: /
-&lt;/code&gt;&lt;/pre&gt;
+    User-Angent: *
+
+    Disallow: /
+
 &lt;/div&gt;
 
 &lt;p&gt;This is telling all crawlers that they are not allowed on the site which keep Search Engines from indexing any pages. In the case of mdgop.org they still index for exact search words and phrases because of sites linking back to it, but it is for from ideal. Beyond that, things start to look better.&lt;/p&gt;
@@ -376,7 +384,7 @@ Disallow: /
 
 &lt;h4 id=&quot;brand-search&quot;&gt;Brand Search&lt;/h4&gt;
 
-&lt;p&gt;These searches seem to have had a major effect from the &lt;a href=&quot;http://www.digitalroots.io/blog/robots/&quot;&gt;robots.txt&lt;/a&gt; because the only mdgop domain that showed when I searched Maryland Republican Party, Maryland GOP and mdgop was &lt;a href=&quot;http://www.mdgop.org/site/lookup.asp?c=9sILJXMCLdJ0H&amp;amp;b=5916197&quot; rel=&quot;nofollow&quot;&gt;mdgop.com&lt;/a&gt; which was in position 5, 8 and 1 respectively but both lead to a 404 pages.&lt;/p&gt;
+&lt;p&gt;These searches seem to have had a major effect from the &lt;a href=&quot;http://www.digitalroots.io/blog/robots/&quot;&gt;robots.txt&lt;/a&gt; because the only mdgop domain that showed when I searched Maryland Republican Party, Maryland GOP and mdgop was &lt;a href=&quot;http://www.mdgop.org/site/lookup.asp?c=9sILJXMCLdJ0H&amp;amp;b=5916197&quot;&gt;mdgop.com&lt;/a&gt; which was in position 5, 8 and 1 respectively but both lead to a 404 pages.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/img/MDGOP-SERP-Maryland-Republican-Party.png&quot; alt=&quot;Image of Google SERP for Maryland Republican Party&quot; /&gt;&lt;/p&gt;
 
@@ -386,7 +394,7 @@ Disallow: /
 
 &lt;h4 id=&quot;urls&quot;&gt;URLs&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&quot;mdgop.org&quot;&gt;Maryland Republican Party&lt;/a&gt; site has a good url that contains relevant keywords, are short and user friendly, and avoids the most common problems with urls, but should use hyphens( - ) instead of underscores( _ ).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.mdgop.org&quot;&gt;Maryland Republican Party&lt;/a&gt; site has a good url that contains relevant keywords, are short and user friendly, and avoids the most common problems with urls, but should use hyphens( - ) instead of underscores( _ ).&lt;/p&gt;
 
 &lt;h4 id=&quot;content&quot;&gt;Content&lt;/h4&gt;
 
@@ -397,34 +405,63 @@ Disallow: /
 &lt;p&gt;Current Top 5 Keywords by traffic:&lt;/p&gt;
 
 &lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Keyword&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Percent of Search Traffic&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1. republican convention&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;44.97%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2. maryland republican party&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;15.46%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3. maryland gop&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;5.75%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;4. maryland republican primary&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;4.53%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5. maryland republican delegates&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;4.31%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+
+&lt;thead&gt;
+
+&lt;tr&gt;
+
+&lt;th&gt;Keyword&lt;/th&gt;
+
+&lt;th style=&quot;text-align: right&quot;&gt;Percent of Search Traffic&lt;/th&gt;
+
+&lt;/tr&gt;
+
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;1\. republican convention&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;44.97%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;2\. maryland republican party&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;15.46%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;3\. maryland gop&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;5.75%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;4\. maryland republican primary&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;4.53%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;5\. maryland republican delegates&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;4.31%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
 &lt;/table&gt;
 
 &lt;p&gt;They seem to only be getting traffic from republican subject queries this likely means that they are only drawing in republican voters though search and should try to answer election questions.&lt;/p&gt;
@@ -437,11 +474,11 @@ Disallow: /
 
 &lt;p&gt;Where to vote: Volume 11.5k - 30.3l Difficulty 70 Opportunity 52 Potential 67&lt;/p&gt;
 
-&lt;p&gt;The top 3 sites PA was 60 -71 and DA 57 - 75, but Google treats this a a local search to some degree so while it may be hard to rank nationally if they continue down the local search path it will  be one of the easer key-phrases to rank with&lt;/p&gt;
+&lt;p&gt;The top 3 sites PA was 60 -71 and DA 57 - 75, but Google treats this a a local search to some degree so while it may be hard to rank nationally if they continue down the local search path it will be one of the easer key-phrases to rank with&lt;/p&gt;
 
 &lt;p&gt;Where to vote in Maryland: Volume 101 - 200 Difficulty 38 Opportunity 46 Potential&lt;/p&gt;
 
-&lt;p&gt;The  top 3 site are the same without Maryland added. With Google looking at their query as a local search more this key-phrase will help you with local SEO, and during midterms the election is more likely to drive local searches over nation ones.&lt;/p&gt;
+&lt;p&gt;The top 3 site are the same without Maryland added. With Google looking at their query as a local search more this key-phrase will help you with local SEO, and during midterms the election is more likely to drive local searches over nation ones.&lt;/p&gt;
 
 &lt;p&gt;Republican Beliefs : Volume 4.3k - 6.5k Difficulty 31 Opportunity 64 Potential 72&lt;/p&gt;
 
@@ -456,13 +493,20 @@ Disallow: /
 &lt;ul&gt;
   &lt;li&gt;
     &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;The Maryland Republican Party’s site has a good title tag, and uses the proper format they might want to replace the dash (-) with a vertical bar (&lt;/td&gt;
-          &lt;td&gt;).&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;The Maryland Republican Party’s site has a good title tag, and uses the proper format they might want to replace the dash (-) with a vertical bar (&lt;/td&gt;
+
+&lt;td&gt;).&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
+&lt;/table&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -487,8 +531,7 @@ Disallow: /
 &lt;h5 id=&quot;other-body-tags&quot;&gt;Other Body Tags&lt;/h5&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;“Join Governor Larry Hogan &amp;amp; the Maryland Republican Party to change Maryland for the better!” should be in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; tag.
-Also they should remove the commit above the header due to Internet Explorer, along with removing the end tag &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/form&amp;gt;&lt;/code&gt; that has no open element, and the unclosed element &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div class=&quot;row&quot;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;“Join Governor Larry Hogan &amp;amp; the Maryland Republican Party to change Maryland for the better!” should be in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; tag. Also they should remove the commit above the header due to Internet Explorer, along with removing the end tag &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/form&amp;gt;&lt;/code&gt; that has no open element, and the unclosed element &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div class=&quot;row&quot;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;off-page-ranking-factors&quot;&gt;Off-Page Ranking Factors&lt;/h2&gt;
@@ -502,41 +545,70 @@ Also they should remove the commit above the header due to Internet Explorer, al
 &lt;p&gt;Top 5 Keywords by traffic:&lt;/p&gt;
 
 &lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Keyword&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Percent of Search Traffic&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1. maryland voter registration&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;15.42%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2. maryland democratic party&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;13.53%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3. md party&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;8.27%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;4. democratic party website&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;5.10%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5. maryland democratic delegates&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;3.93%&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+
+&lt;thead&gt;
+
+&lt;tr&gt;
+
+&lt;th&gt;Keyword&lt;/th&gt;
+
+&lt;th style=&quot;text-align: right&quot;&gt;Percent of Search Traffic&lt;/th&gt;
+
+&lt;/tr&gt;
+
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;1\. maryland voter registration&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;15.42%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;2\. maryland democratic party&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;13.53%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;3\. md party&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;8.27%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;4\. democratic party website&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;5.10%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;5\. maryland democratic delegates&lt;/td&gt;
+
+&lt;td style=&quot;text-align: right&quot;&gt;3.93%&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
 &lt;/table&gt;
 
 &lt;p&gt;Their keywords seem to be border, and 2 of the keywords are generic searches with Maryland voter registration being their best performing. This is a keyword that the MD GOP should target because it is a basic search for new voters that could be more persuadable. In terms of backlink opportunities there seems to not be any given they are earning them through affiliate organizations and news stories. That being said linking with other GOP groups is something that could benefit The Republicans site.&lt;/p&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+</description>
         <pubDate>Thu, 24 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://digitalroots.io/blog/mdgop-seo/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/mdgop-seo/</guid>
+        <link>http://www.digitalroots.io/blog/mdgop-seo/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/mdgop-seo/</guid>
         
         
       </item>
@@ -544,9 +616,11 @@ Also they should remove the commit above the header due to Internet Explorer, al
       <item>
         <title>Campaign Social Media Strategy</title>
         <description>&lt;h3 id=&quot;what-is-a-social-media-strategy&quot;&gt;What is a Social Media Strategy&lt;/h3&gt;
+
 &lt;p&gt;A Social Media Strategy is becoming a critical part of every political and non-for profits strategy, and unlike other digital strategies your social media strategy is built with a framework and general policy. The first part is the Strategy that will act like a framework that will lay out your key performance indicators (KPI) and the general direction that it will take (IE. platform and activities). The other part is policy and will be the guidelines that will help you adapt you strategy to changing environments on each platform.&lt;/p&gt;
 
 &lt;h2 id=&quot;social-media-policy&quot;&gt;Social Media Policy&lt;/h2&gt;
+
 &lt;p&gt;Your Social Media Policy is by far the most important part of your Social Media Plan because it will be what fills in the strategy, and gives you direction when the unexpected happens. There are three basic points to cover in your Social Media Policy:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -644,7 +718,7 @@ Also they should remove the commit above the header due to Internet Explorer, al
     &lt;p&gt;Wherever possible, content posted to &lt;strong&gt;[ORGANIZATION]&lt;/strong&gt; social media accounts will also be available on the main website of the organization.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Wherever possible, content posted on social media should link back to the  &lt;strong&gt;[ORGANIZATION]&lt;/strong&gt; main website for in-depth information, forms, or documents.&lt;/p&gt;
+    &lt;p&gt;Wherever possible, content posted on social media should link back to the &lt;strong&gt;[ORGANIZATION]&lt;/strong&gt; main website for in-depth information, forms, or documents.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -674,14 +748,13 @@ Also they should remove the commit above the header due to Internet Explorer, al
 &lt;/ol&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Case studies
-  There is no privacy on the Web.&lt;/p&gt;
+  &lt;p&gt;Case studies There is no privacy on the Web.&lt;/p&gt;
 
   &lt;p&gt;Imagine, if you will, an NPR legal correspondent named Sue Zemencourt. She’s a huge fan of Enormous University’s basketball team and loves to chat online about EU. She posts comments on blogs under the screen name “enormous1.” One day, an equally rabid fan of Gigormous State (“gigormous1”) posts obnoxious comments about EU.&lt;/p&gt;
 
   &lt;p&gt;Sue snaps. Expletives and insults fly from her fingers on to the webpage. They’re so out-of-line that the blog blocks her from submitting any more comments — and discovers that her i.p. address leads back to NPR. The blog’s host posts that “someone at NPR is using language that the FCC definitely would not approve of” and describes what was said. Things go viral.&lt;/p&gt;
 
-  &lt;p&gt;The basically good person that she is, Sue publicly acknowledges and apologizes for her mistake. But that doesn’t stop The Daily Show from  satirizing about the “NPRNormous Explosion.”&lt;/p&gt;
+  &lt;p&gt;The basically good person that she is, Sue publicly acknowledges and apologizes for her mistake. But that doesn’t stop The Daily Show from satirizing about the “NPRNormous Explosion.”&lt;/p&gt;
 
   &lt;p&gt;Damage done.&lt;/p&gt;
 
@@ -727,9 +800,7 @@ Also they should remove the commit above the header due to Internet Explorer, al
 
 &lt;p&gt;Main KPI: Will be sign-ups to email list to stay up to date on volunteer, and campaign events.&lt;/p&gt;
 
-&lt;p&gt;Secondary KIP:
-- Share and Upvotes(5+ will create a backlink)
-- Increase of inbound traffic to main site&lt;/p&gt;
+&lt;p&gt;Secondary KIP: - Share and Upvotes(5+ will create a backlink) - Increase of inbound traffic to main site&lt;/p&gt;
 
 &lt;p&gt;The one KPI that you should never use is number of users this is because followers have no value if they don’t engage with the campaign through sharing commenting or signing-up.&lt;/p&gt;
 
@@ -750,10 +821,10 @@ Also they should remove the commit above the header due to Internet Explorer, al
 &lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
 
 &lt;p&gt;Social Media Strategies aren’t like any other strategy you will have for your campaign because of the flex able nature of social media platforms. That is why you should always have a clear list of rules and ethics that will guide you through every situation while making sure that you have clear, measurable, and meaningful goals for your social media strategy.&lt;/p&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+</description>
         <pubDate>Fri, 18 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://digitalroots.io/blog/social-media-policy/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/social-media-policy/</guid>
+        <link>http://www.digitalroots.io/blog/social-media-policy/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/social-media-policy/</guid>
         
         
       </item>
@@ -769,139 +840,269 @@ Also they should remove the commit above the header due to Internet Explorer, al
 &lt;p&gt;While robots is the most common because it targets all the search engines you can also target each one individually &lt;strong&gt;Warning They Will Not Override Robots Value&lt;/strong&gt;&lt;/p&gt;
 
 &lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Search&lt;/td&gt;
-      &lt;td&gt;Robots&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;:——–:&lt;/td&gt;
-      &lt;td&gt;:———:&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Google&lt;/td&gt;
-      &lt;td&gt;GOOGLEBOT&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Yahoo!&lt;/td&gt;
-      &lt;td&gt;SLURP&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;MSN/Live&lt;/td&gt;
-      &lt;td&gt;MSNBOT&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Ask&lt;/td&gt;
-      &lt;td&gt;TEOMA&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Search&lt;/td&gt;
+
+&lt;td&gt;Robots&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;:——–:&lt;/td&gt;
+
+&lt;td&gt;:———:&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Google&lt;/td&gt;
+
+&lt;td&gt;GOOGLEBOT&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Yahoo!&lt;/td&gt;
+
+&lt;td&gt;SLURP&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;MSN/Live&lt;/td&gt;
+
+&lt;td&gt;MSNBOT&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Ask&lt;/td&gt;
+
+&lt;td&gt;TEOMA&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
 &lt;/table&gt;
 
 &lt;h4 id=&quot;list-of-all-the-robots-meta-values&quot;&gt;List of All the Robots Meta Values&lt;/h4&gt;
 
 &lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Robots value&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Google&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Yahoo!&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;MSN / Live&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Ask&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;index&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;noindex&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;none&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Doubt&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Doubt&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;follow&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Doubt&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Doubt&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;nofollow&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;noarchive&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;nocache&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;nosnippet&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;noodp&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;noydir&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No use&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No use&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No use&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;notranslate&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;noimageindex&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;unavailable_after: [RFC-850 date/time]&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+
+&lt;thead&gt;
+
+&lt;tr&gt;
+
+&lt;th style=&quot;text-align: center&quot;&gt;Robots value&lt;/th&gt;
+
+&lt;th style=&quot;text-align: center&quot;&gt;Google&lt;/th&gt;
+
+&lt;th style=&quot;text-align: center&quot;&gt;Yahoo!&lt;/th&gt;
+
+&lt;th style=&quot;text-align: center&quot;&gt;MSN / Live&lt;/th&gt;
+
+&lt;th style=&quot;text-align: center&quot;&gt;Ask&lt;/th&gt;
+
+&lt;/tr&gt;
+
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;index&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;noindex&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;none&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Doubt&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Doubt&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;follow&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Doubt&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Doubt&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;nofollow&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;noarchive&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;nocache&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;nosnippet&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;noodp&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;noydir&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No use&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No use&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No use&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;notranslate&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;noimageindex&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;unavailable_after: [RFC-850 date/time]&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;Yes&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;td style=&quot;text-align: center&quot;&gt;No&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
 &lt;/table&gt;
 
 &lt;h4 id=&quot;what-each-meta-robots-meta-value-do&quot;&gt;What each Meta Robots Meta Value do&lt;/h4&gt;
@@ -987,52 +1188,99 @@ Also they should remove the commit above the header due to Internet Explorer, al
 &lt;h3 id=&quot;complete-list-of-google-bots&quot;&gt;Complete List of Google Bots&lt;/h3&gt;
 
 &lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Crawler&lt;/td&gt;
-      &lt;td&gt;Robot Value&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;————————————————————————————————-&lt;/td&gt;
-      &lt;td&gt;—————————————————&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Googlebot (Google Web search)&lt;/td&gt;
-      &lt;td&gt;Googlebot&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Googlebot News&lt;/td&gt;
-      &lt;td&gt;Googlebot-News,(Googlebot)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Googlebot Images&lt;/td&gt;
-      &lt;td&gt;Googlebot-Image,(Googlebot)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Googlebot Video&lt;/td&gt;
-      &lt;td&gt;Googlebot-Video,(Googlebot)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Google Smartphone&lt;/td&gt;
-      &lt;td&gt;Googlebot&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Google Mobile AdSense&lt;/td&gt;
-      &lt;td&gt;Mediapartners-Google,Mediapartners,(Googlebot)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Google AdSense&lt;/td&gt;
-      &lt;td&gt;Mediapartners-Google,Mediapartners,(Googlebot)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Google AdsBot landing page quality check&lt;/td&gt;
-      &lt;td&gt;AdsBot-Google&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Google app crawler,(Used to fetch resources for mobile apps, obeys AdsBot-Google robots rules.)&lt;/td&gt;
-      &lt;td&gt;AdsBot-Google-Mobile-Apps&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Crawler&lt;/td&gt;
+
+&lt;td&gt;Robot Value&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;————————————————————————————————-&lt;/td&gt;
+
+&lt;td&gt;—————————————————&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Googlebot (Google Web search)&lt;/td&gt;
+
+&lt;td&gt;Googlebot&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Googlebot News&lt;/td&gt;
+
+&lt;td&gt;Googlebot-News,(Googlebot)&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Googlebot Images&lt;/td&gt;
+
+&lt;td&gt;Googlebot-Image,(Googlebot)&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Googlebot Video&lt;/td&gt;
+
+&lt;td&gt;Googlebot-Video,(Googlebot)&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Google Smartphone&lt;/td&gt;
+
+&lt;td&gt;Googlebot&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Google Mobile AdSense&lt;/td&gt;
+
+&lt;td&gt;Mediapartners-Google,Mediapartners,(Googlebot)&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Google AdSense&lt;/td&gt;
+
+&lt;td&gt;Mediapartners-Google,Mediapartners,(Googlebot)&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Google AdsBot landing page quality check&lt;/td&gt;
+
+&lt;td&gt;AdsBot-Google&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Google app crawler,(Used to fetch resources for mobile apps, obeys AdsBot-Google robots rules.)&lt;/td&gt;
+
+&lt;td&gt;AdsBot-Google-Mobile-Apps&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
 &lt;/table&gt;
 
 &lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
@@ -1048,10 +1296,10 @@ Also they should remove the commit above the header due to Internet Explorer, al
     &lt;p&gt;&lt;a href=&quot;http://help.yandex.com/webmaster/controlling-robot/html.xml&quot;&gt;Yandex has a help page for HTML meta tags.&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+</description>
         <pubDate>Wed, 16 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://digitalroots.io/blog/robots/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/robots/</guid>
+        <link>http://www.digitalroots.io/blog/robots/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/robots/</guid>
         
         
       </item>
@@ -1082,26 +1330,19 @@ Also they should remove the commit above the header due to Internet Explorer, al
 &lt;p&gt;The first thing you should do is google your site to make sure all the pages are indexed. To do this &lt;strong&gt;search site:yoursite.com&lt;/strong&gt; and it will show which pages are indexed. Depending on your results there are some simple steps to make sure that every page get indexed.&lt;/p&gt;
 
 &lt;h5 id=&quot;make-sure-that-google-analytics-ga-and-search-console-are-set-up&quot;&gt;1. Make sure that Google Analytics (GA) and Search Console are set up&lt;/h5&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Google Analytics and Search Console on its own will not help you index your site, but a number of things that we will be using the console and you should always be &lt;strong&gt;tracking users on your website&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h5 id=&quot;look-at-the-robottxt-file&quot;&gt;2. Look at the robot.txt file&lt;/h5&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;The &lt;strong&gt;most common mistake&lt;/strong&gt; that can be made here is having
-  &lt;code class=&quot;highlighter-rouge&quot;&gt;
-  User-agnet: *
-  Disallow: /
- &lt;/code&gt;
-  This tells the Search Engine to not crawl your site because &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; means root directory. So by getting rid of &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; and using Nonstandard extension &lt;code class=&quot;highlighter-rouge&quot;&gt;allowed:&lt;/code&gt; you will make sure that the search engines will crawl your site.
-  &lt;code class=&quot;highlighter-rouge&quot;&gt;
-  User-agent: *
-  Allow: /
-  Disallow:
- &lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;strong&gt;most common mistake&lt;/strong&gt; that can be made here is having &lt;code class=&quot;highlighter-rouge&quot;&gt;User-agnet: * Disallow: /&lt;/code&gt; This tells the Search Engine to not crawl your site because &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; means root directory. So by getting rid of &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; and using Nonstandard extension &lt;code class=&quot;highlighter-rouge&quot;&gt;allowed:&lt;/code&gt; you will make sure that the search engines will crawl your site. &lt;code class=&quot;highlighter-rouge&quot;&gt;User-agent: * Allow: / Disallow:&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h5 id=&quot;sitemap&quot;&gt;3. Sitemap&lt;/h5&gt;
+
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;The first thing that you should do is make sure you have a sitemap in both &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.html&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;. The &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.html&lt;/code&gt; will be added to the footer of each page, while the &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt; will be upload in to google search console.&lt;/p&gt;
@@ -1165,13 +1406,9 @@ Also they should remove the commit above the header due to Internet Explorer, al
 
 &lt;h3 id=&quot;keyword-research&quot;&gt;Keyword Research&lt;/h3&gt;
 
-&lt;p&gt;While getting your website index requires &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; make sure it targets your audience is all about content and the keywords that you use. Google is very good at understanding how different word is related thanks to
-Latent Semantic Indexing (LSI), which means Google knows flat and apartment are interchangeable. &lt;a href=&quot;https://www.sitepoint.com/6-seo-myths-debunked/&quot;&gt;Despite rumors to the contrary&lt;/a&gt;, keywords are still very much relevant to SEO and picking the right keywords to optimize your site around is a critical part of SEO.&lt;/p&gt;
+&lt;p&gt;While getting your website index requires &lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt; make sure it targets your audience is all about content and the keywords that you use. Google is very good at understanding how different word is related thanks to Latent Semantic Indexing (LSI), which means Google knows flat and apartment are interchangeable. &lt;a href=&quot;https://www.sitepoint.com/6-seo-myths-debunked/&quot;&gt;Despite rumors to the contrary&lt;/a&gt;, keywords are still very much relevant to SEO and picking the right keywords to optimize your site around is a critical part of SEO.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;The most common mistakes&lt;/strong&gt; for Digital Marketing also apply to SEO keyword research:
-  - Only doing SEO keyword research once
-  - Not updating and expand their SEO keyword Lists
-  - Only going for the competitive SEO Keywords leaving gains in other areas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The most common mistakes&lt;/strong&gt; for Digital Marketing also apply to SEO keyword research: - Only doing SEO keyword research once - Not updating and expand their SEO keyword Lists - Only going for the competitive SEO Keywords leaving gains in other areas&lt;/p&gt;
 
 &lt;p&gt;The main thing to remember is that Keyword research is an ongoing process, and you have to stay up to date on the best practices for SEO Keyword Research and content strategies. To get started with research start with &lt;strong&gt;&lt;a href=&quot;https://adwords.google.com/KeywordPlanner&quot;&gt;AdWord’s Keyword Planner&lt;/a&gt;&lt;/strong&gt; while it will give you traffic only ranges which are: 1-100, 100-1k, 1k-10k, 10k-100k, 100k-1M. This gives you an ok idea of what might be worth targeting, but make sure you look at the competition to see if there is any possibility for you to rank in the first place.&lt;/p&gt;
 
@@ -1196,16 +1433,11 @@ Latent Semantic Indexing (LSI), which means Google knows flat and apartment are 
 &lt;h5 id=&quot;link-building-techniques&quot;&gt;5 Link Building Techniques&lt;/h5&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Micro-sites
-    - They are fun and great ways to attract links some time they will even link back to your main site. Even for the ones that don’t it will give you at least one moderate to high quality link in a relatively short time.&lt;/li&gt;
-  &lt;li&gt;RSS Feed
-    - If you have a blog or press releases, then a blog is a great way to get links. Make sure you burn it at Feedburner.com. For linking build it’s simple sites will scrape your content (stealing). When they do make sure you get a back link by including links in the content back to your site.&lt;/li&gt;
-  &lt;li&gt;Social media
-    - Both Reddit and LinkedIn give back links. With Reddit they will give a backlink to any link that has 5 upvotes, and LinkedIn will do the same based off an unknown number of leaks.&lt;/li&gt;
-  &lt;li&gt;Buy Existing/Abandoned/Expiring Domains
-    - Older domains still have authority and can be a quick way to create a few link assets in a short time. by going to archive.org and repopulating it with some of the old content that got the most links. Also buying an existing website is more expensive, but it also has the most current value.&lt;/li&gt;
-  &lt;li&gt;Organizations
-    - There are a number of organizations that will give quality back links, and while most of them will cost you some money. So the examples are your local Chamber of Commerce and Local Civics Leagues.&lt;/li&gt;
+  &lt;li&gt;Micro-sites - They are fun and great ways to attract links some time they will even link back to your main site. Even for the ones that don’t it will give you at least one moderate to high quality link in a relatively short time.&lt;/li&gt;
+  &lt;li&gt;RSS Feed - If you have a blog or press releases, then a blog is a great way to get links. Make sure you burn it at Feedburner.com. For linking build it’s simple sites will scrape your content (stealing). When they do make sure you get a back link by including links in the content back to your site.&lt;/li&gt;
+  &lt;li&gt;Social media - Both Reddit and LinkedIn give back links. With Reddit they will give a backlink to any link that has 5 upvotes, and LinkedIn will do the same based off an unknown number of leaks.&lt;/li&gt;
+  &lt;li&gt;Buy Existing/Abandoned/Expiring Domains - Older domains still have authority and can be a quick way to create a few link assets in a short time. by going to archive.org and repopulating it with some of the old content that got the most links. Also buying an existing website is more expensive, but it also has the most current value.&lt;/li&gt;
+  &lt;li&gt;Organizations - There are a number of organizations that will give quality back links, and while most of them will cost you some money. So the examples are your local Chamber of Commerce and Local Civics Leagues.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;content-1st-or-2nd-most-important-ranking-factor&quot;&gt;Content (1st or 2nd most important ranking factor)&lt;/h2&gt;
@@ -1214,7 +1446,7 @@ Latent Semantic Indexing (LSI), which means Google knows flat and apartment are 
 
 &lt;h5 id=&quot;quality&quot;&gt;Quality&lt;/h5&gt;
 
-&lt;p&gt;The &lt;strong&gt;major question&lt;/strong&gt; you should ask your self when you are writing content is there real value, something that is useful, that is unique, and of substance to visitors. The other things that you should consider are: make sure it is optimized  and is your content linkable.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;major question&lt;/strong&gt; you should ask your self when you are writing content is there real value, something that is useful, that is unique, and of substance to visitors. The other things that you should consider are: make sure it is optimized and is your content linkable.&lt;/p&gt;
 
 &lt;p&gt;There are a number of ways you can &lt;strong&gt;build link-worthiness&lt;/strong&gt; into content planning:&lt;/p&gt;
 
@@ -1287,8 +1519,7 @@ Latent Semantic Indexing (LSI), which means Google knows flat and apartment are 
         &lt;p&gt;All other things being equal, links from fresher pages likely pass more value than links from stale pages.&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;Engagement metrics are your friend. Work to increase clicks and user satisfaction.
-  If you change the topic of a page too much, older links to the page may lose value.&lt;/p&gt;
+        &lt;p&gt;Engagement metrics are your friend. Work to increase clicks and user satisfaction. If you change the topic of a page too much, older links to the page may lose value.&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
@@ -1297,7 +1528,8 @@ Latent Semantic Indexing (LSI), which means Google knows flat and apartment are 
 &lt;p&gt;Updating older content can work amazingly well when you earn fresh links to the content, and updates authoritative content. And the goal shouldn’t be to update your site for the sake of updating isn’t going give the results. A good rule of thumb is that you should only update content if you do it in a timely manner that benefits users, with an aim to increase user engagement and help get fresh links.&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;## Technical SEO&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-seo&quot;&gt;Technical SEO&lt;/h2&gt;
 
 &lt;p&gt;While Technical SEO isn’t a main ranking fact it will help with metrics such as bounce back and load time. The best time to implement these is before the launch of the website.&lt;/p&gt;
 
@@ -1321,19 +1553,26 @@ Latent Semantic Indexing (LSI), which means Google knows flat and apartment are 
 &lt;p&gt;Title Tags&lt;/p&gt;
 
 &lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Title Tags are the most seen on page element because it will show up in the SERP as the blue link, in the tab of the web browser, and is a place for keyword placement. The most common layout is **page title&lt;/td&gt;
-      &lt;td&gt;brand** with a  character limit of 70 characters before showing ellipses.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
+
+&lt;tbody&gt;
+
+&lt;tr&gt;
+
+&lt;td&gt;Title Tags are the most seen on page element because it will show up in the SERP as the blue link, in the tab of the web browser, and is a place for keyword placement. The most common layout is **page title&lt;/td&gt;
+
+&lt;td&gt;brand** with a character limit of 70 characters before showing ellipses.&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+
 &lt;/table&gt;
 
 &lt;p&gt;Meta Descriptions&lt;/p&gt;
 
 &lt;p&gt;Are one of the most important on page factor, but not for SEO. The reason why it is so important is because goo copy can help reduce you bounce back rate because they know what to expect when they click through. For desktop, users will see up to 200 characters, while on mobile they’ll be shown up to 172 characters. To appeal to users on both devices, keep your description between 165 and 175 characters.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;img/google-search-meta-tittle-tag.png&quot; alt=&quot;Image with meta and tittle tag highlighted&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../img/google-search-meta-tittle-tag.png&quot; alt=&quot;Image with meta and tittle tag highlighted&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Heading Tags&lt;/p&gt;
 
@@ -1344,8 +1583,7 @@ Latent Semantic Indexing (LSI), which means Google knows flat and apartment are 
 &lt;h5 id=&quot;schema&quot;&gt;Schema&lt;/h5&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Schema  Defined by Schema.org:  Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.
-Schema.org vocabulary can be used with many different encodings, including RDFa, Microdata and JSON-LD. These vocabularies cover entities, relationships between entities and actions, and can easily be extended through a well-documented extension model. Over 10 million sites use Schema.org to markup their web pages and email messages. Many applications from Google, Microsoft, Pinterest, Yandex and others already use these vocabularies to power rich, extensible experiences. Schema.org is sponsored by Google, Microsoft, Yahoo and Yandex.&lt;/li&gt;
+  &lt;li&gt;Schema Defined by Schema.org: Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond. Schema.org vocabulary can be used with many different encodings, including RDFa, Microdata and JSON-LD. These vocabularies cover entities, relationships between entities and actions, and can easily be extended through a well-documented extension model. Over 10 million sites use Schema.org to markup their web pages and email messages. Many applications from Google, Microsoft, Pinterest, Yandex and others already use these vocabularies to power rich, extensible experiences. Schema.org is sponsored by Google, Microsoft, Yahoo and Yandex.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;What this means is Schema allows the 4 major search engines to better understand what content you have on your web site and in some case will show items (ranting and snippets) in the SERP&lt;/p&gt;
@@ -1354,11 +1592,7 @@ Schema.org vocabulary can be used with many different encodings, including RDFa,
 
 &lt;h5 id=&quot;mobile-friendliness&quot;&gt;Mobile Friendliness&lt;/h5&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://webmasters.googleblog.com/2016/11/mobile-first-indexing.html&quot;&gt;Google is moving to Mobile First Indexing&lt;/a&gt; this means that your website should follow a mobile first approach. &lt;strong&gt;The key items&lt;/strong&gt; that you should be focusing on:
-- Make sure that the website is fat finger Friendly
-  - This means that you should be able to clearly use navigation elements and avoid missing clicks.
-- Make sure your content (images, videos, and tables)
-  - There are a number of ways to do this for each item. For images make sure that you use &lt;code class=&quot;highlighter-rouge&quot;&gt;srcset&lt;/code&gt; and for video sure that the screen and navigation both resize:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://webmasters.googleblog.com/2016/11/mobile-first-indexing.html&quot;&gt;Google is moving to Mobile First Indexing&lt;/a&gt; this means that your website should follow a mobile first approach. &lt;strong&gt;The key items&lt;/strong&gt; that you should be focusing on: - Make sure that the website is fat finger Friendly - This means that you should be able to clearly use navigation elements and avoid missing clicks. - Make sure your content (images, videos, and tables) - There are a number of ways to do this for each item. For images make sure that you use &lt;code class=&quot;highlighter-rouge&quot;&gt;srcset&lt;/code&gt; and for video sure that the screen and navigation both resize:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -1372,10 +1606,10 @@ Schema.org vocabulary can be used with many different encodings, including RDFa,
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;SEO is a major pillar of your digital foot print&lt;/strong&gt; and take time to produce strong results, but will have a longer lasting effect unlike PPC campaigns when they’re done the benefits go with them. That’s why at &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt; make sure we are using the best tactics at the beginning of our development so our customers don’t lose any ground.&lt;/p&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+</description>
         <pubDate>Fri, 11 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://digitalroots.io/blog/SEO-Basics/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/SEO-Basics/</guid>
+        <link>http://www.digitalroots.io/blog/SEO-Basics/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/SEO-Basics/</guid>
         
         
       </item>
@@ -1396,7 +1630,7 @@ Schema.org vocabulary can be used with many different encodings, including RDFa,
   &lt;/li&gt;
   &lt;li&gt;When will you put up your signs during the primary and general election?
     &lt;ul&gt;
-      &lt;li&gt;This is a trickier question than one might at first think.  4x4 wooden signs driven into the ground by metal stakes should probably go up as early as possible in the campaign which is about 45 days out. However, the smaller paper signs are not durable enough usually to last 45 days of weather and in addition, they get stolen by kids and opponents more frequently depending on where you live.&lt;/li&gt;
+      &lt;li&gt;This is a trickier question than one might at first think. 4x4 wooden signs driven into the ground by metal stakes should probably go up as early as possible in the campaign which is about 45 days out. However, the smaller paper signs are not durable enough usually to last 45 days of weather and in addition, they get stolen by kids and opponents more frequently depending on where you live.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;What information is absolutely necessary to put on your yard sign?&lt;/li&gt;
@@ -1413,10 +1647,10 @@ Schema.org vocabulary can be used with many different encodings, including RDFa,
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+</description>
         <pubDate>Wed, 09 Nov 2016 00:00:00 -0500</pubDate>
-        <link>http://digitalroots.io/blog/yard-sign-list/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/yard-sign-list/</guid>
+        <link>http://www.digitalroots.io/blog/yard-sign-list/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/yard-sign-list/</guid>
         
         
       </item>
@@ -1430,9 +1664,11 @@ Schema.org vocabulary can be used with many different encodings, including RDFa,
 &lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Apache 2.4 introduces a few breaking changes, most notably in access control configuration. For more information, check the &lt;a href=&quot;https://httpd.apache.org/docs/2.4/upgrading.html&quot;&gt;upgrading document&lt;/a&gt; as well as &lt;a href=&quot;https://github.com/phanan/htaccess/issues/2&quot;&gt;this issue&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
+
 &lt;p&gt;What we are doing here is mostly collecting useful snippets from all over the interwebs (for example, a good chunk is from &lt;a href=&quot;https://github.com/h5bp/server-configs-apache&quot;&gt;Apache Server Configs&lt;/a&gt;) into one place. While we’ve been trying to credit where due, things might be missing. If you believe anything here is your work and credits should be given, let us know, or just send a PR.&lt;/p&gt;
 
 &lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#rewrite-and-redirection&quot;&gt;Rewrite and Redirection&lt;/a&gt;
     &lt;ul&gt;
@@ -1491,40 +1727,45 @@ Schema.org vocabulary can be used with many different encodings, including RDFa,
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;rewrite-and-redirection&quot;&gt;Rewrite and Redirection&lt;/h2&gt;
+
 &lt;p&gt;Note: It is assumed that you have &lt;code class=&quot;highlighter-rouge&quot;&gt;mod_rewrite&lt;/code&gt; installed and enabled.&lt;/p&gt;
 
 &lt;h3 id=&quot;force-www&quot;&gt;Force www&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine on
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine on
 RewriteCond %{HTTP_HOST} ^example\.com [NC]
 RewriteRule ^(.*)$ http://www.example.com/$1 [L,R=301,NC]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;force-www-in-a-generic-way&quot;&gt;Force www in a Generic Way&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteCond %{HTTP_HOST} !^$
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteCond %{HTTP_HOST} !^$
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteCond %{HTTPS}s ^on(s)|
 RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;p&gt;This works for &lt;em&gt;any&lt;/em&gt; domain. &lt;a href=&quot;https://stackoverflow.com/questions/4916222/htaccess-how-to-force-www-in-a-generic-way&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;force-non-www&quot;&gt;Force non-www&lt;/h3&gt;
-&lt;p&gt;It’s &lt;a href=&quot;http://www.sitepoint.com/domain-www-or-no-www/&quot;&gt;still&lt;/a&gt; &lt;a href=&quot;https://devcenter.heroku.com/articles/apex-domains&quot;&gt;open&lt;/a&gt; &lt;a href=&quot;http://yes-www.org/&quot;&gt;for&lt;/a&gt; &lt;a href=&quot;http://no-www.org/&quot;&gt;debate&lt;/a&gt; whether www or non-www is the way to go, so if you happen to be a fan of bare domains, here you go:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.example\.com [NC]
-RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]
-&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s &lt;a href=&quot;http://www.sitepoint.com/domain-www-or-no-www/&quot;&gt;still&lt;/a&gt; &lt;a href=&quot;https://devcenter.heroku.com/articles/apex-domains&quot;&gt;open&lt;/a&gt; &lt;a href=&quot;http://yes-www.org/&quot;&gt;for&lt;/a&gt; &lt;a href=&quot;http://no-www.org/&quot;&gt;debate&lt;/a&gt; whether www or non-www is the way to go, so if you happen to be a fan of bare domains, here you go: &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf RewriteEngine on RewriteCond %{HTTP_HOST} ^www\.example\.com [NC] RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;force-non-www-in-a-generic-way&quot;&gt;Force non-www in a Generic Way&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine on
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.
 RewriteCond %{HTTPS}s ^on(s)|off
 RewriteCond http%1://%{HTTP_HOST} ^(https?://)(www\.)?(.+)$
 RewriteRule ^ %1%3%{REQUEST_URI} [R=301,L]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;force-https&quot;&gt;Force HTTPS&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine on
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine on
 RewriteCond %{HTTPS} !on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
@@ -1535,36 +1776,35 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
     Header always set Strict-Transport-Security &quot;max-age=31536000; includeSubDomains&quot;
 &amp;lt;/IfModule&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;force-https-behind-a-proxy&quot;&gt;Force HTTPS Behind a Proxy&lt;/h3&gt;
-&lt;p&gt;Useful if you have a proxy in front of your server performing TLS termination.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
-&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Useful if you have a proxy in front of your server performing TLS termination. &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf RewriteCond %{HTTP:X-Forwarded-Proto} !https RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;force-trailing-slash&quot;&gt;Force Trailing Slash&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteCond %{REQUEST_URI} /+[^\.]+$
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteCond %{REQUEST_URI} /+[^\.]+$
 RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;remove-trailing-slash&quot;&gt;Remove Trailing Slash&lt;/h3&gt;
-&lt;p&gt;This snippet will redirect paths ending in slashes to their non-slash-terminated counterparts (except for actual directories), e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.example.com/blog/&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.example.com/blog&lt;/code&gt;. This is important for SEO, since it’s &lt;a href=&quot;http://overit.com/blog/canonical-urls&quot;&gt;recommended&lt;/a&gt; to have a canonical URL for every page.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} (.+)/$
-RewriteRule ^ %1 [R=301,L]
-&lt;/code&gt;
-&lt;a href=&quot;https://stackoverflow.com/questions/21417263/htaccess-add-remove-trailing-slash-from-url#27264788&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This snippet will redirect paths ending in slashes to their non-slash-terminated counterparts (except for actual directories), e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.example.com/blog/&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.example.com/blog&lt;/code&gt;. This is important for SEO, since it’s &lt;a href=&quot;http://overit.com/blog/canonical-urls&quot;&gt;recommended&lt;/a&gt; to have a canonical URL for every page. &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf RewriteCond %{REQUEST_FILENAME} !-d RewriteCond %{REQUEST_URI} (.+)/$ RewriteRule ^ %1 [R=301,L]&lt;/code&gt; &lt;a href=&quot;https://stackoverflow.com/questions/21417263/htaccess-add-remove-trailing-slash-from-url#27264788&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;redirect-a-single-page&quot;&gt;Redirect a Single Page&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;Redirect 301 /oldpage.html http://www.example.com/newpage.html
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Redirect 301 /oldpage.html http://www.example.com/newpage.html
 Redirect 301 /oldpage2.html http://www.example.com/folder/
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;a href=&quot;http://css-tricks.com/snippets/htaccess/301-redirects/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;redirect-using-redirectmatch&quot;&gt;Redirect Using RedirectMatch&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RedirectMatch 301 /subdirectory(.*) http://www.newsite.com/newfolder/$1
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RedirectMatch 301 /subdirectory(.*) http://www.newsite.com/newfolder/$1
 RedirectMatch 301 ^/(.*).htm$ /$1.html
 RedirectMatch 301 ^/200([0-9])/([^01])(.*)$ /$2$3
 RedirectMatch 301 ^/category/(.*)$ /$1
@@ -1574,54 +1814,60 @@ RedirectMatch 301 ^/manual/(.*)$ http://www.php.net/manual/$1
 RedirectMatch 301 ^/dreamweaver/(.*)$ /tools/$1
 RedirectMatch 301 ^/z/(.*)$ http://static.askapache.com/$1
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;a href=&quot;http://www.askapache.com/htaccess/301-redirect-with-mod_rewrite-or-redirectmatch.html#301_Redirects_RedirectMatch&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;alias-a-single-directory&quot;&gt;Alias a Single Directory&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine On
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine On
 RewriteRule ^source-directory/(.*) /target-directory/$1 [R=301,L]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;alias-paths-to-script&quot;&gt;Alias Paths To Script&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;FallbackResource /index.fcgi
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FallbackResource /index.fcgi
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;p&gt;This example has an &lt;code class=&quot;highlighter-rouge&quot;&gt;index.fcgi&lt;/code&gt; file in some directory, and any requests within that directory that fail to resolve a filename/directory will be sent to the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.fcgi&lt;/code&gt; script. It’s good if you want &lt;code class=&quot;highlighter-rouge&quot;&gt;baz.foo/some/cool/path&lt;/code&gt; to be handled by &lt;code class=&quot;highlighter-rouge&quot;&gt;baz.foo/index.fcgi&lt;/code&gt; (which also supports requests to &lt;code class=&quot;highlighter-rouge&quot;&gt;baz.foo&lt;/code&gt;) while maintaining &lt;code class=&quot;highlighter-rouge&quot;&gt;baz.foo/css/style.css&lt;/code&gt; and the like. Get access to the original path from the PATH_INFO environment variable, as exposed to your scripting environment.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine On
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine On
 RewriteRule ^$ index.fcgi/ [QSA,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.fcgi/$1 [QSA,L]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;p&gt;This is a less efficient version of the FallbackResource directive (because using &lt;code class=&quot;highlighter-rouge&quot;&gt;mod_rewrite&lt;/code&gt; is more complex than just handling the &lt;code class=&quot;highlighter-rouge&quot;&gt;FallbackResource&lt;/code&gt; directive), but it’s also more flexible.&lt;/p&gt;
 
 &lt;h3 id=&quot;redirect-an-entire-site&quot;&gt;Redirect an Entire Site&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;Redirect 301 / http://newsite.com/
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Redirect 301 / http://newsite.com/
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;p&gt;This way does it with links intact. That is &lt;code class=&quot;highlighter-rouge&quot;&gt;www.oldsite.com/some/crazy/link.html&lt;/code&gt; will become &lt;code class=&quot;highlighter-rouge&quot;&gt;www.newsite.com/some/crazy/link.html&lt;/code&gt;. This is extremely helpful when you are just “moving” a site to a new domain. &lt;a href=&quot;http://css-tricks.com/snippets/htaccess/301-redirects/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;alias-clean-urls&quot;&gt;Alias “Clean” URLs&lt;/h3&gt;
-&lt;p&gt;This snippet lets you use “clean” URLs – those without a PHP extension, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com/users&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com/users.php&lt;/code&gt;.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-RewriteEngine On
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteRule ^([^.]+)$ $1.php [NC,L]
-&lt;/code&gt;
-&lt;a href=&quot;http://www.abeautifulsite.net/access-pages-without-the-php-extension-using-htaccess/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This snippet lets you use “clean” URLs – those without a PHP extension, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com/users&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com/users.php&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf RewriteEngine On RewriteCond %{SCRIPT_FILENAME} !-d RewriteRule ^([^.]+)$ $1.php [NC,L]&lt;/code&gt; &lt;a href=&quot;http://www.abeautifulsite.net/access-pages-without-the-php-extension-using-htaccess/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;security&quot;&gt;Security&lt;/h2&gt;
-&lt;p&gt;### Deny All Access
-``` apacheconf
-## Apache 2.2
-Deny from all&lt;/p&gt;
+
+&lt;h3 id=&quot;deny-all-access--apacheconf--apache-22-deny-from-all&quot;&gt;Deny All Access ``` apacheconf ## Apache 2.2 Deny from all&lt;/h3&gt;
 
 &lt;h2 id=&quot;apache-24&quot;&gt;Apache 2.4&lt;/h2&gt;
-&lt;p&gt;# Require all denied
-```&lt;/p&gt;
+
+&lt;h1 id=&quot;require-all-denied-&quot;&gt;Require all denied ```&lt;/h1&gt;
 
 &lt;p&gt;But wait, this will lock you out from your content as well! Thus introducing…&lt;/p&gt;
 
 &lt;h3 id=&quot;deny-all-access-except-yours&quot;&gt;Deny All Access Except Yours&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;## Apache 2.2
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Apache 2.2
 Order deny,allow
 Deny from all
 Allow from xxx.xxx.xxx.xxx
@@ -1630,12 +1876,15 @@ Allow from xxx.xxx.xxx.xxx
 # Require all denied
 # Require ip xxx.xxx.xxx.xxx
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xxx.xxx.xxx.xxx&lt;/code&gt; is your IP. If you replace the last three digits with &lt;code class=&quot;highlighter-rouge&quot;&gt;0/12&lt;/code&gt; for example, this will specify a range of IPs within the same network, thus saving you the trouble to list all allowed IPs separately. &lt;a href=&quot;http://speckyboy.com/2013/01/08/useful-htaccess-snippets-and-hacks/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now of course there’s a reversed version:&lt;/p&gt;
 
 &lt;h3 id=&quot;allow-all-access-except-spammers&quot;&gt;Allow All Access Except Spammers’&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;## Apache 2.2
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Apache 2.2
 Order deny,allow
 Deny from xxx.xxx.xxx.xxx
 Deny from xxx.xxx.xxx.xxy
@@ -1645,43 +1894,53 @@ Deny from xxx.xxx.xxx.xxy
 # Require not ip xxx.xxx.xxx.xxx
 # Require not ip xxx.xxx.xxx.xxy
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;deny-access-to-hidden-files-and-directories&quot;&gt;Deny Access to Hidden Files and Directories&lt;/h3&gt;
-&lt;p&gt;Hidden files and directories (those whose names start with a dot &lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;) should most, if not all, of the time be secured. For example: &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.htpasswd&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.git&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.hg&lt;/code&gt;…
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-RewriteCond %{SCRIPT_FILENAME} -d [OR]
-RewriteCond %{SCRIPT_FILENAME} -f
-RewriteRule &quot;(^|/)\.&quot; - [F]
-&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Alternatively, you can just raise a “Not Found” error, giving the attacker no clue:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-RedirectMatch 404 /\..*$
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Hidden files and directories (those whose names start with a dot &lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;) should most, if not all, of the time be secured. For example: &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.htpasswd&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.git&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.hg&lt;/code&gt;… &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf RewriteCond %{SCRIPT_FILENAME} -d [OR] RewriteCond %{SCRIPT_FILENAME} -f RewriteRule &quot;(^|/)\.&quot; - [F]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Alternatively, you can just raise a “Not Found” error, giving the attacker no clue: `apacheconf RedirectMatch 404 /..*&amp;lt;article class=”post-content” itemprop=”text”&lt;/p&gt;
 
 &lt;h3 id=&quot;deny-access-to-backup-and-source-files&quot;&gt;Deny Access to Backup and Source Files&lt;/h3&gt;
-&lt;p&gt;These files may be left by some text/HTML editors (like Vi/Vim) and pose a great security danger if exposed to public.
-``` apacheconf
-&amp;lt;FilesMatch “(.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$”&amp;gt;
-    ## Apache 2.2
-    Order allow,deny
-    Deny from all
-    Satisfy All&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Apache 2.4
-# Require all denied
-&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;These files may be left by some text/HTML editors (like Vi/Vim) and pose a great security danger if exposed to public. ``` apacheconf &amp;lt;FilesMatch “(.(bak&lt;/td&gt;
+      &lt;td&gt;config&lt;/td&gt;
+      &lt;td&gt;dist&lt;/td&gt;
+      &lt;td&gt;fla&lt;/td&gt;
+      &lt;td&gt;inc&lt;/td&gt;
+      &lt;td&gt;ini&lt;/td&gt;
+      &lt;td&gt;log&lt;/td&gt;
+      &lt;td&gt;psd&lt;/td&gt;
+      &lt;td&gt;sh&lt;/td&gt;
+      &lt;td&gt;sql&lt;/td&gt;
+      &lt;td&gt;swp)&lt;/td&gt;
+      &lt;td&gt;~)$”&amp;gt; ## Apache 2.2 Order allow,deny Deny from all Satisfy All&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;
+
+    ## Apache 2.4
+    # Require all denied
+
 &lt;/div&gt;
-&lt;p&gt;&amp;lt;/FilesMatch&amp;gt;
-```
-&lt;a href=&quot;https://github.com/h5bp/server-configs-apache&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/FilesMatch&amp;gt; ``` &lt;a href=&quot;https://github.com/h5bp/server-configs-apache&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;disable-directory-browsing&quot;&gt;Disable Directory Browsing&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;Options All -Indexes
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Options All -Indexes
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;disable-image-hotlinking&quot;&gt;Disable Image Hotlinking&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine on
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine on
 # Remove the following line if you want to block blank referrer too
 RewriteCond %{HTTP_REFERER} !^$
 
@@ -1692,36 +1951,34 @@ RewriteRule \.(jpe?g|png|gif|bmp)$ - [NC,F,L]
 # replace the above rule with:
 # RewriteRule \.(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;disable-image-hotlinking-for-specific-domains&quot;&gt;Disable Image Hotlinking for Specific Domains&lt;/h3&gt;
-&lt;p&gt;Sometimes you want to disable image hotlinking from some bad guys only.
-``` apacheconf
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite.com [NC,OR]
-RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite2.com [NC,OR]
-RewriteRule .(jpe?g|png|gif|bmp)$ - [NC,F,L]&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sometimes you want to disable image hotlinking from some bad guys only. ``` apacheconf RewriteEngine on RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite.com [NC,OR] RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite2.com [NC,OR] RewriteRule .(jpe?g&lt;/td&gt;
+      &lt;td&gt;png&lt;/td&gt;
+      &lt;td&gt;gif&lt;/td&gt;
+      &lt;td&gt;bmp)$ - [NC,F,L]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h1 id=&quot;if-you-want-to-display-a-blocked-banner-in-place-of-the-hotlinked-image&quot;&gt;If you want to display a “blocked” banner in place of the hotlinked image,&lt;/h1&gt;
-&lt;p&gt;# replace the above rule with:
-# RewriteRule .(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]
-```&lt;/p&gt;
+
+&lt;h1 id=&quot;replace-the-above-rule-with--rewriterule-jpegpnggifbmp-httpexamplecomblockedpng-rl-&quot;&gt;replace the above rule with: # RewriteRule .(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L] ```&lt;/h1&gt;
 
 &lt;h3 id=&quot;password-protect-a-directory&quot;&gt;Password Protect a Directory&lt;/h3&gt;
-&lt;p&gt;First you need to create a &lt;code class=&quot;highlighter-rouge&quot;&gt;.htpasswd&lt;/code&gt; file somewhere in the system:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;bash
-htpasswd -c /home/fellowship/.htpasswd boromir
-&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Then you can use it for authentication:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-AuthType Basic
-AuthName &quot;One does not simply&quot;
-AuthUserFile /home/fellowship/.htpasswd
-Require valid-user
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;First you need to create a &lt;code class=&quot;highlighter-rouge&quot;&gt;.htpasswd&lt;/code&gt; file somewhere in the system: &lt;code class=&quot;highlighter-rouge&quot;&gt;bash htpasswd -c /home/fellowship/.htpasswd boromir&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you can use it for authentication: &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf AuthType Basic AuthName &quot;One does not simply&quot; AuthUserFile /home/fellowship/.htpasswd Require valid-user&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;password-protect-a-file-or-several-files&quot;&gt;Password Protect a File or Several Files&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;AuthName &quot;One still does not simply&quot;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AuthName &quot;One still does not simply&quot;
 AuthType Basic
 AuthUserFile /home/fellowship/.htpasswd
 
@@ -1733,221 +1990,182 @@ Require valid-user
 Require valid-user
 &amp;lt;/FilesMatch&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;block-visitors-by-referrer&quot;&gt;Block Visitors by Referrer&lt;/h3&gt;
-&lt;p&gt;This denies access for all users who are coming from (referred by) a specific domain.
-&lt;a href=&quot;http://www.htaccess-guide.com/deny-visitors-by-referrer/&quot;&gt;Source&lt;/a&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-RewriteEngine on
-# Options +FollowSymlinks
-RewriteCond %{HTTP_REFERER} somedomain\.com [NC,OR]
-RewriteCond %{HTTP_REFERER} anotherdomain\.com
-RewriteRule .* - [F]
-&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This denies access for all users who are coming from (referred by) a specific domain. &lt;a href=&quot;http://www.htaccess-guide.com/deny-visitors-by-referrer/&quot;&gt;Source&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf RewriteEngine on # Options +FollowSymlinks RewriteCond %{HTTP_REFERER} somedomain\.com [NC,OR] RewriteCond %{HTTP_REFERER} anotherdomain\.com RewriteRule .* - [F]&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;prevent-framing-the-site&quot;&gt;Prevent Framing the Site&lt;/h3&gt;
-&lt;p&gt;This prevents the website to be framed (i.e. put into an &lt;code class=&quot;highlighter-rouge&quot;&gt;iframe&lt;/code&gt; tag), when still allows framing for a specific URI.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-SetEnvIf Request_URI &quot;/starry-night&quot; allow_framing=true
-Header set X-Frame-Options SAMEORIGIN env=!allow_framing
-&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This prevents the website to be framed (i.e. put into an &lt;code class=&quot;highlighter-rouge&quot;&gt;iframe&lt;/code&gt; tag), when still allows framing for a specific URI. &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf SetEnvIf Request_URI &quot;/starry-night&quot; allow_framing=true Header set X-Frame-Options SAMEORIGIN env=!allow_framing&lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;performance&quot;&gt;Performance&lt;/h2&gt;
-&lt;p&gt;### Compress Text Files
-``` apacheconf&lt;/p&gt;
-&lt;ifmodule mod_deflate.c=&quot;&quot;&gt;
 
-    # Force compression for mangled headers.
-    # https://developer.yahoo.com/blogs/ydn/pushing-beyond-gzipping-25601.html
-    &lt;ifmodule mod_setenvif.c=&quot;&quot;&gt;
-        &lt;ifmodule mod_headers.c=&quot;&quot;&gt;
-            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
-            RequestHeader append Accept-Encoding &quot;gzip,deflate&quot; env=HAVE_Accept-Encoding
-        &lt;/ifmodule&gt;
+&lt;h3 id=&quot;compress-text-files--apacheconf&quot;&gt;Compress Text Files ``` apacheconf&lt;/h3&gt;
+
+&lt;ifmodule mod_deflate.c=&quot;&quot;&gt;# Force compression for mangled headers. # https://developer.yahoo.com/blogs/ydn/pushing-beyond-gzipping-25601.html &lt;ifmodule mod_setenvif.c=&quot;&quot;&gt;&lt;ifmodule mod_headers.c=&quot;&quot;&gt;SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding RequestHeader append Accept-Encoding &quot;gzip,deflate&quot; env=HAVE_Accept-Encoding&lt;/ifmodule&gt; &lt;/ifmodule&gt;# Compress all output labeled with one of the following MIME-types # (for Apache versions below 2.3.7, you don&#39;t need to enable `mod_filter` # and can remove the `&lt;ifmodule mod_filter.c=&quot;&quot;&gt;` and `&lt;/ifmodule&gt;` lines # as `AddOutputFilterByType` is still in the core directives). &lt;ifmodule mod_filter.c=&quot;&quot;&gt;AddOutputFilterByType DEFLATE application/atom+xml \ application/javascript \ application/json \ application/rss+xml \ application/vnd.ms-fontobject \ application/x-font-ttf \ application/x-web-app-manifest+json \ application/xhtml+xml \ application/xml \ font/opentype \ image/svg+xml \ image/x-icon \ text/css \ text/html \ text/plain \ text/x-component \ text/xml&lt;/ifmodule&gt;&lt;/ifmodule&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;
+
+    [Source](https://github.com/h5bp/server-configs-apache)
+
+    ### Set Expires Headers
+    _Expires headers_ tell the browser whether they should request a specific file from the server or just grab it from the cache. It is advisable to set static content&#39;s expires headers to something far in the future.
+
+    If you don’t control versioning with filename-based cache busting, consider lowering the cache time for resources like CSS and JS to something like 1 week. [Source](https://github.com/h5bp/server-configs-apache)
+    ``` apacheconf
+    &lt;ifmodule mod_expires.c=&quot;&quot;&gt;
+        ExpiresActive on
+        ExpiresDefault                                      &quot;access plus 1 month&quot;
+
+      # CSS
+        ExpiresByType text/css                              &quot;access plus 1 year&quot;
+
+      # Data interchange
+        ExpiresByType application/json                      &quot;access plus 0 seconds&quot;
+        ExpiresByType application/xml                       &quot;access plus 0 seconds&quot;
+        ExpiresByType text/xml                              &quot;access plus 0 seconds&quot;
+
+      # Favicon (cannot be renamed!)
+        ExpiresByType image/x-icon                          &quot;access plus 1 week&quot;
+
+      # HTML components (HTCs)
+        ExpiresByType text/x-component                      &quot;access plus 1 month&quot;
+
+      # HTML
+        ExpiresByType text/html                             &quot;access plus 0 seconds&quot;
+
+      # JavaScript
+        ExpiresByType application/javascript                &quot;access plus 1 year&quot;
+
+      # Manifest files
+        ExpiresByType application/x-web-app-manifest+json   &quot;access plus 0 seconds&quot;
+        ExpiresByType text/cache-manifest                   &quot;access plus 0 seconds&quot;
+
+      # Media
+        ExpiresByType audio/ogg                             &quot;access plus 1 month&quot;
+        ExpiresByType image/gif                             &quot;access plus 1 month&quot;
+        ExpiresByType image/jpeg                            &quot;access plus 1 month&quot;
+        ExpiresByType image/png                             &quot;access plus 1 month&quot;
+        ExpiresByType video/mp4                             &quot;access plus 1 month&quot;
+        ExpiresByType video/ogg                             &quot;access plus 1 month&quot;
+        ExpiresByType video/webm                            &quot;access plus 1 month&quot;
+
+      # Web feeds
+        ExpiresByType application/atom+xml                  &quot;access plus 1 hour&quot;
+        ExpiresByType application/rss+xml                   &quot;access plus 1 hour&quot;
+
+      # Web fonts
+        ExpiresByType application/font-woff2                &quot;access plus 1 month&quot;
+        ExpiresByType application/font-woff                 &quot;access plus 1 month&quot;
+        ExpiresByType application/vnd.ms-fontobject         &quot;access plus 1 month&quot;
+        ExpiresByType application/x-font-ttf                &quot;access plus 1 month&quot;
+        ExpiresByType font/opentype                         &quot;access plus 1 month&quot;
+        ExpiresByType image/svg+xml                         &quot;access plus 1 month&quot;
     &lt;/ifmodule&gt;
 
-    # Compress all output labeled with one of the following MIME-types
-    # (for Apache versions below 2.3.7, you don&#39;t need to enable `mod_filter`
-    #  and can remove the `&lt;ifmodule mod_filter.c=&quot;&quot;&gt;` and `&lt;/ifmodule&gt;` lines
-    #  as `AddOutputFilterByType` is still in the core directives).
-    &lt;ifmodule mod_filter.c=&quot;&quot;&gt;
-        AddOutputFilterByType DEFLATE application/atom+xml \
-                                      application/javascript \
-                                      application/json \
-                                      application/rss+xml \
-                                      application/vnd.ms-fontobject \
-                                      application/x-font-ttf \
-                                      application/x-web-app-manifest+json \
-                                      application/xhtml+xml \
-                                      application/xml \
-                                      font/opentype \
-                                      image/svg+xml \
-                                      image/x-icon \
-                                      text/css \
-                                      text/html \
-                                      text/plain \
-                                      text/x-component \
-                                      text/xml
-    &lt;/ifmodule&gt;
-
-&lt;/ifmodule&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Source](https://github.com/h5bp/server-configs-apache)
-
-
-### Set Expires Headers
-_Expires headers_ tell the browser whether they should request a specific file from the server or just grab it from the cache. It is advisable to set static content&#39;s expires headers to something far in the future.
-
-If you don’t control versioning with filename-based cache busting, consider lowering the cache time for resources like CSS and JS to something like 1 week. [Source](https://github.com/h5bp/server-configs-apache)
-``` apacheconf
-&amp;lt;IfModule mod_expires.c&amp;gt;
-    ExpiresActive on
-    ExpiresDefault                                      &quot;access plus 1 month&quot;
-
-  # CSS
-    ExpiresByType text/css                              &quot;access plus 1 year&quot;
-
-  # Data interchange
-    ExpiresByType application/json                      &quot;access plus 0 seconds&quot;
-    ExpiresByType application/xml                       &quot;access plus 0 seconds&quot;
-    ExpiresByType text/xml                              &quot;access plus 0 seconds&quot;
-
-  # Favicon (cannot be renamed!)
-    ExpiresByType image/x-icon                          &quot;access plus 1 week&quot;
-
-  # HTML components (HTCs)
-    ExpiresByType text/x-component                      &quot;access plus 1 month&quot;
-
-  # HTML
-    ExpiresByType text/html                             &quot;access plus 0 seconds&quot;
-
-  # JavaScript
-    ExpiresByType application/javascript                &quot;access plus 1 year&quot;
-
-  # Manifest files
-    ExpiresByType application/x-web-app-manifest+json   &quot;access plus 0 seconds&quot;
-    ExpiresByType text/cache-manifest                   &quot;access plus 0 seconds&quot;
-
-  # Media
-    ExpiresByType audio/ogg                             &quot;access plus 1 month&quot;
-    ExpiresByType image/gif                             &quot;access plus 1 month&quot;
-    ExpiresByType image/jpeg                            &quot;access plus 1 month&quot;
-    ExpiresByType image/png                             &quot;access plus 1 month&quot;
-    ExpiresByType video/mp4                             &quot;access plus 1 month&quot;
-    ExpiresByType video/ogg                             &quot;access plus 1 month&quot;
-    ExpiresByType video/webm                            &quot;access plus 1 month&quot;
-
-  # Web feeds
-    ExpiresByType application/atom+xml                  &quot;access plus 1 hour&quot;
-    ExpiresByType application/rss+xml                   &quot;access plus 1 hour&quot;
-
-  # Web fonts
-    ExpiresByType application/font-woff2                &quot;access plus 1 month&quot;
-    ExpiresByType application/font-woff                 &quot;access plus 1 month&quot;
-    ExpiresByType application/vnd.ms-fontobject         &quot;access plus 1 month&quot;
-    ExpiresByType application/x-font-ttf                &quot;access plus 1 month&quot;
-    ExpiresByType font/opentype                         &quot;access plus 1 month&quot;
-    ExpiresByType image/svg+xml                         &quot;access plus 1 month&quot;
-&amp;lt;/IfModule&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;turn-etags-off&quot;&gt;Turn eTags Off&lt;/h3&gt;
-&lt;p&gt;By removing the &lt;code class=&quot;highlighter-rouge&quot;&gt;ETag&lt;/code&gt; header, you disable caches and browsers from being able to validate files, so they are forced to rely on your &lt;code class=&quot;highlighter-rouge&quot;&gt;Cache-Control&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Expires&lt;/code&gt; header. &lt;a href=&quot;http://www.askapache.com/htaccess/apache-speed-etags.html&quot;&gt;Source&lt;/a&gt;
-``` apacheconf&lt;/p&gt;
-&lt;ifmodule mod_headers.c=&quot;&quot;&gt;
-    Header unset ETag
-&lt;/ifmodule&gt;
-&lt;p&gt;FileETag None
-```&lt;/p&gt;
+
+&lt;p&gt;By removing the &lt;code class=&quot;highlighter-rouge&quot;&gt;ETag&lt;/code&gt; header, you disable caches and browsers from being able to validate files, so they are forced to rely on your &lt;code class=&quot;highlighter-rouge&quot;&gt;Cache-Control&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Expires&lt;/code&gt; header. &lt;a href=&quot;http://www.askapache.com/htaccess/apache-speed-etags.html&quot;&gt;Source&lt;/a&gt; ``` apacheconf&lt;/p&gt;
+
+&lt;ifmodule mod_headers.c=&quot;&quot;&gt;Header unset ETag&lt;/ifmodule&gt;
+
+&lt;p&gt;FileETag None ```&lt;/p&gt;
 
 &lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
 
 &lt;h3 id=&quot;set-php-variables&quot;&gt;Set PHP Variables&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;php_value &amp;lt;key&amp;gt; &amp;lt;val&amp;gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;php_value &amp;lt;key&amp;gt; &amp;lt;val&amp;gt;
 
 # For example:
 php_value upload_max_filesize 50M
 php_value max_execution_time 240
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;custom-error-pages&quot;&gt;Custom Error Pages&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;ErrorDocument 500 &quot;Houston, we have a problem.&quot;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ErrorDocument 500 &quot;Houston, we have a problem.&quot;
 ErrorDocument 401 http://error.example.com/mordor.html
 ErrorDocument 404 /errors/halflife3.html
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;force-downloading&quot;&gt;Force Downloading&lt;/h3&gt;
-&lt;p&gt;Sometimes you want to force the browser to download some content instead of displaying it.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-&amp;lt;Files *.md&amp;gt;
-    ForceType application/octet-stream
-    Header set Content-Disposition attachment
-&amp;lt;/Files&amp;gt;
-&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes you want to force the browser to download some content instead of displaying it. &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf &amp;lt;Files *.md&amp;gt; ForceType application/octet-stream Header set Content-Disposition attachment &amp;lt;/Files&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Now there is a yang to this yin:&lt;/p&gt;
 
 &lt;h3 id=&quot;prevent-downloading&quot;&gt;Prevent Downloading&lt;/h3&gt;
-&lt;p&gt;Sometimes you want to force the browser to display some content instead of downloading it.
-&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
-&amp;lt;FilesMatch &quot;\.(tex|log|aux)$&quot;&amp;gt;
-    Header set Content-Type text/plain
-&amp;lt;/FilesMatch&amp;gt;
-&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes you want to force the browser to display some content instead of downloading it. &lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf &amp;lt;FilesMatch &quot;\.(tex|log|aux)$&quot;&amp;gt; Header set Content-Type text/plain &amp;lt;/FilesMatch&amp;gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;allow-cross-domain-fonts&quot;&gt;Allow Cross-Domain Fonts&lt;/h3&gt;
-&lt;p&gt;CDN-served webfonts might not work in Firefox or IE due to &lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-origin_resource_sharing&quot;&gt;CORS&lt;/a&gt;. This snippet solves the problem.
-``` apacheconf&lt;/p&gt;
-&lt;ifmodule mod_headers.c=&quot;&quot;&gt;
-    &amp;lt;FilesMatch &quot;\.(eot|otf|ttc|ttf|woff|woff2)$&quot;&amp;gt;
-        Header set Access-Control-Allow-Origin &quot;*&quot;
-    
-&lt;/ifmodule&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Source](https://github.com/h5bp/server-configs-apache/issues/32)
 
-### Auto UTF-8 Encode
-Your text content should always be UTF-8 encoded, no?
-``` apacheconf
-# Use UTF-8 encoding for anything served text/plain or text/html
-AddDefaultCharset utf-8
+&lt;p&gt;CDN-served webfonts might not work in Firefox or IE due to &lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-origin_resource_sharing&quot;&gt;CORS&lt;/a&gt;. This snippet solves the problem. ``` apacheconf&lt;/p&gt;
 
-# Force UTF-8 for a number of file formats
-AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ifmodule mod_headers.c=&quot;&quot;&gt;&amp;lt;FilesMatch &quot;\.(eot|otf|ttc|ttf|woff|woff2)$&quot;&amp;gt; Header set Access-Control-Allow-Origin &quot;*&quot;&lt;/ifmodule&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;
+
+    [Source](https://github.com/h5bp/server-configs-apache/issues/32)
+
+    ### Auto UTF-8 Encode
+    Your text content should always be UTF-8 encoded, no?
+    ``` apacheconf
+    # Use UTF-8 encoding for anything served text/plain or text/html
+    AddDefaultCharset utf-8
+
+    # Force UTF-8 for a number of file formats
+    AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
+
 &lt;/div&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://github.com/h5bp/server-configs-apache&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;switch-to-another-php-version&quot;&gt;Switch to Another PHP Version&lt;/h3&gt;
+
 &lt;p&gt;If you’re on a shared host, chances are there are more than one version of PHP installed, and sometimes you want a specific version for your website. The following snippet should switch the PHP version for you.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;AddHandler application/x-httpd-php56 .php
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AddHandler application/x-httpd-php56 .php
 
 # Alternatively, you can use AddType
 AddType application/x-httpd-php56 .php
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;disable-internet-explorer-compatibility-view&quot;&gt;Disable Internet Explorer Compatibility View&lt;/h3&gt;
+
 &lt;p&gt;Compatibility View in IE may affect how some websites are displayed. The following snippet should force IE to use the Edge Rendering Engine and disable the Compatibility View.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;&amp;lt;IfModule mod_headers.c&amp;gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;IfModule mod_headers.c&amp;gt;
     BrowserMatch MSIE is-msie
     Header set X-UA-Compatible IE=edge env=is-msie
 &amp;lt;/IfModule&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;serve-webp-images&quot;&gt;Serve WebP Images&lt;/h3&gt;
+
 &lt;p&gt;If &lt;a href=&quot;https://developers.google.com/speed/webp/?csw=1&quot;&gt;WebP images&lt;/a&gt; are supported and an image with a .webp extension and the same name is found at the same place as the jpg/png image that is going to be served, then the WebP image is served instead.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine On
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RewriteEngine On
 RewriteCond %{HTTP_ACCEPT} image/webp
 RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
 RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://github.com/vincentorback/WebP-images-with-htaccess&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+</description>
         <pubDate>Sat, 05 Nov 2016 00:00:00 -0400</pubDate>
-        <link>http://digitalroots.io/blog/htaccess-snippets/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/htaccess-snippets/</guid>
+        <link>http://www.digitalroots.io/blog/htaccess-snippets/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/htaccess-snippets/</guid>
         
         
       </item>
@@ -1956,8 +2174,7 @@ RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
         <title>Writing your Campaign Plan and Determining the Strategy</title>
         <description>&lt;h2 id=&quot;writing-the-campaign-plan&quot;&gt;WRITING THE CAMPAIGN PLAN&lt;/h2&gt;
 
-&lt;p&gt;One of the most difficult challenges for first time campaign manager was writing the campaign plan and trying to envision the big picture for what has to happen in a campaign. A campaign plan is critical because it helps you to formulate a strategy, decide where you will need, key people, create a timeline and, perhaps, most importantly, create a budget so you don’t spend your money too soon. One other benefit is that you are more likely to gain a contribution from a large giver if you sit down with them and give them a campaign plan that is well thought out. As an underdog, my campaign plan helped me raise about $6,000 from large givers and political action committees by showing them that I was a legitimate candidate.
-One thing -that may help you in creating a campaign plan is to look at it as a series of questions. To help toward this end, I have written some questions and comments on the following pages. Even if you have already written a campaign plan, read through the questions and see if you are adequately prepared to tackle your upcoming campaign.&lt;/p&gt;
+&lt;p&gt;One of the most difficult challenges for first time campaign manager was writing the campaign plan and trying to envision the big picture for what has to happen in a campaign. A campaign plan is critical because it helps you to formulate a strategy, decide where you will need, key people, create a timeline and, perhaps, most importantly, create a budget so you don’t spend your money too soon. One other benefit is that you are more likely to gain a contribution from a large giver if you sit down with them and give them a campaign plan that is well thought out. As an underdog, my campaign plan helped me raise about $6,000 from large givers and political action committees by showing them that I was a legitimate candidate. One thing -that may help you in creating a campaign plan is to look at it as a series of questions. To help toward this end, I have written some questions and comments on the following pages. Even if you have already written a campaign plan, read through the questions and see if you are adequately prepared to tackle your upcoming campaign.&lt;/p&gt;
 
 &lt;h2 id=&quot;district-background&quot;&gt;DISTRICT BACKGROUND&lt;/h2&gt;
 
@@ -2037,6 +2254,7 @@ One thing -that may help you in creating a campaign plan is to look at it as a s
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;name-identification&quot;&gt;NAME IDENTIFICATION&lt;/h2&gt;
+
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;What is your plan to raise name identification?&lt;/p&gt;
@@ -2049,7 +2267,8 @@ One thing -that may help you in creating a campaign plan is to look at it as a s
 &lt;p&gt;Some mediums may be social media, paid digital, billboards, newspaper ads, radio ads, literature, etc*&lt;/p&gt;
 
 &lt;h2 id=&quot;earned-media&quot;&gt;EARNED MEDIA&lt;/h2&gt;
-&lt;p&gt;### (PRESS RELEASES, ETC.)&lt;/p&gt;
+
+&lt;h3 id=&quot;press-releases-etc&quot;&gt;(PRESS RELEASES, ETC.)&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -2080,8 +2299,7 @@ One thing -that may help you in creating a campaign plan is to look at it as a s
   &lt;li&gt;How many households are there in your district?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I generally figure this by taking the number of registered voters (15,000) and
-multiply it by .67 to get the number of actual doors that will have to be knocked to hit the home of each registered voter. Example: 15,000 x .67 = 10,000.&lt;/p&gt;
+&lt;p&gt;I generally figure this by taking the number of registered voters (15,000) and multiply it by .67 to get the number of actual doors that will have to be knocked to hit the home of each registered voter. Example: 15,000 x .67 = 10,000.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;How many doors can you knock in an hour?&lt;/li&gt;
@@ -2155,8 +2373,7 @@ multiply it by .67 to get the number of actual doors that will have to be knocke
   &lt;li&gt;How do you plan to recruit volunteers?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Trying starting an Internship program at your local college and high school, and try to reach out to both political an civil group to speak at a meeting
-2.	What areas of the campaign do you need specific volunteers to fill?&lt;/p&gt;
+&lt;p&gt;Trying starting an Internship program at your local college and high school, and try to reach out to both political an civil group to speak at a meeting 2. What areas of the campaign do you need specific volunteers to fill?&lt;/p&gt;
 
 &lt;p&gt;You should consider having people help with these positions: overall coordinator or manager, fundraising, Get-out-The-Vote, events coordinator, yard signs, mailing coordinator, absentee ballot coordinator, media (press release, conference) coordinator, etc.&lt;/p&gt;
 
@@ -2174,49 +2391,49 @@ multiply it by .67 to get the number of actual doors that will have to be knocke
 
 &lt;p&gt;Here is an example of a budget that used all basic elements of a campaign&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Description– Number        Cost:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description– Number Cost:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Direct Mail Campaign- 6  $44,100&lt;/p&gt;
+&lt;p&gt;Direct Mail Campaign- 6 $44,100&lt;/p&gt;
 
-&lt;p&gt;Campaign Palm Cards- 30,000  $3,200&lt;/p&gt;
+&lt;p&gt;Campaign Palm Cards- 30,000 $3,200&lt;/p&gt;
 
-&lt;p&gt;4x8 &amp;amp; 4x4 Signs-     100  $2,360&lt;/p&gt;
+&lt;p&gt;4x8 &amp;amp; 4x4 Signs- 100 $2,360&lt;/p&gt;
 
-&lt;p&gt;T-Posts————-      300  $1,300&lt;/p&gt;
+&lt;p&gt;T-Posts————- 300 $1,300&lt;/p&gt;
 
-&lt;p&gt;Yard Signs———-      600  $1,800&lt;/p&gt;
+&lt;p&gt;Yard Signs———- 600 $1,800&lt;/p&gt;
 
-&lt;p&gt;Campaign Banner—–     1  $100&lt;/p&gt;
+&lt;p&gt;Campaign Banner—– 1 $100&lt;/p&gt;
 
-&lt;p&gt;GOTV Robocalls——     N/A  $2,000&lt;/p&gt;
+&lt;p&gt;GOTV Robocalls—— N/A $2,000&lt;/p&gt;
 
-&lt;p&gt;Phone Banking——-    N/A  $500&lt;/p&gt;
+&lt;p&gt;Phone Banking——- N/A $500&lt;/p&gt;
 
-&lt;p&gt;Facebook Ads——–        $2,000&lt;/p&gt;
+&lt;p&gt;Facebook Ads——– $2,000&lt;/p&gt;
 
-&lt;p&gt;Digital Ads (Google, etc.)      $2,000&lt;/p&gt;
+&lt;p&gt;Digital Ads (Google, etc.) $2,000&lt;/p&gt;
 
-&lt;p&gt;Website————        $150&lt;/p&gt;
+&lt;p&gt;Website———— $150&lt;/p&gt;
 
-&lt;p&gt;MailChimp———-        $300&lt;/p&gt;
+&lt;p&gt;MailChimp———- $300&lt;/p&gt;
 
-&lt;p&gt;Event Expenses—–       $3,000&lt;/p&gt;
+&lt;p&gt;Event Expenses—– $3,000&lt;/p&gt;
 
-&lt;p&gt;Campaign Manager—       $14,000&lt;/p&gt;
+&lt;p&gt;Campaign Manager— $14,000&lt;/p&gt;
 
-&lt;p&gt;Canvassing Software-       $5,000&lt;/p&gt;
+&lt;p&gt;Canvassing Software- $5,000&lt;/p&gt;
 
-&lt;p&gt;Dues/Sponsorships -      $2,000&lt;/p&gt;
+&lt;p&gt;Dues/Sponsorships - $2,000&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;TOTAL&lt;/strong&gt; :         &lt;strong&gt;$83,810&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TOTAL&lt;/strong&gt; : &lt;strong&gt;$83,810&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;get-out-the-vote-program-gotv&quot;&gt;GET OUT THE VOTE PROGRAM (GOTV)&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Who do intend to turn out on election day to vote for  you.?&lt;/li&gt;
+  &lt;li&gt;Who do intend to turn out on election day to vote for you.?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;It is my opinion that too many legislative campaigns turn out voters that are already intending to vote.  Let me explain.  We know that certain voters vote in every election.  Come rain or shine, they never miss.  So why   use your phone bank or postcard to remind these people to vote?  Clearly, these regular voters need a contact before the election explaining why they should support you and not a GOTV contact.  Take this for what it’s worth, but I would only concentrate on turning out those Republican voters, or identified supporters among independents, that have a history of missing elections. All states keeps records of who votes in what elections so it is easy to determine which voters are regular voters and which need a little reminder.&lt;/p&gt;
+&lt;p&gt;It is my opinion that too many legislative campaigns turn out voters that are already intending to vote. Let me explain. We know that certain voters vote in every election. Come rain or shine, they never miss. So why use your phone bank or postcard to remind these people to vote? Clearly, these regular voters need a contact before the election explaining why they should support you and not a GOTV contact. Take this for what it’s worth, but I would only concentrate on turning out those Republican voters, or identified supporters among independents, that have a history of missing elections. All states keeps records of who votes in what elections so it is easy to determine which voters are regular voters and which need a little reminder.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;What methods do you intend to use to turnout your target groups?&lt;/li&gt;
@@ -2243,38 +2460,33 @@ multiply it by .67 to get the number of actual doors that will have to be knocke
   &lt;li&gt;Should you spend your money on digital, radio, T.V., direct mail, door-to-door, newspaper ads, etc.?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I believe that candidates should use a mix of audio and visual mediums to establish name identification and to penetrate with a message. This is because some people have better memory recall from audio than visual and vice-versa. Visual would include: digital, direct mail, literature, newspaper ads, yard signs, billboards and television. Audio would include radio, television, speeches, phone banking and door-to-door.
-I personally believe (and this view isn’t shared by everyone) that too many Legislative candidates concentrate on visual education and ignore audio education. Behavioral learning abilities dictate that they both be used if you actually want to penetrate to the voter.
-The combination that you use depends on the mediums in your district, while digital will work in both rural and urban districts. Radio, newspaper and direct mail will probably be the best choices in a rural district. In an urban district cable television, local television news commercials, and local newspapers can also be added to the list to be bought for radio or television to penetrate,.&lt;/p&gt;
+&lt;p&gt;I believe that candidates should use a mix of audio and visual mediums to establish name identification and to penetrate with a message. This is because some people have better memory recall from audio than visual and vice-versa. Visual would include: digital, direct mail, literature, newspaper ads, yard signs, billboards and television. Audio would include radio, television, speeches, phone banking and door-to-door. I personally believe (and this view isn’t shared by everyone) that too many Legislative candidates concentrate on visual education and ignore audio education. Behavioral learning abilities dictate that they both be used if you actually want to penetrate to the voter. The combination that you use depends on the mediums in your district, while digital will work in both rural and urban districts. Radio, newspaper and direct mail will probably be the best choices in a rural district. In an urban district cable television, local television news commercials, and local newspapers can also be added to the list to be bought for radio or television to penetrate,.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;When will you run your ads, mail your literature and start you digital ad buys?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Clearly you will want to be out with your name on yard signs and parades, etc., as early and as often as you can, however, when should you spend your money on paid mediums? Well consider some polling research?  Non party line voters can’t begin making up their minds who they are going to vote for until about ten to fourteen days out from the election. Breaking this out in age groups, many senior citizens make their mind up seven to ten days out while 18-24 year olds decide the day before the election or at the polls. All other are somewhere in between.
-Therefore, if you are mailing your “lower the property tax” message to seniors, start about two weeks out, while you may want to save your pro-environment mailings to 18-24 year olds until three to five days out.
-No matter what else, you will want to spend the great preponderance of your money when people are making up their minds, and that is close to the election. Think of it as holding your fire until you see the whites of their eyes. If you fire too early you’re wasting your ammunition.&lt;/p&gt;
+&lt;p&gt;Clearly you will want to be out with your name on yard signs and parades, etc., as early and as often as you can, however, when should you spend your money on paid mediums? Well consider some polling research? Non party line voters can’t begin making up their minds who they are going to vote for until about ten to fourteen days out from the election. Breaking this out in age groups, many senior citizens make their mind up seven to ten days out while 18-24 year olds decide the day before the election or at the polls. All other are somewhere in between. Therefore, if you are mailing your “lower the property tax” message to seniors, start about two weeks out, while you may want to save your pro-environment mailings to 18-24 year olds until three to five days out. No matter what else, you will want to spend the great preponderance of your money when people are making up their minds, and that is close to the election. Think of it as holding your fire until you see the whites of their eyes. If you fire too early you’re wasting your ammunition.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;How do you, intend to design your media and your literature?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;This takes a special talent to create great literature, or commercials, but let me make a couple of suggestions that might help you. First, collect examples from other successful candidates and try to emulate those.  Second, Don’t overburden your reader with too much information in literature or commercials.  Keep it simple and repeat your main point over and over.  Third, make sure you have your name in the literature or commercial repeatedly.  Fourth, use visuals and pictures liberally.  Fifth, don’t be afraid to be different.&lt;/p&gt;
+&lt;p&gt;This takes a special talent to create great literature, or commercials, but let me make a couple of suggestions that might help you. First, collect examples from other successful candidates and try to emulate those. Second, Don’t overburden your reader with too much information in literature or commercials. Keep it simple and repeat your main point over and over. Third, make sure you have your name in the literature or commercial repeatedly. Fourth, use visuals and pictures liberally. Fifth, don’t be afraid to be different.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;How do you plan to target your message through your media?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Keep in mind that it requires six contacts with a voter to penetrate with a message. That’s why you hear the suggestion to use three or four issues and keep pounding away at them. With that in mind, there are some very easy ways to target your voter with your message. Using voter information from state voter registration files, you can target in three ways: party, precinct, age.  Clearly, you can tell a lot by whether a person is a Republican, Democrat or Independent.  I also know that the people in rural precincts are concerned about different things than those in my blue collar precincts. Other targeting information that night be helpful is demographic information available from radio stations about their target markets. The same information is available with television.
-Example: What if I wanted to target a message to Republicans, in precinct DV12 over the age of 60 with a message about property taxes. Well, I would do three things. First I would pull the names off of my computer of everybody in my district that fits those three criteria. I would use this list for a mailing to these people. Second, I would buy time on the local radio station whose demographics most target that group of people.  Finally, I might put an ad on the digital (cost at most $5 CPM) that best targets this group like CNN or the financial news station.&lt;/p&gt;
+&lt;p&gt;Keep in mind that it requires six contacts with a voter to penetrate with a message. That’s why you hear the suggestion to use three or four issues and keep pounding away at them. With that in mind, there are some very easy ways to target your voter with your message. Using voter information from state voter registration files, you can target in three ways: party, precinct, age. Clearly, you can tell a lot by whether a person is a Republican, Democrat or Independent. I also know that the people in rural precincts are concerned about different things than those in my blue collar precincts. Other targeting information that night be helpful is demographic information available from radio stations about their target markets. The same information is available with television. Example: What if I wanted to target a message to Republicans, in precinct DV12 over the age of 60 with a message about property taxes. Well, I would do three things. First I would pull the names off of my computer of everybody in my district that fits those three criteria. I would use this list for a mailing to these people. Second, I would buy time on the local radio station whose demographics most target that group of people. Finally, I might put an ad on the digital (cost at most $5 CPM) that best targets this group like CNN or the financial news station.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;CONCLUSION&lt;/h2&gt;
 
 &lt;p&gt;In writing your campaign plan, your strategy will depend heavily on the type of race you have If you are the only Republican in a heavily Republican open district, then your race is going to be significantly different than most challengers. Please keep in mind that 95% of incumbents get re-elected. Therefore, if you are a challenger that intends to be a part of the 5%, you must 1) be aggressive, 2) door knock every door (at least once), 3) start early, 4) raise a lot of money, 5) use “voting” issues to take voters away from your opponent, and 6) take some risks. Too many challengers are afraid to take risks. Challengers are frequently so afraid of offending anyone that they run bland campaigns that don’t make a case for kicking the incumbent out of office.&lt;/p&gt;
- &lt;p&gt;seen first on &lt;a href=&quot;http://www.digitalroots.io&quot;&gt;Digital Roots&lt;/a&gt;&lt;/p&gt;</description>
+</description>
         <pubDate>Fri, 04 Nov 2016 00:00:00 -0400</pubDate>
-        <link>http://digitalroots.io/blog/Campaign-Plan/</link>
-        <guid isPermaLink="true">http://digitalroots.io/blog/Campaign-Plan/</guid>
+        <link>http://www.digitalroots.io/blog/Campaign-Plan/</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/Campaign-Plan/</guid>
         
         
       </item>
