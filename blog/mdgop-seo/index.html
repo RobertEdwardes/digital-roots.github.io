@@ -141,7 +141,18 @@
 
 </div>
 
-<p>This is telling all crawlers that they are not allowed on the site which keep Search Engines from indexing any pages. In the case of mdgop.org they still index for exact search words and phrases because of sites linking back to it, but it is for from ideal. Beyond that, things start to look better.</p>
+<p>This is telling all crawlers that they are not allowed on the site which keep Search Engines from indexing any pages. In the case of mdgop.org they still index for exact search words and phrases because of sites linking back to it, but it is for from ideal.
+There robot.txt should look like:</p>
+
+<p><code class="highlighter-rouge">
+User-Agent: *
+Disallow: /admin/
+Disallow: /utils/
+Disallow: /forms/
+Disallow: /users/
+</code></p>
+
+<p>Beyond that, things start to look better.</p>
 
 <p>The site seems to be fine there are no Robots Meta Tags, but because of the robots.txt the site that is index is a 404 error page. Also, they seem to have XML Sitemap, but don’t have it at in the footer. This is something that should be added because Google recommends it. They do avoid using Flash and JavaScript Navigation, which help the Crawlability.</p>
 
