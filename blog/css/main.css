@@ -66,10 +66,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #bc7171;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #994848; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -78,8 +78,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  color: #a88888;
+  border-left: 4px solid #d3c3c3;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -93,7 +93,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #d3c3c3;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -142,14 +142,14 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #828282; }
+    fill: #a88888; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 5px solid #664b4b;
+  border-bottom: 1px solid #d3c3c3;
   min-height: 56px;
   position: relative; }
 
@@ -161,7 +161,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #664b4b; }
 
 .site-nav {
   float: right;
@@ -179,7 +179,7 @@ pre {
       top: 9px;
       right: 15px;
       background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
+      border: 1px solid #d3c3c3;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -194,7 +194,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #424242; }
+            fill: #664b4b; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -212,7 +212,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #d3c3c3;
   padding: 30px 0; }
 
 .footer-heading {
@@ -226,7 +226,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
+  color: #a88888;
   margin-left: -15px; }
 
 .footer-col {
@@ -277,7 +277,7 @@ pre {
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  color: #a88888; }
 
 .post-link {
   display: block;
