@@ -5,8 +5,8 @@
     <description>Engaging activities and voter through cutting edge digital and grassroots strategies. That deliver the hardest fought elections</description>
     <link>http://www.digitalroots.io/blog/</link>
     <atom:link href="http://www.digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Dec 2016 12:29:33 -0500</pubDate>
-    <lastBuildDate>Tue, 27 Dec 2016 12:29:33 -0500</lastBuildDate>
+    <pubDate>Fri, 30 Dec 2016 20:30:06 -0500</pubDate>
+    <lastBuildDate>Fri, 30 Dec 2016 20:30:06 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -370,7 +370,18 @@
 
 &lt;/div&gt;
 
-&lt;p&gt;This is telling all crawlers that they are not allowed on the site which keep Search Engines from indexing any pages. In the case of mdgop.org they still index for exact search words and phrases because of sites linking back to it, but it is for from ideal. Beyond that, things start to look better.&lt;/p&gt;
+&lt;p&gt;This is telling all crawlers that they are not allowed on the site which keep Search Engines from indexing any pages. In the case of mdgop.org they still index for exact search words and phrases because of sites linking back to it, but it is for from ideal.
+There robot.txt should look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+User-Agent: *
+Disallow: /admin/
+Disallow: /utils/
+Disallow: /forms/
+Disallow: /users/
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Beyond that, things start to look better.&lt;/p&gt;
 
 &lt;p&gt;The site seems to be fine there are no Robots Meta Tags, but because of the robots.txt the site that is index is a 404 error page. Also, they seem to have XML Sitemap, but don’t have it at in the footer. This is something that should be added because Google recommends it. They do avoid using Flash and JavaScript Navigation, which help the Crawlability.&lt;/p&gt;
 
