@@ -74,7 +74,7 @@ body{
   background: url('../img/digital-marketing-1527799_1920.png') top/85% no-repeat #b3b3b3;
   height: 100px;
 }
-section{
+section, nav{
   margin: 0 auto;
   width: 100%;
 }
@@ -233,7 +233,7 @@ section{
     position: fixed;
     bottom: 0;
   }
-  section{
+  section, nav{
     margin: 15px;
     padding: 15px;
     width: 25%;
