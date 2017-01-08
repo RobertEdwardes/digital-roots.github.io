@@ -1,0 +1,383 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+[role="navigation"] a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+}
+
+[role="navigation"] {
+  height: 45px;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: center;
+  background-color: lightgrey;
+  position: fixed;
+}
+
+[role="navigation"] div:nth-child(odd) {
+  padding: 15px;
+}
+
+[role="navigation"] div:nth-child(odd):hover {
+  background-color: rgba( 0, 0, 0, 0.4);
+  transition: all 0.5s ease;
+}
+
+nav + div {
+  display: flex;
+  flex-flow: column;
+  padding-top: 45px;
+  background-color: black;
+}
+
+[role="button"] > section {
+  display: flex;
+  flex-flow: column nowrap;;
+  height: 100vh;
+}
+
+nav + div [role="button"] {
+  color: white;
+  text-decoration: none;
+}
+
+[role="button"] > section p{
+  opacity: 0.5;
+}
+
+[role="button"] > section:hover p{
+  opacity: 1;
+}
+
+[role="button"] > section span{
+    padding: 35px 25px;
+}
+
+a[role="button"]:hover{
+  transform: scale(1.03);
+}
+
+[id*="modal-container-"] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+article[id*="modal-container-"] > section {
+  background-color: white;
+  height: 95vh;
+  width: 85vh;
+  padding: 1vh 5vh 8vh 5vh;
+  border-radius: 8px;
+  overflow-y: scroll;
+}
+
+[href="#0"]{
+  display: block;
+  position: absolute;
+  background-color: inherit;
+  margin-top: -7px;
+  padding-top: 5px;
+  width: 80vh;
+}
+
+article[id*="modal-container-"] > section article{
+  margin-top: 35px;
+}
+
+[id*="modal-container-"]:not(:target) {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 1s;
+}
+
+[id*="modal-container-"]:target {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s, visibility 1s;
+}
+
+[alt~="logo"] {
+  width: auto;
+  height: 35px;
+  padding-top: 0px;
+  margin-top: 5px;
+}
+
+[alt~="logo"]:hover {
+  transform: scale(1.09);
+}
+a[role="button"]:nth-of-type(7n + 1) {
+  background-color: #6C7A89;
+}
+
+a[role="button"]:nth-of-type(7n + 2) {
+  background-color: #EB974E;
+}
+
+a[role="button"]:nth-of-type(7n + 3) {
+  background-color: #87D37C;
+}
+
+a[role="button"]:nth-of-type(7n + 4) {
+  background-color: #65C6BB;
+}
+
+a[role="button"]:nth-of-type(7n + 5) {
+  background-color: #81CFE0;
+}
+
+a[role="button"]:nth-of-type(7n + 6) {
+  background-color: #AEA8D3;
+}
+
+a[role="button"]:nth-of-type(7n + 7) {
+  background-color: #F1A9A0;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  body{
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  nav + div {
+    flex-flow: row nowrap;
+  }
+
+  [role="button"]{
+    flex-flow: row nowrap;
+    width: 310px;
+  }
+
+  [role="button"] section{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    width: 310px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  [role="button"] span + span {
+    display: none;
+    width: 310px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  [role="button"] section:hover span + span{
+    display: block;
+    position: absolute;
+    bottom: 6%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

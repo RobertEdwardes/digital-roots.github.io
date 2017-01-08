@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+  <a href="#modal-container-{{ post.title | replace: " ", "-"  }}" role="button">
+    <section>
+    <span>
+      <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h1>{{ post.title }}</h1>
+      <p>
+        {{ post.excerpt | truncatewords: 250 | strip_html }}
+      </p>
+    </span>
+      <span>
+        Read More
+      </span>
+    </section>
+  </a>
+  <article id="modal-container-{{ post.title | replace: " ", "-" }}" role="region">
+    <section>
+      <a href="#0">Close</a>
+      <article>
+        <h1>{{ post.title }}</h1>
+        
+          {{ post.content }}
+
+      </article>
+    </section>
+  </article>
+{% endfor %}
