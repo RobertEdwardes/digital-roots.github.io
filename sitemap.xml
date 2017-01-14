@@ -20,36 +20,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.digitalroots.io/blog/index.html</loc>
-  <lastmod>2017-01-14T12:55:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.digitalroots.io/sitemap.html</loc>
-  <lastmod>2017-01-14T12:55:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.digitalroots.io/blog/</loc>
-  <lastmod>2017-01-14T12:55:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.digitalroots.io/blog/about/</loc>
-  <lastmod>2017-01-14T12:55:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.digitalroots.io/blog/sitemap.html</loc>
-  <lastmod>2017-01-14T12:55:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.digitalroots.io/index.html</loc>
-  <lastmod>2017-01-14T12:55:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://www.digitalroots.io/x-scroll-demo/</loc>
   <lastmod>2017-01-14T12:55:19+00:00</lastmod>
   <priority>0.64</priority>
