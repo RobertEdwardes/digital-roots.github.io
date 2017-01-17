@@ -871,7 +871,7 @@ html {
 p {
   line-height: calc(1.5rem + 0.35vw);
   margin-top: 1.02rem;
-  margin-bottom: 0; }
+  margin-bottom: 0.85rem; }
 
 ul,
 ol {
