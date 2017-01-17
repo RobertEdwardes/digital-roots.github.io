@@ -465,8 +465,8 @@ html {
 
 /* Copy & Lists */
 p {
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
+  line-height: 1rem;
+  margin-top: .85rem;
   margin-bottom: 0; }
 
 ul,
@@ -499,19 +499,19 @@ h5,
 h6 {
   /* Change heading typefaces here */
   font-family: sans-serif;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   margin-bottom: 0;
   line-height: calc(0.688rem + .35vw); }
 
 h1 {
   font-size: 4.242rem;
   line-height: 4.5rem;
-  margin-top: 3rem; }
+  margin-top: 2rem; }
 
 h2 {
   font-size: 2.828rem;
   line-height: 3rem;
-  margin-top: 3rem; }
+  margin-top: 2rem; }
 
 h3 {
   font-size: calc(1.414rem + .5vw);
