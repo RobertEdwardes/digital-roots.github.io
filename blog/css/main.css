@@ -708,6 +708,22 @@ pre {
 * Pagination
 */
 /**
+* Other
+*/
+body {
+  background: linear-gradient(to right top, #bc7171 50%, #d3c3c3 50%);
+  background-size: 100% calc(100% - 100vh +  6px);
+  background-repeat: no-repeat; }
+  body:before {
+    content: '';
+    position: fixed;
+    top: 6px;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    background: #fdfdfd; }
+
+/**
  * Syntax highlighting styles
  */
 .highlight {
