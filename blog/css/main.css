@@ -907,28 +907,30 @@ h6 {
   /* Change heading typefaces here */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
-  line-height: calc(1rem + .35vw); }
+  line-height: calc(1rem + .35vw);
+  text-shadow: 1px 1px 3px #664b4b, 1px 1px 2px #d3c3c3; }
 
 h1 {
   font-size: 4.242rem;
-  line-height: 3rem; }
+  line-height: 6rem;
+  margin-top: 3rem; }
 
 h2 {
   font-size: 2.828rem;
-  line-height: 2rem; }
+  line-height: 3.25rem; }
 
 h3 {
-  font-size: calc(1.414rem + .5vw);
-  line-height: 1.5rem; }
+  font-size: calc(2.414rem + .5vw);
+  line-height: 1.7rem; }
 
 h4 {
-  font-size: calc(0.707rem + .5vw); }
+  font-size: calc(1.607rem + .5vw); }
 
 h5 {
-  font-size: calc(0.4713333333333333rem + .5vw); }
+  font-size: calc(1.313333333333333rem + .5vw); }
 
 h6 {
-  font-size: calc(0.3535rem + .85vw); }
+  font-size: calc(0.8535rem + .85vw); }
 
 /* Tables */
 table {
