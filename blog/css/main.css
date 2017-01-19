@@ -1,10 +1,4 @@
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Change the default font family in all browsers (opinionated).
- * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
+/*! normalize.css v5.0.0
 /* Document
    ========================================================================== */
 html {
@@ -558,7 +552,7 @@ pre {
   position: relative; }
 
 .site-title {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
@@ -620,7 +614,7 @@ pre {
   padding: 1.875rem 0; }
 
 .footer-heading {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-bottom: 0.9375rem; }
 
 .contact-list,
@@ -629,7 +623,7 @@ pre {
   margin-left: 0; }
 
 .footer-col-wrapper {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #a88888;
   margin-left: -0.9375rem; }
 
@@ -671,7 +665,7 @@ pre {
   padding: 1.875rem 0; }
 
 .page-heading {
-  font-size: 20px; }
+  font-size: 1.25rem; }
 
 .post-list {
   margin-left: 0;
@@ -685,7 +679,7 @@ pre {
 
 .post-link {
   display: block;
-  font-size: 24px; }
+  font-size: 1.5rem; }
 
 /**
  * Posts
@@ -694,12 +688,12 @@ pre {
   margin-bottom: 1.875rem; }
 
 .post-title {
-  font-size: 42px;
+  font-size: 2.625rem;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 50rem) {
     .post-title {
-      font-size: 36px; } }
+      font-size: 2.25rem; } }
 
 .post-content {
   margin-bottom: 1.875rem; }
@@ -929,7 +923,7 @@ h4 {
   font-size: calc(1.607rem + .5vw); }
 
 h5 {
-  font-size: calc(1.313333333333333rem + .5vw); }
+  font-size: calc(1.213333333333333rem + .5vw); }
 
 h6 {
   font-size: calc(0.8535rem + .85vw); }
@@ -948,11 +942,3 @@ table th {
 /* Code blocks */
 code {
   vertical-align: bottom; }
-
-/* Leading paragraph text */
-.lead {
-  font-size: 1.414rem; }
-
-/* Hug the block above you */
-.hug {
-  margin-top: 0; }
