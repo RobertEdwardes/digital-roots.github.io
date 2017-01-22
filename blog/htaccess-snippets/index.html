@@ -36,6 +36,9 @@
   <link rel="alternate" type="application/rss+xml" title="Digital Roots" href="http://www.digitalroots.io/blog/feed.xml" />
   <link rel="stylesheet" type="text/css"  href="http://www.digitalroots.io/blog/css/main.css" />
   <link rel="external" type="javascript" href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="../js/plugin/readingTime.js"></script>
+  <script src="../js/main.js"></script>
   <meta itemprop="url" content="http://www.digitalroots.io/blog/htaccess-snippets/">
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -98,7 +101,7 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div itemscope itemtype="http://schema.org/blogpost" class="post" itemprop="name" content="Digital Roots">
+        <div itemscope itemtype="https://schema.org/WebPage" class="post" itemprop="name" content="Digital Roots">
    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
     <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
       <meta itemprop="url" content="http://www.digitalroots.io/blog/img/">
@@ -107,7 +110,7 @@
     </div>
     <meta itemprop="name" content="Digital Roots">
   </div>
-  <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://digitalroots.io/"/>
+  <meta itemscope itemprop="mainEntityOfPage"  itemType="http://schema.org/blogpost" itemid="/htaccess-snippets/"/>
   <div class="post-header">
 
         <h1 class="post-title" itemprop="headline">List of htaccess Snippets</h1>
@@ -117,7 +120,7 @@
 
       <p class="post-meta"><span>Nov 5, 2016</span> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Robert Edwardes</span></span></p>
       <meta itemprop="datePublished" content="2016-11-05T00:00:00-04:00" />
-      <meta itemprop="dateModified" content="2017-01-16T22:25:25-05:00" />
+      <meta itemprop="dateModified" content="2017-01-21T21:36:55-05:00" />
   </div>
   <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
      <img class="feat-img is-hidden-mobile" src="/blog/img/htaccess.jpg" alt="folder with htaccess written on it">
@@ -129,6 +132,7 @@
     
 
     <article class="post-content" itemprop="text">
+      <div class="eta"></div>
       <p><strong>NOTE</strong>: <code class="highlighter-rouge">.htaccess</code> files are for people that do not have rights to edit the main server configuration file. They are intrinsically slower and more complicated than using the main config. Please see the <a href="https://httpd.apache.org/docs/current/howto/htaccess.html">how to in the httpd documentation</a> for further details.</p>
 
 <p><strong>Disclaimer</strong>: While dropping the snippet into an <code class="highlighter-rouge">.htaccess</code> file is most of the time sufficient, there are cases when certain modifications might be required. Use at your own risk.</p>
