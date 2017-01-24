@@ -1,0 +1,84 @@
+---
+layout: default
+---
+{% if paginator.page == 1 %}
+  <section id="main-1">
+    <div>
+      <h1> Newest Post </h1>
+      {% for post in site.posts limit:1 %}
+          <ul class="post-list">
+
+                <li>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="hvr-box-shadow-outset fadein">
+                      <span class="post-meta">{{ post.author }} {{ post.date | date: "%b %-d, %Y" }}</span>
+
+                      <h2>
+                        {{ post.title }}
+                      </h2>
+
+                      {{ post.excerpt | truncatewords: 30 | strip_html }}
+
+                    </div>
+                  </a>
+                </li>
+
+          </ul>
+        {% endfor %}
+
+              <!-- Video Section -->
+        {% include HeaderExtra.html %}
+
+    </div>
+  </section>
+  <section id="main-2">
+    <div>
+      <h1  class="is-hidden-mobile">Recent Posts</h1>
+      <ul class="post-list">
+        {% for post in site.posts limit: 3 offset: 1 %}
+
+            <li>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                <div class="hvr-box-shadow-outset fadein">
+                  <span class="post-meta">{{ post.author }} {{ post.date | date: "%b %-d, %Y" }}</span>
+
+                  <h2>
+                    {{ post.title }}
+                  </h2>
+
+                  {{ post.excerpt | truncatewords: 30 | strip_html  }}
+
+                </div>
+              </a>
+            </li>
+
+        {% endfor %}
+
+      </ul>
+    </div>
+  </section>
+{% else %}
+  <section id="main-3">
+    <ul class="post-list">
+      {% for post in paginator.posts %}
+
+          <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              <div class="hvr-box-shadow-outset">
+                <span class="post-meta">{{ post.author }} {{ post.date | date: "%b %-d, %Y" }}</span>
+
+                <h2>
+                  {{ post.title }}
+                </h2>
+
+                {{ post.excerpt | truncatewords: 50 | strip_html  }}
+
+              </div>
+            </a>
+          </li>
+
+      {% endfor %}
+
+    </ul>
+  </section>
+{% endif %}

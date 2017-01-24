@@ -1,0 +1,18 @@
+<div class="is-hidden-mobile">
+    <h3 itemprop="name" >{{ site.video_tittle }}</h3>
+    <div itemprop="video" itemscope itemtype="http://schema.org/VideoObject" itemprop="uploadDate" content="{{ site.video_upload_date }}" class="video-container">
+
+        <!-- Begining of Video-->
+        <iframe frameborder='0' width='720' height='405' scrollable='no'
+        itemprop="name" content="{{ site.video_tittle }}"
+        itemprop="embedUrl"
+        src='{{ site.video_url }}'
+        alt="{{ site.video_alt }}"></iframe>
+        <!-- End of video  -->
+
+  </div>
+  <hr>
+  <div>
+      <caption itemprop="description" class="body">{{ site.video_description }}</caption>
+  </div>
+</div>

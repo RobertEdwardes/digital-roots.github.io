@@ -1,0 +1,22 @@
+<!DOCTYPE html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:website="http://ogp.me/ns/website" lang="en-US" itemscope="" itemtype="http://schema.org/WebPage">
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+{% include header.html %}
+
+    <div class=" page-content ">
+      <div class="{% if paginator.page == 1 %} wrapper-flex {% else %} wrapper {% endif %}">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

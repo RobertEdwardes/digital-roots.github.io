@@ -1,0 +1,54 @@
+#=========== Site settings ===========
+title: Your awesome title
+email: your-email@domain.com # Used for Github project forumspree.io HTML Forums Made Easy and FREE
+description: > # this means to ignore newlines until "url:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+paginate: 4 # NEEDS to stay at 4 to work
+#=========== Gems ===========
+gems: [jekyll-paginate]
+#=========== 1st Page Video ===========
+video_tittle: "Lorem Ipsum Video"
+video_alt: Lorem Ipsum Video
+video_url: https://www.youtube.com/embed/dRjE1JwdDLI # just URL
+video_upload_date:
+video_description: > # this means to ignore newlines until "Facebook_ID:"
+  Write an awesome description for your video site here. You can edit
+  this line in _config.yml. It will appear in the capption under the video
+#=========== Facebook/Google ID ===========
+Facebook_ID: false # Turns on Facebook Open Graph meta data  / ON: {Your Facebook Page ID} OFF: False
+Google_ID: false # Google Analytics ID
+#===========  Disqus Username ===========
+disqus_user:  # Need for Comments / Turn on comments: in Post
+#============= Social Media ===============
+social:
+  - title: twitter
+    url: https://twitter.com/jekyllrb # @USERNAME without @ / Only Need for Twitter Feed
+  - title: github
+    url: https://github.com/jekyll
+#=========== Build settings ===========
+markdown: kramdown
+permalink: /:title
+#=========== Default Settings ===========
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: post
+
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: post

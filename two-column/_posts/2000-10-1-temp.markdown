@@ -1,0 +1,30 @@
+---
+#================ General Direction ================================
+# ALL SEO meta tags use these but SOME REQUIRE certain ones to WORK.
+# Only Content Is Required for Descriptions to work
+
+#================ Required ================================
+title:  "TEST PAGE" # required for ALL
+Facebook_ID:  # Turns on Facebook Open Graph meta data  / ON: {Your Facebook Page ID} OFF: False
+
+#================ Main Image ================================
+image: FALLBACK.jpg # required for Google Snippet and Twitter Image Card
+ImageAlt: # required for Google Snippet
+ISO_8601_date: # required for Google Snippet and Schema.org / fallback is in place if you leave it out
+
+#================ Author ================================
+author: #  Name of author of article / Show at top of post
+twitter_author: #  @USERNAME without @ / Need for Twitter Card
+URL_author: #  Personal Page for Author / Need for Schema.org and Facebook
+
+#================ Optional =============================
+subTitle: # optional for Google Snippet and Schema.org  
+post_description: # optional for Google Snippet and Schema.org / Needed if there is no Content  
+social_share_description: # optional for Twitter and Facebook
+
+#================ Extra ================================
+permalink:
+comments:  # Turns on Disqus Comment section / ON: True OFF: False
+---
+# 1914 translation by H. Rackham
+"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."

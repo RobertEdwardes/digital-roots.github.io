@@ -1,0 +1,30 @@
+---
+#================ General Direction ================================
+# ALL SEO meta tags use these but SOME REQUIRE certain ones to WORK.
+# Only Content Is Required for Descriptions to work
+
+#================ Required ================================
+title:  "TEST PAGE" # required for ALL
+Facebook_ID:  # Turns on Facebook Open Graph meta data  / ON: {Your Facebook Page ID} OFF: False
+
+#================ Main Image ================================
+image: FALLBACK.jpg # required for Google Snippet and Twitter Image Card
+ImageAlt: # required for Google Snippet
+ISO_8601_date: # required for Google Snippet and Schema.org / fallback is in place if you leave it out
+
+#================ Author ================================
+author: #  Name of author of article / Show at top of post
+twitter_author: #  @USERNAME without @ / Need for Twitter Card
+URL_author: #  Personal Page for Author / Need for Schema.org and Facebook
+
+#================ Optional =============================
+subTitle: # optional for Google Snippet and Schema.org  
+post_description: # optional for Google Snippet and Schema.org / Needed if there is no Content  
+social_share_description: # optional for Twitter and Facebook
+
+#================ Extra ================================
+permalink:
+comments:  # Turns on Disqus Comment section / ON: True OFF: False
+---
+## Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."

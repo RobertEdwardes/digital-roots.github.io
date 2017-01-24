@@ -1,0 +1,64 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    {% include page-nav.html %}
+
+    <h3 class="footer-heading">{{ site.title }}</h3>
+
+  <div class="footer-col-wrapper">
+    <div class="footer-col  footer-col-3">
+      <h4>Get In Touch</h4>
+        <table>
+          <tr>
+            <td>
+              <table>
+                <form action="//formspree.io/{{ site.email }}"
+                  method="POST">
+                <input type="text" name="_gotcha" style="display:none" />
+                <!-- <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks.html"> -->
+                  <tr>
+                    <td>
+                      <input type="email" name="email" placeholder="Your Email">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <textarea name="message" rows="3" placeholder="Your message"></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="submit" value="Send">
+                    </td>
+                  </tr>
+                </form>
+              </table>
+            </td>
+            <td>
+              <ul style="list-style-type: none;">
+              	{% for social in site.social %}
+                <li>
+                  <a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
+                </li>
+                {% endfor %}
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+      {% include css.html %}
+    </div>
+  </div>
+  {% if Google_ID == true %}
+  <!-- Google Analytics: set your site's ID in _config.yml. -->
+  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','{{ site.Google_ID }}','auto');ga('send','pageview');
+  </script>
+  {% endif %}
+</footer>
