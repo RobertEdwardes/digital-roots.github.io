@@ -723,6 +723,9 @@ body {
   justify-content: space-between;
   width: 100%; }
 
+.feat-img {
+  width: 100%; }
+
 /**
  * Syntax highlighting styles
  */
@@ -914,8 +917,8 @@ h6 {
 
 h1 {
   font-size: 4.242rem;
-  line-height: 5rem;
-  margin-top: 3rem; }
+  line-height: 4.85rem;
+  margin-top: 2.85rem; }
 
 h2 {
   font-size: 2.828rem;
@@ -923,7 +926,7 @@ h2 {
 
 h3 {
   font-size: calc(2.414rem + .5vw);
-  line-height: 1.7rem; }
+  line-height: 2.6rem; }
 
 h4 {
   font-size: calc(1.607rem + .5vw); }
