@@ -717,6 +717,12 @@ body {
     z-index: -1;
     background: #fdfdfd; }
 
+.PageNavigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%; }
+
 /**
  * Syntax highlighting styles
  */
@@ -942,3 +948,9 @@ table th {
 /* Code blocks */
 code {
   vertical-align: bottom; }
+
+h4#summary {
+  margin: calc(.8rem + .75vw); }
+
+h4#summary + p {
+  margin: calc(.8rem + .75vw); }
