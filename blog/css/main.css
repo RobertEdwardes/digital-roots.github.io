@@ -956,4 +956,5 @@ h4#summary {
   margin: calc(.8rem + .75vw); }
 
 h4#summary + p {
-  margin: calc(.8rem + .75vw); }
+  margin: calc(.8rem + .75vw);
+  font-size: calc(1rem - .5vw); }
