@@ -916,26 +916,26 @@ h6 {
   text-shadow: 1px 1px 3px #664b4b, 1px 1px 2px #d3c3c3; }
 
 h1 {
-  font-size: 4.242rem;
-  line-height: 4.85rem;
+  font-size: 2.842rem;
+  line-height: 3.35rem;
   margin-top: 2.85rem; }
 
 h2 {
-  font-size: 2.828rem;
+  font-size: 2.528rem;
   line-height: 3.25rem; }
 
 h3 {
-  font-size: calc(2.414rem + .5vw);
+  font-size: calc(2.114rem + .5vw);
   line-height: 2.6rem; }
 
 h4 {
-  font-size: calc(1.607rem + .5vw); }
+  font-size: calc(1.407rem + .5vw); }
 
 h5 {
-  font-size: calc(1.213333333333333rem + .5vw); }
+  font-size: calc(1.013333333333333rem + .5vw); }
 
 h6 {
-  font-size: calc(0.8535rem + .85vw); }
+  font-size: calc(0.7535rem + .85vw); }
 
 /* Tables */
 table {
