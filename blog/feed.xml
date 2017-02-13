@@ -5,9 +5,413 @@
     <description>Engaging activities and voter through cutting edge digital and grassroots strategies. That deliver the hardest fought elections</description>
     <link>http://www.digitalroots.io/blog/</link>
     <atom:link href="http://www.digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Feb 2017 05:53:42 -0500</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2017 05:53:42 -0500</lastBuildDate>
+    <pubDate>Mon, 13 Feb 2017 10:12:19 -0500</pubDate>
+    <lastBuildDate>Mon, 13 Feb 2017 10:12:19 -0500</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>10 Tips for better User Experience</title>
+        <description>&lt;h3 id=&quot;design-for-slower-connection-speed&quot;&gt;1. Design for Slower Connection Speed&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Guideline&lt;/strong&gt;: Design for slow web connections such as 3G&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comments&lt;/strong&gt;: In the United States at least eighty-nine percent (89%) of users have high speed access, but currently fourty-two percent (42%) of internet usage in the USA is used on phones and tablets&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/10-tip-ux/usa-internt-usage-graph.jpg&quot; alt=&quot;Graph of internet Usage in USA&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;do-not-display-unsolicited-windows-or-graphics&quot;&gt;2. Do Not Display Unsolicited Windows or Graphics&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Guideline&lt;/strong&gt;: Do not have unsolicited windows or graphics ‘pop-up’ to users&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comments&lt;/strong&gt;: Users have commented that unsolicited windows or graphics that ‘pop up’ are annoying, and &lt;a href=&quot;https://webmasters.googleblog.com/2016/08/helping-users-easily-access-content-on.html&quot;&gt;Google has started to penalize sites&lt;/a&gt; that use these ‘pop-ups’å&lt;/p&gt;
+
+&lt;h3 id=&quot;limit-homepage-length&quot;&gt;3. Limit Homepage Length&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Guideline&lt;/strong&gt;: Limit the homepage to one screenful of information, if at all possible. If you have a longer homepage keep important information above the fold.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comments&lt;/strong&gt;: Any element on the homepage that must immediately attract the attention of users should be placed ’above the fold.’ Information that cannot be seen in the first screenful may be missed altogether—this can negatively impact the effectiveness of the Web site. If users conclude that what they see on the visible portion of the page is not of interest, they may not bother scrolling to see the rest of the page.&lt;/p&gt;
+
+&lt;p&gt;Some users take a long time to scroll down ’below the fold,’ indicating a reluctance to move from the first screenful to subsequent information. Older users and novices are more likely to miss information that is placed below the fold.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/10-tip-ux/ted-cruz-desktop-site.jpg&quot; alt=&quot;Ted Cruz's Desktop Website&quot; /&gt;
+  &lt;img src=&quot;../img/10-tip-ux/ted-cruz-mobile-site.jpg&quot; alt=&quot;Ted Cruz's Mobile Website&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;avoid-scroll-stoppers&quot;&gt;5. Avoid Scroll Stoppers&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Guideline&lt;/strong&gt;: Ensure that the location of headings and other page elements does not create the illusion that users have reached the top or bottom of a page when they have not.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comments&lt;/strong&gt;:In one study, three headings were positioned in the center of a page below a section of introductory text—the headings were located about one inch below the navigation tabs. When users scrolled up the page from the bottom and encountered these headings, they tended to stop, thinking the headings indicated the top of the page.&lt;/p&gt;
+
+&lt;p&gt;Similarly, users have been found to not scroll to the true bottom of a page to find a link because they encountered a block of text in a very small font size. This small type led users to believe that they were at the true bottom of the page. Other elements that may stop users’ scrolling include horizontal lines, inappropriate placement of ’widgets,’ and cessation of background color.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/10-tip-ux/example-scroll-stoppers.jpg&quot; alt=&quot;Examples of scroll stoppers&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;set-appropriate-page-lengths&quot;&gt;6. Set Appropriate Page Lengths&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Guideline&lt;/strong&gt;: Make page-length decisions that support the primary use of the Web page.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comments&lt;/strong&gt;: In general, use shorter pages for homepages and navigation pages, and pages that need to be quickly browsed and/or read online. Use longer pages to (1) facilitate uninterrupted reading, especially on content pages;
+(2) match the structure of a paper counterpart; (3) simplify page maintenance (fewer Web page files to maintain); and, (4) make pages more convenient to download and print.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/10-tip-ux/appropriate-page-lengths.jpg&quot; alt=&quot;Examples of appropriate page length&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;place-primary-navigation-menus-in-the-left-panel&quot;&gt;7. Place Primary Navigation Menus in the Left Panel&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Guideline&lt;/strong&gt;: Place the primary navigation menus in the left panel, and the secondary and tertiary menus together.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comments&lt;/strong&gt;: [One study]((http://journals.sagepub.com/doi/abs/10.1177/154193120404801309) found that navigation times were faster when the primary menu was located in the left panel. Also, navigation performance was best when the secondary and tertiary menus were placed together. Placing a navigation menu in the right panel was supported as a viable design option by both performance and preference measures. Users preferred having the primary menu in the left panel, and grouping secondary and tertiary menus together, or grouping all three menu levels together. The best performance and preference was achieved when all three menus were placed in the left panel (placing them&lt;/p&gt;
+
+&lt;h3 id=&quot;eliminate-horizontal-scrolling&quot;&gt;8. Eliminate Horizontal scrolling&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Guideline&lt;/strong&gt;: Use an appropriate page layout to eliminate the need for users to scroll horizontally.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comments&lt;/strong&gt;: &lt;a href=&quot;https://developers.google.com/webmasters/mobile-sites/mobile-seo/common-mistakes&quot;&gt;Google has stated&lt;/a&gt; that horizontal scrolling hurts mobile SEO. Also horizontal scrolling is a slow and tedious way to view an entire screen. Common page layouts including fluid and left-justified may require some users to scroll horizontally if their monitor resolution or size is smaller than that used by designers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/10-tip-ux/horizontal-scrolling.jpg&quot; alt=&quot;Examples of Horizontal Scrolling&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;use-headings-in-the-appropriate-html-order&quot;&gt;9. Use Headings in the Appropriate HTML Order&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Guideline&lt;/strong&gt;: Use headings in the appropriate HTML order.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comments&lt;/strong&gt;: Using the appropriate HTML heading order helps users get a sense of the hierarchy of information on the page. The appropriate use of H1-H3 heading tags also allows users of assistive technologies to understand the hierarchy of information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/10-tip-ux/Heading-order.jpg&quot; alt=&quot;Example of proper heading order&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;avoid-misleading-cues-to-click&quot;&gt;10. Avoid Misleading Cues to Click&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Guideline&lt;/strong&gt;: Ensure that items that are not clickable do not have characteristics that suggest that they are clickable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comments&lt;/strong&gt;: Symbols usually must be combined with at least one other cue that suggests clickability. In one study, users were observed to click on a major heading with some link characteristics, but the heading was not actually a link.&lt;/p&gt;
+
+&lt;p&gt;However, to some users bullets and arrows may suggest clickability, even when they contain no other clickability cues (underlining, blue coloration, etc.). This slows users as they debate whether the items are links.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/10-tip-ux/misleading-cues-to-click.jpg&quot; alt=&quot;Example of misleading cues to click&quot; /&gt;&lt;/p&gt;
+ Seen First on href=&quot;http://www.digitalroots.io</description>
+        <pubDate>Mon, 13 Feb 2017 00:00:00 -0500</pubDate>
+        <link>http://www.digitalroots.io/blog/10-tips-for-a-better-user-experince/?utm_source=rss</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/10-tips-for-a-better-user-experince/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Starting a Political Action Committee</title>
+        <description>&lt;p&gt;A Political Action Committee (PAC) is often the best way to make a difference in politics. In this post we will go over the key differences between the two most common PACs, and an overview of the steps you will need to take to start and terminate a Nonconnected PAC.&lt;/p&gt;
+
+&lt;h3 id=&quot;separate-segregated-funds&quot;&gt;Separate Segregated Funds&lt;/h3&gt;
+&lt;p&gt;Because Corporations and labor organizations can’t contribute to federal candidates. They can establish and administer a special kind of political committee: the separate segregated fund (SSF).&lt;/p&gt;
+
+&lt;p&gt;An SSF can raise funds to make contributions to candidates — including expenditures that are coordinated with candidates — within the applicable contribution limits.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Who can set up an SSF?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Corporations (including those without capital stock)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Labor organizations&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Incorporated membership organizations (including trade associations)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;National banks&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Incorporated cooperatives&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The sponsoring corporation or labor organization is called the SSF’s “connected organization.” The connected organization can use its own money to solicit contributions to the SSF and to pay the costs of establishing and operating the SSF, for example staff salaries and office space.&lt;/p&gt;
+
+&lt;p&gt;SSFs may solicit contributions only from a limited group of people, including the connected organization’s executive or administrative personnel, its stockholders (if the connected organization is a corporation), or its members (if the connected organization is a labor organization or a membership organization).&lt;/p&gt;
+
+&lt;h3 id=&quot;nonconnected-comittees&quot;&gt;Nonconnected Comittees&lt;/h3&gt;
+
+&lt;p&gt;If you want to set up a Political Action Committee (PAC) — and your PAC is not a political party committee, a candidate’s authorized committee or a separate segregated fund (SSF) established by a corporation or labor organization — you can set up a “nonconnected” committee.&lt;/p&gt;
+
+&lt;p&gt;Members of congress and other political leaders often establish nonconnected committees, usually called Leadership PACs. Leadership PACs usually support candidates for various federal or nonfederal offices.&lt;/p&gt;
+
+&lt;p&gt;Super PACs and Hybrid PACs are another type of nonconnected committee. These committees must register and report all of their receipts and disbursements. If you are setting up a Super PAC or a Hybrid PAC, find more information on &lt;a href=&quot;http://www.fec.gov/ans/answers_pac.shtml#super_hybrid&quot;&gt;FEC.gov quick answers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;essentials-for-nonconnected-committees&quot;&gt;Essentials for nonconnected committees&lt;/h2&gt;
+
+&lt;h3 id=&quot;registration&quot;&gt;Registration&lt;/h3&gt;
+
+&lt;h5 id=&quot;getting-a-tax-id-and-bank-account&quot;&gt;Getting a tax ID and bank account&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Political committees must establish a bank account. This is required for many reasons, including helping keep committee funds separate from personal funds. You’ll use this account to deposit receipts and make disbursements. The account must be at one of the following:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;National bank&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;State bank&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;FDIC- or NCUA-insured institution&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You’ll list the name and address of the bank on the authorized committee’s Statement of Organization (Form 1).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Banks require you to have a taxpayer identification number to open an account. Get your “Employer Identification Number” online or by completing &lt;a href=&quot;http://www.irs.gov/pub/irs-pdf/fss4.pdf?portlet=3&quot;&gt;IRS Form SS-4&lt;/a&gt;. If you have questions about obtaining a taxpayer identification number, call the Internal Revenue Service, 1-800-829-3676.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;getting-a-treasurer&quot;&gt;Getting a treasurer&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Every political committee must designate a treasurer before it can accept contributions or make expenditures. Designate your treasurer on your Statement of Organization (Form 1).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Treasurers must ensure committee reports and statements are complete, accurate and timely. This is a significant responsibility— if there’s an enforcement action against a committee, the treasurer is usually named as a respondent. Treasurers can be found officially (or, in some circumstances, personally) liable for the actions they take.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Treasurer responsibilities:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Sign and file all committee reports and statements.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Deposit receipts in the committee’s designated bank within 10 days of receipt.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Authorize expenditures or appoint someone else (orally or in writing) to authorize expenditures.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Monitor contributions, ensuring they comply with legal limits and prohibitions.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Keep records of receipts and disbursements for three years from the filing date of the report to which they relate.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A candidate can choose to act as his or her own committee treasurer.
+Assistant treasurer&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A committee can’t raise or spend money unless it has a treasurer. For that reason, the FEC urges every committee to designate an assistant treasurer on its Statement of Organization. If the treasurer resigns or is unavailable, the assistant treasurer can perform any of the duties listed above.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The assistant treasurer should be aware of all filing requirements and have access to the committee’s electronic filing password, if the committee files electronically.
+Changing treasurers&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Committees must report a change in treasurer within 10 days of the change. Most do this by filing an amended Statement of Organization. This amended form designates (and is signed by) the new treasurer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Treasurers can also resign by informing the FEC directly by letter or — in the case of electronic filers — by Form 99.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;registering-a-nonconnected-committee&quot;&gt;Registering a nonconnected committee&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;You must register your nonconnected committee within 10 days of raising or spending more than $1,000 in contributions or expenditures during a calendar year.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Register by filing a Statement of Organization (Form 1) with the FEC. The Statement of Organization collects some basic information, including the full name of your nonconnected committee, your address and your treasurer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If the information you disclosed on your Statement of Organization ever changes, you must report that change within 10 days. Do this by filing an amended Statement of Organization. If your nonconnected committee isn’t an electronic filer, you may update your Statement of Organization by letter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The Statement of Organization is available in the following options:&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;https://webforms.fec.gov/webforms/form1/index.htm&quot;&gt;Web form&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://www.fec.gov/pdf/forms/fecfrm1.pdf&quot;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://www.fec.gov/pdf/forms/fecfrm1sf.pdf&quot;&gt;Screen-fillable PDF&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://www.fec.gov/pdf/forms/fecfrm1auth.pdf&quot;&gt;Screen-fillable PDF with audio instructions&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Read Form 1 &lt;a href=&quot;http://www.fec.gov/pdf/forms/fecfrm1i.pdf&quot;&gt;instructions&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to-file&quot;&gt;How to File&lt;/h3&gt;
+&lt;p&gt;Some committees are required to &lt;a href=&quot;http://www.fec.gov/elecfil/ef_overview.shtml&quot;&gt;file electronically&lt;/a&gt;. All other committees can choose whether to file electronically or by paper.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fec.gov/elecfil/ef_overview.shtml&quot;&gt;Electronic filing&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.fec.gov/elecfil/software.shtml&quot;&gt;Filing Software&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paper Filing&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;When filing by paper, your committee can use first-class mail, hand delivery or overnight mail options.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Always retain proof of mailing and delivery.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;First-class mail or hand delivery&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;If you use first-class mail or hand delivery, your reports must be received by close of business on the filing deadline. If the filing deadline falls on a weekend or federal holiday, your report must be received by the close of business on the last business day before the filing deadline.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Overnight mail&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;“Overnight mail” means registered mail, certified mail, Priority or Priority Express mail (with delivery confirmation) or overnight delivery service (with online tracking)— if you use one of these methods, your reports must be postmarked by 11:59 p.m. Eastern Time on the filing deadline, unless the report is a pre-primary or a pre-general report.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Pre-primary and pre-general reports&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;Pre-primary and pre-general reports must be received by close of business on the filing deadline if sent by first-class mail or hand delivery. They must be postmarked by 11:59 p.m. Eastern Time three days before the filing deadline if sent by one of the “overnight mail” options.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Postal deliveries to the FEC:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;Federal Election Commission&lt;/li&gt;
+          &lt;li&gt;999 E Street, NW&lt;/li&gt;
+          &lt;li&gt;Washington, DC 20463&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;regular-filing&quot;&gt;Regular Filing&lt;/h3&gt;
+
+&lt;h5 id=&quot;know-your-filing-requirements&quot;&gt;Know your filing requirements&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;After registration, your nonconnected committee must file regular reports with the FEC until you request to terminate and that request is approved by the FEC.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nonconnected committee filing requirements differ in election and non-election years. Election years are even-numbered years.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;As you review required documents, you may notice that some forms are offered as both a web form and a PDF. With the exception of mandatory electronic filers, nonconnected committees can choose whether to file electronically or by paper.  If a committee voluntarily files electronically, it must continue to do so for the remainder of the calendar year.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;election-years&quot;&gt;Election years&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In election years, your nonconnected committee can choose to &lt;a href=&quot;http://www.fec.gov/info/filing.shtml&quot;&gt;file either quarterly or monthly&lt;/a&gt;. If you want to switch your committee’s filing frequency, you can do this only once per calendar year, and your treasurer must notify the FEC. Send the notification along with a report filed under your current filing schedule, on paper or electronically, whichever is your regular method of filing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Independent expenditures&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;In some circumstances, your nonconnected committee may need to file specific and separate reports of independent expenditures. These are called 24- and 48-Hour Reports.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more information about Independent Expenditure reporting follow this &lt;a href=&quot;http://www.fec.gov/pages/brochures/indexp.shtml&quot;&gt;link to the FEC.gov section&lt;/a&gt; on Coordinated Communications and Independent Expenditures&lt;/p&gt;
+
+&lt;h5 id=&quot;non-election-years&quot;&gt;Non-election years&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If your nonconnected committee &lt;a href=&quot;http://www.fec.gov/info/filing.shtml&quot;&gt;files quarterly&lt;/a&gt; in election years, you’ll automatically switch to semi-annual reporting in non-election years.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If your committee &lt;a href=&quot;http://www.fec.gov/info/filing.shtml&quot;&gt;files monthly&lt;/a&gt; in election years, you’ll keep filing monthly in non-election years.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you want to switch filing frequency from monthly to quarterly or vice versa, you can do this only once per calendar year, and your treasurer must notify the FEC. Send the notification along with a report filed under your current filing schedule, on paper or electronically, whichever is your regular method of filing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Other filing requirements may also apply if your committee is active in a special election.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;terminating-a-committee&quot;&gt;Terminating a committee&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you decide to close down your committee operations, you must file a termination report.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can file a termination report when your committee meets all of these criteria:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;You no longer receive (or intend to receive) contributions.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;You no longer make (or intend to make) expenditures.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use your regular campaign finance disclosure form to file the termination report (Form 3, 3X or 3P). Check the “Termination Report” box on line 4 of that form’s cover page.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For example, you can combine your termination report with an already scheduled filing by checking the “Termination Report” box on your May monthly report. However, your termination report must include the following information:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;All receipts and disbursements not previously reported. This includes your accounting of any debt retirement.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;How you will use any remaining committee funds and assets.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If your committee is involved in an FEC enforcement action, audit or litigation, you cannot terminate your committee. You must file regularly until that matter is resolved.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once the FEC notifies you that it has accepted your termination report, you can stop filing regular campaign finance disclosure reports with the FEC.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don’t stop filing just because you checked the “Termination Report” box on your regular campaign finance disclosure form. You must file regularly scheduled reports until the Commission notifies you in writing that it has granted your request to terminate.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h3&gt;
+
+&lt;h5 id=&quot;missed-deadline&quot;&gt;Missed deadline&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;The FEC doesn’t have the authority to give deadline extensions. If you miss a filing deadline, you may be referred to their Administrative Fine Program. File your report as soon as you realize you’ve missed a deadline. Contact the FEC with questions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;responding-to-a-request-for-additional-information-rfaihttpwwwfecgovradfederalelectioncommission-rad-respondingtorfaisshtml&quot;&gt;&lt;a href=&quot;http://www.fec.gov/rad/FederalElectionCommission-RAD-RespondingtoRFAIs.shtml&quot;&gt;Responding to a Request for Additional Information (RFAI)&lt;/a&gt;&lt;/h5&gt;
+
+&lt;h5 id=&quot;administrative-fine-program-httpwwwfecgovafafshtml&quot;&gt;&lt;a href=&quot;http://www.fec.gov/af/af.shtml&quot;&gt;Administrative Fine Program&lt;/a&gt;&lt;/h5&gt;
+
+&lt;h5 id=&quot;contact-the-fechttpwwwfecgovpagescontactshtml&quot;&gt;&lt;a href=&quot;http://www.fec.gov/pages/contact.shtml&quot;&gt;Contact the FEC&lt;/a&gt;&lt;/h5&gt;
+ Seen First on href=&quot;http://www.digitalroots.io</description>
+        <pubDate>Fri, 10 Feb 2017 00:00:00 -0500</pubDate>
+        <link>http://www.digitalroots.io/blog/intro-to-poltical-action-committes/?utm_source=rss</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/intro-to-poltical-action-committes/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to Get Involved with Your Local Political Party</title>
@@ -32,7 +436,7 @@
 &lt;p&gt;Precinct Chairs are the lowest level of elected official, and are elected in party primaries. Precinct Chairs have varying power depending on county and state party rules, but it is by far the best place to start if you want to be in party leadership. This is because in most counties I have worked in the Chairs are the ones who elect the local party official, and can be the ones who determine what kind of primary you have (.ie caucus, convention, or primary).&lt;/p&gt;
 
 &lt;h3 id=&quot;run-for-office&quot;&gt;Run For Office&lt;/h3&gt;
-&lt;p&gt;The last thing you can do to get involved is run for office. If you have gotten involved and are known in the local party it is relatively easy because you will have the party support to get through the primary and general election.  If you aren’t known in the local political party, you can still win with a &lt;a href=&quot;../campaign-plan&quot;&gt;strong campaign plan&lt;/a&gt;, and start with a smaller office. Running for Office is like baseball you have to start in the minors to be able to make it in the majors. So when you look at election to run in realizing that by starting local you will be able to win larger races in the future.&lt;/p&gt;
+&lt;p&gt;The last thing you can do to get involved is run for office. If you have gotten involved and are known in the local party it is relatively easy because you will have the party support to get through the primary and general election.  If you aren’t known in the local political party, you can still win with a &lt;a href=&quot;../Campaign-Plan&quot;&gt;strong campaign plan&lt;/a&gt;, and start with a smaller office. Running for Office is like baseball you have to start in the minors to be able to make it in the majors. So when you look at election to run in realizing that by starting local you will be able to win larger races in the future.&lt;/p&gt;
  Seen First on href=&quot;http://www.digitalroots.io</description>
         <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
         <link>http://www.digitalroots.io/blog/how-to-get-inovlved-with-local-politics/?utm_source=rss</link>
@@ -502,7 +906,14 @@
 
 &lt;p&gt;The main tool for digital fundraising will be your email list. While most people think it is social media that assumption is wrong. The ALS Association Ice Bucket Challenge went viral it was the exception most campaigns &lt;a href=&quot;http://www.npr.org/sections/alltechconsidered/2015/12/02/458008461/a-click-too-far-why-social-media-isnt-that-great-for-fundraising&quot;&gt;2% of their donation referrals&lt;/a&gt; from social media. The best online examples fundraising through emails are President Donald Trump and Senator Bernie Sanders shows how strong it can be. The key takeaway from both of their campaigns are that you should &lt;strong&gt;ask often and create a sense of urgency&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;../digital-fundraising-part-1/&quot;&gt;Intro to Digital Fundraising&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;../digital-fundraising-part-1/&quot;&gt;Introduction to Digital Fundraising&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;../intro-to-poltical-action-committes/&quot;&gt;Starting a Political Action Committee&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h5 id=&quot;putting-all-together&quot;&gt;Putting All Together&lt;/h5&gt;
 
@@ -511,149 +922,6 @@
         <pubDate>Sat, 14 Jan 2017 00:00:00 -0500</pubDate>
         <link>http://www.digitalroots.io/blog/starting-activist-group/?utm_source=rss</link>
         <guid isPermaLink="true">http://www.digitalroots.io/blog/starting-activist-group/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Static Site CMS with GitHub</title>
-        <description>&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
-&lt;p&gt;We will be going over how to create a content management system (CMS) using &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt;, &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;, and &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt;. This workflow will create a CMS that is built on the Static Site Generator &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. This guide &lt;strong&gt;DOES NOT require Jekyll to be set up or any knowledge of Jekyll&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;set-up&quot;&gt;Set Up&lt;/h2&gt;
-
-&lt;p&gt;The text editor we recommended here at Digital Roots is &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; because it comes with a markdown previewer which will allow have a What You See is What You Get (WYSIWYG) editor, which is one of the biggest drawbacks to using a static site generator over a traditional CMS like Word Press. It also works well with GitHub Desktops because it will automatically track chances between you version on GitHub and the one saved to your computer.&lt;/p&gt;
-
-&lt;h4 id=&quot;github&quot;&gt;GitHub&lt;/h4&gt;
-
-&lt;p&gt;Go to &lt;a href=&quot;https://github.com/&quot;&gt;GitHub.com&lt;/a&gt; and sign-up on the front page&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../img/Gihub-CRM/github-landingpage.png&quot; alt=&quot;GitHub Landing Page&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;github-desktop&quot;&gt;GitHub Desktop&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;To set up GitHub Desktop go to &lt;a href=&quot;https://desktop.github.com/&quot;&gt;desktop.github.com&lt;/a&gt; and download the version for you Operating System (OS)&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/Gihub-CRM/github-desktop-landingpage.png&quot; alt=&quot;Landing Page of GitHub Desktop&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Once you have GitHub Desktop installed. Return to GitHub and go to the git repository(repo) for you site hosted on GitHub Pages. Todo this enter the site repo in the search, and follow the link to your repo.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/Gihub-CRM/github-nav-home.png&quot; alt=&quot;Navigating to site repository&quot; /&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/Gihub-CRM/github-search-results.png&quot; alt=&quot;Nav search results&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;After reaching the repository you will download the repository to GitHub Desktops&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/Gihub-CRM/github-repository-dowloading.png&quot; alt=&quot;Downloading repository&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;client-editable&quot;&gt;Client Editable&lt;/h2&gt;
-
-&lt;p&gt;One of the biggest drawbacks to most static site workflows is that they allow users to edit every file on the site this can cause problems if they edit &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.css&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;.js&lt;/code&gt;, and the problems seem to get worse with preprocessors. With GitHub we are able to have control over which files are added, this is because GitHub is primarily used as version control system for developers.&lt;/p&gt;
-
-&lt;h3 id=&quot;client-workflow&quot;&gt;Client workflow&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a Fork by going to the button left button title masters&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/Gihub-CRM/fork-in-github-desktop.png&quot; alt=&quot;Fork the repository&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;To open the Project in Atom right click on the folder in GitHub Desktop&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/Gihub-CRM/open-project-Gitdesktop-atom.png&quot; alt=&quot;opening in atom&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a new post in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory and fill out the relevant YAML fields (fields  between &lt;code class=&quot;highlighter-rouge&quot;&gt;--&lt;/code&gt; at the top of the post), and right click the file in atom to open the markdown preview to see your post.&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/Gihub-CRM/view-of-atom.png&quot; alt=&quot;View of Atom&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Once you have written the post fill in the summary and description in GitHub Desktop and commit&lt;/p&gt;
-
-    &lt;p&gt;&lt;img src=&quot;../img/Gihub-CRM/github-desktop-commit.png&quot; alt=&quot;Filling out commit in GitHub Desktop&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;After you commit it send a pull request&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Once the Client has followed those steps then the post can be uploaded to the site stoping any mistakes the client might have done due to access to the site files.&lt;/p&gt;
-
-&lt;h5 id=&quot;guides-for-using-markdown&quot;&gt;Guides for using Markdown&lt;/h5&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Guide from GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/basics&quot;&gt;Markdown: Basics&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
- Seen First on href=&quot;http://www.digitalroots.io</description>
-        <pubDate>Thu, 05 Jan 2017 00:00:00 -0500</pubDate>
-        <link>http://www.digitalroots.io/blog/static-site-cms/?utm_source=rss</link>
-        <guid isPermaLink="true">http://www.digitalroots.io/blog/static-site-cms/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Twitterbots and Campaigns</title>
-        <description>&lt;p&gt;With social media proving itself to be worth an investment and integration at the start of a campaign, there are still a lot of decisions that a campaign will have to make that go beyond a &lt;a href=&quot;../social-media-policy/&quot;&gt;social media policy and strategy&lt;/a&gt;. The decisions that go beyond strategy and policy include paid vs organic outreach and whether or not you are going to use bots to help you with your online presence, which recent research has shown can have a meaningful effect even in some of the largest campaigns. Philip Howard, Professor of Internet Studies at the Oxford Internet Institute, comments:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;‘We can’t say who was behind the highly automated pro-Trump accounts but they were purposeful, thoughtful and deliberate about when to release messages, what those messages should be, and what their targets were. We found similarities in the rhythm of the pro-Trump Twitter campaign and that successfully employed by the Leave campaign in the run up to the EU referendum in the UK.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A USC study has also shown the scale of these bots:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The researchers found that Twitter bot accounts produced 3.8 million tweets, or 19 percent of all election tweets for the study’s period. Social bots also accounted for 400,000 of the 2.8 million individual users tweeting about the election, or nearly 15 percent of the population under study.&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The USC study goes further than just the presence of bots and looks at the sentiment of each message:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;on a scale ranging from minus 4 (maximum negativity) to plus 4 (maximum positivity), generated by both bot and human tweets during this time. Both human and bot tweets about Trump were almost uniformly positive when compared to those about Clinton, which were equally neutral and positive.&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Even though President-Elect Donald Trump was having a large amount of negative news in print and on television it seems that having a uniformly positive message on twitter. This helped balance the message that was being driven offline, and in contrast, Hillary Clinton had a twitter army that was a lot more balanced. The difference here can create a stark difference given bits are a large driver of online discussion:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Bots produce content automatically, and therefore at a very fast and continuous rate. That means they form consistent and pervasive parts of the online discussion throughout the campaign. As a result, they were able to build significant influence, collecting large numbers of followers and having their tweets retweeted by thousands of humans.&lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The constant presence along with a large number of followers is what gives beats the ability to be empowered by the “illusory truth effect”:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Psychological research, including my own, shows that repeated exposure to false information can change people’s beliefs that is it true. This phenomenon is called the “illusory truth effect.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This effect happens to us all – including people who know the truth. Our research suggests that even people who knew Pope Francis made no presidential endorsement would be susceptible to believing a “Pope endorses Trump” headline when they had seen it multiple times. &lt;sup&gt;4&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;While twitter bots have been attributed in having an effect on an election, there still isn’t much data to know if there is any real impact, but thanks to the Python Library &lt;a href=&quot;https://github.com/esdalmaijer/markovbot&quot;&gt;Markovbot&lt;/a&gt; it is possible to set-up and try for both local and state based races. The only things you keep in mind are: 1. What kind of bot will do(ie. retweet, post new content, respond other members) 2. what will be your keywords, target string an conversation depth 3. When will it start and stop&lt;/p&gt;
-
-&lt;p&gt;If you set the twitter bolt upright and make sure they have a positive and promoting message for the candidate or organization, then it will have the best opponent to have an impact on the election,&lt;/p&gt;
-
-&lt;p&gt;Footnotes:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;http://phys.org/news/2016-12-pro-trump-bot-colonised-pro-clinton-twitter.html&lt;/li&gt;
-  &lt;li&gt;http://news.usc.edu/110565/rigged-usc-study-finds-many-political-tweets-come-from-fake-accounts/&lt;/li&gt;
-  &lt;li&gt;http://phys.org/news/2016-11-twitter-bots-affected-presidential-campaign.html&lt;/li&gt;
-  &lt;li&gt;http://phys.org/news/2016-12-unbelievable-news-true.html&lt;/li&gt;
-&lt;/ol&gt;
- Seen First on href=&quot;http://www.digitalroots.io</description>
-        <pubDate>Wed, 14 Dec 2016 00:00:00 -0500</pubDate>
-        <link>http://www.digitalroots.io/blog/twitter-bot-campaign/?utm_source=rss</link>
-        <guid isPermaLink="true">http://www.digitalroots.io/blog/twitter-bot-campaign/</guid>
         
         
       </item>
