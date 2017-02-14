@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>http://www.digitalroots.io/themes.html</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/website-platform/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/static-site-cms/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -76,7 +76,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/starting-activist-group/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/robots/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -96,7 +96,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/west-coast-effect/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -114,7 +114,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/fundraising-plan-2/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -124,7 +124,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/how-to-get-inovlved-with-local-politics/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -134,7 +134,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/Jebs-Problem/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -144,7 +144,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/PPC-Guide/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -166,7 +166,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/domain-name/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -176,7 +176,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/Social-Media-Tracker/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -198,7 +198,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/SEO-Basics/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/yard-sign-list/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -222,7 +222,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/recruit/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -232,7 +232,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/social-media-policy/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -241,8 +241,50 @@
       </image:image>
   </url>
   <url>
+    <loc>http://www.digitalroots.io/blog/10-tips-for-a-better-user-experince/</loc>
+    <lastmod>2017-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/Usability.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/10-tip-ux/usa-internt-usage-graph.jpg</image:loc>
+        <image:title>Graph of internet Usage in USA</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/10-tip-ux/ted-cruz-desktop-site.jpg</image:loc>
+        <image:title>Ted Cruz's Desktop Website</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/10-tip-ux/ted-cruz-mobile-site.jpg</image:loc>
+        <image:title>Ted Cruz's Mobile Website</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/10-tip-ux/example-scroll-stoppers.jpg</image:loc>
+        <image:title>Examples of scroll stoppers</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/10-tip-ux/appropriate-page-lengths.jpg</image:loc>
+        <image:title>Examples of appropriate page length</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/10-tip-ux/horizontal-scrolling.jpg</image:loc>
+        <image:title>Examples of Horizontal Scrolling</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/10-tip-ux/Heading-order.jpg</image:loc>
+        <image:title>Example of proper heading order</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/10-tip-ux/misleading-cues-to-click.jpg</image:loc>
+        <image:title>Example of misleading cues to click</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>http://www.digitalroots.io/blog/Campaign-Plan/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -252,7 +294,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/mdgop-seo/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -266,7 +308,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/fundraising-plan-1/</loc>
-    <lastmod>2017-02-08</lastmod>
+    <lastmod>2017-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
