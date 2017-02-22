@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>http://www.digitalroots.io/themes.html</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -19,22 +19,64 @@
       </image:image>
   </url>
   <url>
-    <loc>http://www.digitalroots.io/blog/website-platform/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <loc>http://www.digitalroots.io/blog/domain-name/</loc>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/Aweber.png</image:loc>
-        <image:title>Aweber Logo</image:title>
+        <image:loc>http://www.digitalroots.io/blog/img/sad-ted.jpg</image:loc>
+        <image:title>image of ted cruz looking sad</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.digitalroots.io/blog/SEO-Basics/</loc>
+    <lastmod>2017-02-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/seo-elements.jpg</image:loc>
+        <image:title></image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/campaignMonitor.png</image:loc>
-        <image:title>Campaign Monitor Logo</image:title>
+        <image:loc>http://www.digitalroots.io/blog/img/google-search-meta-tittle-tag.png</image:loc>
+        <image:title>Image with meta and tittle tag highlighted</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.digitalroots.io/blog/Social-Media-Tracker/</loc>
+    <lastmod>2017-02-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/social_media.jpg</image:loc>
+        <image:title>Social Media header</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/buzzsumo.jpg</image:loc>
+        <image:title>Buzzsumo</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/topsy.jpg</image:loc>
+        <image:title>Topsy</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/socialmention.jpg</image:loc>
+        <image:title>Socialmention</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.digitalroots.io/blog/robots/</loc>
+    <lastmod>2017-02-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/Ranking_Factors_robot.jpg</image:loc>
+        <image:title>Robot in front of icon of ranking factors</image:title>
       </image:image>
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/static-site-cms/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -76,7 +118,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/starting-activist-group/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -85,18 +127,8 @@
       </image:image>
   </url>
   <url>
-    <loc>http://www.digitalroots.io/blog/robots/</loc>
-    <lastmod>2017-02-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/Ranking_Factors_robot.jpg</image:loc>
-        <image:title>Robot in front of icon of ranking factors</image:title>
-      </image:image>
-  </url>
-  <url>
     <loc>http://www.digitalroots.io/blog/west-coast-effect/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -114,7 +146,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/fundraising-plan-2/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -124,7 +156,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/how-to-get-inovlved-with-local-politics/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -134,7 +166,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/Jebs-Problem/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -144,7 +176,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/PPC-Guide/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -165,54 +197,22 @@
       </image:image>
   </url>
   <url>
-    <loc>http://www.digitalroots.io/blog/domain-name/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <loc>http://www.digitalroots.io/blog/website-platform/</loc>
+    <lastmod>2017-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/sad-ted.jpg</image:loc>
-        <image:title>image of ted cruz looking sad</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>http://www.digitalroots.io/blog/Social-Media-Tracker/</loc>
-    <lastmod>2017-02-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/social_media.jpg</image:loc>
-        <image:title>Social Media header</image:title>
+        <image:loc>http://www.digitalroots.io/blog/img/Aweber.png</image:loc>
+        <image:title>Aweber Logo</image:title>
       </image:image>
       <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/buzzsumo.jpg</image:loc>
-        <image:title>Buzzsumo</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/topsy.jpg</image:loc>
-        <image:title>Topsy</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/socialmention.jpg</image:loc>
-        <image:title>Socialmention</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>http://www.digitalroots.io/blog/SEO-Basics/</loc>
-    <lastmod>2017-02-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/seo-elements.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>http://www.digitalroots.io/blog/img/google-search-meta-tittle-tag.png</image:loc>
-        <image:title>Image with meta and tittle tag highlighted</image:title>
+        <image:loc>http://www.digitalroots.io/blog/img/campaignMonitor.png</image:loc>
+        <image:title>Campaign Monitor Logo</image:title>
       </image:image>
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/yard-sign-list/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -222,7 +222,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/recruit/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -232,7 +232,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/social-media-policy/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -241,8 +241,46 @@
       </image:image>
   </url>
   <url>
+    <loc>http://www.digitalroots.io/blog/building-a-campaign-list-digital-fundraising-part-1/</loc>
+    <lastmod>2017-02-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/donateredkeyboardbutton.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/Digital-Fundraising/graph-reason-blog.jpg</image:loc>
+        <image:title>Graph of Blog increase in lead generation</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/Digital-Fundraising/Visual-content-important.png</image:loc>
+        <image:title>infographic for images in content</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/Digital-Social/clicks.png</image:loc>
+        <image:title>Increase in Click graph</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/Digital-Social/retweets.png</image:loc>
+        <image:title>Increase in retweets graph</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/Digital-Fundraising/anchor-text-cta.png</image:loc>
+        <image:title>Image pointing out anchor text</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/Digital-Fundraising/discrete-internal-link-cta-1.png</image:loc>
+        <image:title>Discrete Internal Link CTA</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.digitalroots.io/blog/img/Digital-Fundraising/direct-internal-link-cta-1.png</image:loc>
+        <image:title>Direct Internal Link CTA</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>http://www.digitalroots.io/blog/10-tips-for-a-better-user-experince/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -284,7 +322,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/Campaign-Plan/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -294,7 +332,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/mdgop-seo/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
@@ -308,7 +346,7 @@
   </url>
   <url>
     <loc>http://www.digitalroots.io/blog/fundraising-plan-1/</loc>
-    <lastmod>2017-02-13</lastmod>
+    <lastmod>2017-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
       <image:image>
