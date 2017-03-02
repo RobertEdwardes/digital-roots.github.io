@@ -1,0 +1,758 @@
+<!DOCTYPE html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:website="http://ogp.me/ns/website" lang="en-US" itemscope="" itemtype="http://schema.org/WebPage">
+<html>
+
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <meta name="myblogu-verification" content="NjU2ODQyZmMxOWRhMmNhMGIxZjliMDk2NTAwMzE2MzA=" />
+  <meta name="msvalidate.01" content="3662A23539186B68E0666B8939D48090" />
+  <title>.htaccess Snippets | Digital Roots Blog</title>
+  <link rel="canonical" href="http://www.digitalroots.io/blog/htaccess-snippets/">
+  <meta name="description" content=".htaccess Snippets
+A collection of useful .htaccess snippets, all in one place.
+
+">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="_DigitalRoots">
+  <meta name="twitter:creator" content="_DigitalRoots">
+  <meta name="twitter:title" content=".htaccess Snippets">
+  <meta name="twitter:description" content=".htaccess Snippets
+A collection of useful .htaccess snippets, all in one...">
+  
+  <meta property="og:title" content=".htaccess Snippets" />
+  <meta property="og:site_name" content="http://www.digitalroots.io"/>
+  <meta property="og:url" content="http://www.digitalroots.io/blog/htaccess-snippets/" />
+  <meta property="og:description" content=".htaccess Snippets
+A collection of useful .htaccess snippets, all in one place.
+
+ " />
+  
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="article:author" content="http://www.digitalroots.io/blog/about/" />
+  <meta property="article:publisher" content="http://www.digitalroots.io" />
+  <meta property="fb:app_id" content="212566025744310" />
+  <meta property="fb:admins" content="" />
+  <link rel="alternate" type="application/rss+xml" title="Digital Roots Blog" href="http://www.digitalroots.io/blog/feed.xml" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <meta itemprop="url" content="http://www.digitalroots.io/blog/htaccess-snippets/">
+  <link rel="stylesheet" type="text/css"  href="http://www.digitalroots.io/blog/css/main.css" />
+  <link href="http://www.digitalroots.io" rel="home"></link>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66271023-2', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/html5shiv.js"><\/script>')</script>
+  <![endif]-->
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/blog/">Digital Roots Blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        <a class="page-link" href="http://digitalroots.io/" rel="home">Home</a>
+        
+          
+          <a class="page-link" href="/blog/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+  </div>
+</header>
+
+    
+    <div class="page-content">
+
+    <div style="display: flex; justify-content: center; width: 100%;"><div id="google_translate_element"></div></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+      <div class="wrapper">
+        <div itemscope itemtype="https://schema.org/WebPage" class="post" itemprop="name" content="Digital Roots Blog">
+   <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+      <meta itemprop="url" content="http://www.digitalroots.io/blog/img/">
+      <meta itemprop="width" content="62">
+      <meta itemprop="height" content="60">
+    </div>
+    <meta itemprop="name" content="Digital Roots Blog">
+  </div>
+  <meta itemscope itemprop="mainEntityOfPage"  itemType="http://schema.org/blogpost" itemid="/htaccess-snippets/"/>
+  <div class="post-header">
+
+        <h1 class="post-title" itemprop="headline">.htaccess Snippets</h1>
+
+        
+
+
+      <p class="post-meta"><span>Mar 2, 2017</span> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Robert Edwardes</span></span></p>
+      <meta itemprop="datePublished" content="2017-03-02T00:00:00-05:00" />
+      <meta itemprop="dateModified" content="2017-03-02T07:56:19-05:00" />
+  </div>
+  <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+     
+     
+  </div>
+    
+
+
+    
+
+    <article class="post-content" itemprop="text">
+      
+
+<p>14 min read</p>
+
+
+      <h1 id="htaccess-snippets">.htaccess Snippets</h1>
+<p>A collection of useful .htaccess snippets, all in one place.</p>
+
+<p><strong>NOTE</strong>: <code class="highlighter-rouge">.htaccess</code> files are for people that do not have rights to edit the main server configuration file. They are intrinsically slower and more complicated than using the main config. Please see the <a href="https://httpd.apache.org/docs/current/howto/htaccess.html">howto in the httpd documentation</a> for further details.</p>
+
+<p><strong>Disclaimer</strong>: While dropping the snippet into an <code class="highlighter-rouge">.htaccess</code> file is most of the time sufficient, there are cases when certain modifications might be required. Use at your own risk.</p>
+
+<p><strong>IMPORTANT</strong>: Apache 2.4 introduces a few breaking changes, most notably in access control configuration. For more information, check the <a href="https://httpd.apache.org/docs/2.4/upgrading.html">upgrading document</a> as well as <a href="https://github.com/phanan/htaccess/issues/2">this issue</a>.</p>
+
+<h2 id="credits">Credits</h2>
+<p>What we are doing here is mostly collecting useful snippets from all over the interwebs (for example, a good chunk is from <a href="https://github.com/h5bp/server-configs-apache">Apache Server Configs</a>) into one place. While we’ve been trying to credit where due, things might be missing. If you believe anything here is your work and credits should be given, let us know, or just send a PR.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+  <li><a href="#rewrite-and-redirection">Rewrite and Redirection</a>
+    <ul>
+      <li><a href="#force-www">Force www</a></li>
+      <li><a href="#force-www-in-a-generic-way">Force www in a Generic Way</a></li>
+      <li><a href="#force-non-www">Force non-www</a></li>
+      <li><a href="#force-non-www-in-a-generic-way">Force non-www in a Generic Way</a></li>
+      <li><a href="#force-https">Force HTTPS</a></li>
+      <li><a href="#force-https-behind-a-proxy">Force HTTPS Behind a Proxy</a></li>
+      <li><a href="#force-trailing-slash">Force Trailing Slash</a></li>
+      <li><a href="#remove-trailing-slash">Remove Trailing Slash</a></li>
+      <li><a href="#redirect-a-single-page">Redirect a Single Page</a></li>
+      <li><a href="#redirect-using-redirectmatch">Redirect Using RedirectMatch</a></li>
+      <li><a href="#alias-a-single-directory">Alias a Single Directory</a></li>
+      <li><a href="#alias-paths-to-script">Alias Paths to Script</a></li>
+      <li><a href="#redirect-an-entire-site">Redirect an Entire Site</a></li>
+      <li><a href="#alias-clean-urls">Alias “Clean” URLs</a></li>
+    </ul>
+  </li>
+  <li><a href="#security">Security</a>
+    <ul>
+      <li><a href="#deny-all-access">Deny All Access</a></li>
+      <li><a href="#deny-all-access-except-yours">Deny All Access Except Yours</a></li>
+      <li><a href="#allow-all-access-except-spammers">Allow All Access Except Spammers’</a></li>
+      <li><a href="#deny-access-to-hidden-files-and-directories">Deny Access to Hidden Files and Directories</a></li>
+      <li><a href="#deny-access-to-backup-and-source-files">Deny Access to Backup and Source Files</a></li>
+      <li><a href="#disable-directory-browsing">Disable Directory Browsing</a></li>
+      <li><a href="#disable-image-hotlinking">Disable Image Hotlinking</a></li>
+      <li><a href="#disable-image-hotlinking-for-specific-domains">Disable Image Hotlinking for Specific Domains</a></li>
+      <li><a href="#password-protect-a-directory">Password Protect a Directory</a></li>
+      <li><a href="#password-protect-a-file-or-several-files">Password Protect a File or Several Files</a></li>
+      <li><a href="#block-visitors-by-referrer">Block Visitors by Referrer</a></li>
+      <li><a href="#prevent-framing-the-site">Prevent Framing the Site</a></li>
+    </ul>
+  </li>
+  <li><a href="#performance">Performance</a>
+    <ul>
+      <li><a href="#compress-text-files">Compress Text Files</a></li>
+      <li><a href="#set-expires-headers">Set Expires Headers</a></li>
+      <li><a href="#turn-etags-off">Turn eTags Off</a></li>
+    </ul>
+  </li>
+  <li><a href="#miscellaneous">Miscellaneous</a>
+    <ul>
+      <li><a href="#set-php-variables">Set PHP Variables</a></li>
+      <li><a href="#custom-error-pages">Custom Error Pages</a></li>
+      <li><a href="#force-downloading">Force Downloading</a></li>
+      <li><a href="#prevent-downloading">Prevent Downloading</a></li>
+      <li><a href="#allow-cross-domain-fonts">Allow Cross-Domain Fonts</a></li>
+      <li><a href="#auto-utf-8-encode">Auto UTF-8 Encode</a></li>
+      <li><a href="#switch-to-another-php-version">Switch to Another PHP Version</a></li>
+      <li><a href="#disable-internet-explorer-compatibility-view">Disable Internet Explorer Compatibility View</a></li>
+      <li><a href="#serve-webp-images">Serve WebP Images</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="rewrite-and-redirection">Rewrite and Redirection</h2>
+<p>Note: It is assumed that you have <code class="highlighter-rouge">mod_rewrite</code> installed and enabled.</p>
+
+<h3 id="force-www">Force www</h3>
+<pre><code class="language-apacheconf">RewriteEngine on
+RewriteCond %{HTTP_HOST} ^example\.com [NC]
+RewriteRule ^(.*)$ http://www.example.com/$1 [L,R=301,NC]
+</code></pre>
+
+<h3 id="force-www-in-a-generic-way">Force www in a Generic Way</h3>
+<pre><code class="language-apacheconf">RewriteCond %{HTTP_HOST} !^$
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTPS}s ^on(s)|
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</code></pre>
+<p>This works for <em>any</em> domain. <a href="https://stackoverflow.com/questions/4916222/htaccess-how-to-force-www-in-a-generic-way">Source</a></p>
+
+<h3 id="force-non-www">Force non-www</h3>
+<p>It’s <a href="http://www.sitepoint.com/domain-www-or-no-www/">still</a> <a href="https://devcenter.heroku.com/articles/apex-domains">open</a> <a href="http://yes-www.org/">for</a> <a href="http://no-www.org/">debate</a> whether www or non-www is the way to go, so if you happen to be a fan of bare domains, here you go:
+<code class="highlighter-rouge">apacheconf
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.example\.com [NC]
+RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]
+</code></p>
+
+<h3 id="force-non-www-in-a-generic-way">Force non-www in a Generic Way</h3>
+<pre><code class="language-apacheconf">RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.
+RewriteCond %{HTTPS}s ^on(s)|off
+RewriteCond http%1://%{HTTP_HOST} ^(https?://)(www\.)?(.+)$
+RewriteRule ^ %1%3%{REQUEST_URI} [R=301,L]
+</code></pre>
+
+<h3 id="force-https">Force HTTPS</h3>
+<pre><code class="language-apacheconf">RewriteEngine on
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+# Note: It’s also recommended to enable HTTP Strict Transport Security (HSTS)
+# on your HTTPS website to help prevent man-in-the-middle attacks.
+# See https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security
+&lt;IfModule mod_headers.c&gt;
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+&lt;/IfModule&gt;
+</code></pre>
+
+<h3 id="force-https-behind-a-proxy">Force HTTPS Behind a Proxy</h3>
+<p>Useful if you have a proxy in front of your server performing TLS termination.
+<code class="highlighter-rouge">apacheconf
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+</code></p>
+
+<h3 id="force-trailing-slash">Force Trailing Slash</h3>
+<pre><code class="language-apacheconf">RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+</code></pre>
+
+<h3 id="remove-trailing-slash">Remove Trailing Slash</h3>
+<p>This snippet will redirect paths ending in slashes to their non-slash-terminated counterparts (except for actual directories), e.g. <code class="highlighter-rouge">http://www.example.com/blog/</code> to <code class="highlighter-rouge">http://www.example.com/blog</code>. This is important for SEO, since it’s <a href="http://overit.com/blog/canonical-urls">recommended</a> to have a canonical URL for every page.
+<code class="highlighter-rouge">apacheconf
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+</code>
+<a href="https://stackoverflow.com/questions/21417263/htaccess-add-remove-trailing-slash-from-url#27264788">Source</a></p>
+
+<h3 id="redirect-a-single-page">Redirect a Single Page</h3>
+<pre><code class="language-apacheconf">Redirect 301 /oldpage.html http://www.example.com/newpage.html
+Redirect 301 /oldpage2.html http://www.example.com/folder/
+</code></pre>
+<p><a href="http://css-tricks.com/snippets/htaccess/301-redirects/">Source</a></p>
+
+<h3 id="redirect-using-redirectmatch">Redirect Using RedirectMatch</h3>
+<pre><code class="language-apacheconf">RedirectMatch 301 /subdirectory(.*) http://www.newsite.com/newfolder/$1
+RedirectMatch 301 ^/(.*).htm$ /$1.html
+RedirectMatch 301 ^/200([0-9])/([^01])(.*)$ /$2$3
+RedirectMatch 301 ^/category/(.*)$ /$1
+RedirectMatch 301 ^/(.*)/htaccesselite-ultimate-htaccess-article.html(.*) /htaccess/htaccess.html
+RedirectMatch 301 ^/(.*).html/1/(.*) /$1.html$2
+RedirectMatch 301 ^/manual/(.*)$ http://www.php.net/manual/$1
+RedirectMatch 301 ^/dreamweaver/(.*)$ /tools/$1
+RedirectMatch 301 ^/z/(.*)$ http://static.askapache.com/$1
+</code></pre>
+<p><a href="http://www.askapache.com/htaccess/301-redirect-with-mod_rewrite-or-redirectmatch.html#301_Redirects_RedirectMatch">Source</a></p>
+
+<h3 id="alias-a-single-directory">Alias a Single Directory</h3>
+<pre><code class="language-apacheconf">RewriteEngine On
+RewriteRule ^source-directory/(.*) /target-directory/$1 [R=301,L]
+</code></pre>
+
+<h3 id="alias-paths-to-script">Alias Paths To Script</h3>
+<pre><code class="language-apacheconf">FallbackResource /index.fcgi
+</code></pre>
+<p>This example has an <code class="highlighter-rouge">index.fcgi</code> file in some directory, and any requests within that directory that fail to resolve a filename/directory will be sent to the <code class="highlighter-rouge">index.fcgi</code> script. It’s good if you want <code class="highlighter-rouge">baz.foo/some/cool/path</code> to be handled by <code class="highlighter-rouge">baz.foo/index.fcgi</code> (which also supports requests to <code class="highlighter-rouge">baz.foo</code>) while maintaining <code class="highlighter-rouge">baz.foo/css/style.css</code> and the like. Get access to the original path from the PATH_INFO environment variable, as exposed to your scripting environment.</p>
+
+<pre><code class="language-apacheconf">RewriteEngine On
+RewriteRule ^$ index.fcgi/ [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.fcgi/$1 [QSA,L]
+</code></pre>
+<p>This is a less efficient version of the FallbackResource directive (because using <code class="highlighter-rouge">mod_rewrite</code> is more complex than just handling the <code class="highlighter-rouge">FallbackResource</code> directive), but it’s also more flexible.</p>
+
+<h3 id="redirect-an-entire-site">Redirect an Entire Site</h3>
+<pre><code class="language-apacheconf">Redirect 301 / http://newsite.com/
+</code></pre>
+<p>This way does it with links intact. That is <code class="highlighter-rouge">www.oldsite.com/some/crazy/link.html</code> will become <code class="highlighter-rouge">www.newsite.com/some/crazy/link.html</code>. This is extremely helpful when you are just “moving” a site to a new domain. <a href="http://css-tricks.com/snippets/htaccess/301-redirects/">Source</a></p>
+
+<h3 id="alias-clean-urls">Alias “Clean” URLs</h3>
+<p>This snippet lets you use “clean” URLs – those without a PHP extension, e.g. <code class="highlighter-rouge">example.com/users</code> instead of <code class="highlighter-rouge">example.com/users.php</code>.
+<code class="highlighter-rouge">apacheconf
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+</code>
+<a href="http://www.abeautifulsite.net/access-pages-without-the-php-extension-using-htaccess/">Source</a></p>
+
+<h2 id="security">Security</h2>
+<p>### Deny All Access
+``` apacheconf
+## Apache 2.2
+Deny from all</p>
+
+<h2 id="apache-24">Apache 2.4</h2>
+<p># Require all denied
+```</p>
+
+<p>But wait, this will lock you out from your content as well! Thus introducing…</p>
+
+<h3 id="deny-all-access-except-yours">Deny All Access Except Yours</h3>
+<pre><code class="language-apacheconf">## Apache 2.2
+Order deny,allow
+Deny from all
+Allow from xxx.xxx.xxx.xxx
+
+## Apache 2.4
+# Require all denied
+# Require ip xxx.xxx.xxx.xxx
+</code></pre>
+<p><code class="highlighter-rouge">xxx.xxx.xxx.xxx</code> is your IP. If you replace the last three digits with <code class="highlighter-rouge">0/12</code> for example, this will specify a range of IPs within the same network, thus saving you the trouble to list all allowed IPs separately. <a href="http://speckyboy.com/2013/01/08/useful-htaccess-snippets-and-hacks/">Source</a></p>
+
+<p>Now of course there’s a reversed version:</p>
+
+<h3 id="allow-all-access-except-spammers">Allow All Access Except Spammers’</h3>
+<pre><code class="language-apacheconf">## Apache 2.2
+Order deny,allow
+Deny from xxx.xxx.xxx.xxx
+Deny from xxx.xxx.xxx.xxy
+
+## Apache 2.4
+# Require all granted
+# Require not ip xxx.xxx.xxx.xxx
+# Require not ip xxx.xxx.xxx.xxy
+</code></pre>
+
+<h3 id="deny-access-to-hidden-files-and-directories">Deny Access to Hidden Files and Directories</h3>
+<p>Hidden files and directories (those whose names start with a dot <code class="highlighter-rouge">.</code>) should most, if not all, of the time be secured. For example: <code class="highlighter-rouge">.htaccess</code>, <code class="highlighter-rouge">.htpasswd</code>, <code class="highlighter-rouge">.git</code>, <code class="highlighter-rouge">.hg</code>…
+<code class="highlighter-rouge">apacheconf
+RewriteCond %{SCRIPT_FILENAME} -d [OR]
+RewriteCond %{SCRIPT_FILENAME} -f
+RewriteRule "(^|/)\." - [F]
+</code></p>
+
+<p>Alternatively, you can just raise a “Not Found” error, giving the attacker no clue:
+<code class="highlighter-rouge">apacheconf
+RedirectMatch 404 /\..*$
+</code></p>
+
+<h3 id="deny-access-to-backup-and-source-files">Deny Access to Backup and Source Files</h3>
+<p>These files may be left by some text/HTML editors (like Vi/Vim) and pose a great security danger if exposed to public.
+``` apacheconf
+&lt;FilesMatch “(.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$”&gt;
+    ## Apache 2.2
+    Order allow,deny
+    Deny from all
+    Satisfy All</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>## Apache 2.4
+# Require all denied
+</code></pre>
+</div>
+<p>&lt;/FilesMatch&gt;
+```
+<a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
+
+<h3 id="disable-directory-browsing">Disable Directory Browsing</h3>
+<pre><code class="language-apacheconf">Options All -Indexes
+</code></pre>
+
+<h3 id="disable-image-hotlinking">Disable Image Hotlinking</h3>
+<pre><code class="language-apacheconf">RewriteEngine on
+# Remove the following line if you want to block blank referrer too
+RewriteCond %{HTTP_REFERER} !^$
+
+RewriteCond %{HTTP_REFERER} !^https?://(.+\.)?example.com [NC]
+RewriteRule \.(jpe?g|png|gif|bmp)$ - [NC,F,L]
+
+# If you want to display a “blocked” banner in place of the hotlinked image,
+# replace the above rule with:
+# RewriteRule \.(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]
+</code></pre>
+
+<h3 id="disable-image-hotlinking-for-specific-domains">Disable Image Hotlinking for Specific Domains</h3>
+<p>Sometimes you want to disable image hotlinking from some bad guys only.
+``` apacheconf
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite2.com [NC,OR]
+RewriteRule .(jpe?g|png|gif|bmp)$ - [NC,F,L]</p>
+
+<h1 id="if-you-want-to-display-a-blocked-banner-in-place-of-the-hotlinked-image">If you want to display a “blocked” banner in place of the hotlinked image,</h1>
+<p># replace the above rule with:
+# RewriteRule .(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]
+```</p>
+
+<h3 id="password-protect-a-directory">Password Protect a Directory</h3>
+<p>First you need to create a <code class="highlighter-rouge">.htpasswd</code> file somewhere in the system:
+<code class="highlighter-rouge">bash
+htpasswd -c /home/fellowship/.htpasswd boromir
+</code></p>
+
+<p>Then you can use it for authentication:
+<code class="highlighter-rouge">apacheconf
+AuthType Basic
+AuthName "One does not simply"
+AuthUserFile /home/fellowship/.htpasswd
+Require valid-user
+</code></p>
+
+<h3 id="password-protect-a-file-or-several-files">Password Protect a File or Several Files</h3>
+<pre><code class="language-apacheconf">AuthName "One still does not simply"
+AuthType Basic
+AuthUserFile /home/fellowship/.htpasswd
+
+&lt;Files "one-ring.o"&gt;
+Require valid-user
+&lt;/Files&gt;
+
+&lt;FilesMatch ^((one|two|three)-rings?\.o)$&gt;
+Require valid-user
+&lt;/FilesMatch&gt;
+</code></pre>
+
+<h3 id="block-visitors-by-referrer">Block Visitors by Referrer</h3>
+<p>This denies access for all users who are coming from (referred by) a specific domain.
+<a href="http://www.htaccess-guide.com/deny-visitors-by-referrer/">Source</a>
+<code class="highlighter-rouge">apacheconf
+RewriteEngine on
+# Options +FollowSymlinks
+RewriteCond %{HTTP_REFERER} somedomain\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} anotherdomain\.com
+RewriteRule .* - [F]
+</code></p>
+
+<h3 id="prevent-framing-the-site">Prevent Framing the Site</h3>
+<p>This prevents the website to be framed (i.e. put into an <code class="highlighter-rouge">iframe</code> tag), when still allows framing for a specific URI.
+<code class="highlighter-rouge">apacheconf
+SetEnvIf Request_URI "/starry-night" allow_framing=true
+Header set X-Frame-Options SAMEORIGIN env=!allow_framing
+</code></p>
+
+<h2 id="performance">Performance</h2>
+<p>### Compress Text Files
+``` apacheconf</p>
+<ifmodule mod_deflate.c="">
+
+    # Force compression for mangled headers.
+    # https://developer.yahoo.com/blogs/ydn/pushing-beyond-gzipping-25601.html
+    <ifmodule mod_setenvif.c="">
+        <ifmodule mod_headers.c="">
+            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+        </ifmodule>
+    </ifmodule>
+
+    # Compress all output labeled with one of the following MIME-types
+    # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`
+    #  and can remove the `<ifmodule mod_filter.c="">` and `</ifmodule>` lines
+    #  as `AddOutputFilterByType` is still in the core directives).
+    <ifmodule mod_filter.c="">
+        AddOutputFilterByType DEFLATE application/atom+xml \
+                                      application/javascript \
+                                      application/json \
+                                      application/rss+xml \
+                                      application/vnd.ms-fontobject \
+                                      application/x-font-ttf \
+                                      application/x-web-app-manifest+json \
+                                      application/xhtml+xml \
+                                      application/xml \
+                                      font/opentype \
+                                      image/svg+xml \
+                                      image/x-icon \
+                                      text/css \
+                                      text/html \
+                                      text/plain \
+                                      text/x-component \
+                                      text/xml
+    </ifmodule>
+
+</ifmodule>
+<div class="highlighter-rouge"><pre class="highlight"><code>[Source](https://github.com/h5bp/server-configs-apache)
+
+
+### Set Expires Headers
+_Expires headers_ tell the browser whether they should request a specific file from the server or just grab it from the cache. It is advisable to set static content's expires headers to something far in the future.
+
+If you don’t control versioning with filename-based cache busting, consider lowering the cache time for resources like CSS and JS to something like 1 week. [Source](https://github.com/h5bp/server-configs-apache)
+``` apacheconf
+&lt;IfModule mod_expires.c&gt;
+    ExpiresActive on
+    ExpiresDefault                                      "access plus 1 month"
+
+  # CSS
+    ExpiresByType text/css                              "access plus 1 year"
+
+  # Data interchange
+    ExpiresByType application/json                      "access plus 0 seconds"
+    ExpiresByType application/xml                       "access plus 0 seconds"
+    ExpiresByType text/xml                              "access plus 0 seconds"
+
+  # Favicon (cannot be renamed!)
+    ExpiresByType image/x-icon                          "access plus 1 week"
+
+  # HTML components (HTCs)
+    ExpiresByType text/x-component                      "access plus 1 month"
+
+  # HTML
+    ExpiresByType text/html                             "access plus 0 seconds"
+
+  # JavaScript
+    ExpiresByType application/javascript                "access plus 1 year"
+
+  # Manifest files
+    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+
+  # Media
+    ExpiresByType audio/ogg                             "access plus 1 month"
+    ExpiresByType image/gif                             "access plus 1 month"
+    ExpiresByType image/jpeg                            "access plus 1 month"
+    ExpiresByType image/png                             "access plus 1 month"
+    ExpiresByType video/mp4                             "access plus 1 month"
+    ExpiresByType video/ogg                             "access plus 1 month"
+    ExpiresByType video/webm                            "access plus 1 month"
+
+  # Web feeds
+    ExpiresByType application/atom+xml                  "access plus 1 hour"
+    ExpiresByType application/rss+xml                   "access plus 1 hour"
+
+  # Web fonts
+    ExpiresByType application/font-woff2                "access plus 1 month"
+    ExpiresByType application/font-woff                 "access plus 1 month"
+    ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+    ExpiresByType application/x-font-ttf                "access plus 1 month"
+    ExpiresByType font/opentype                         "access plus 1 month"
+    ExpiresByType image/svg+xml                         "access plus 1 month"
+&lt;/IfModule&gt;
+</code></pre>
+</div>
+
+<h3 id="turn-etags-off">Turn eTags Off</h3>
+<p>By removing the <code class="highlighter-rouge">ETag</code> header, you disable caches and browsers from being able to validate files, so they are forced to rely on your <code class="highlighter-rouge">Cache-Control</code> and <code class="highlighter-rouge">Expires</code> header. <a href="http://www.askapache.com/htaccess/apache-speed-etags.html">Source</a>
+``` apacheconf</p>
+<ifmodule mod_headers.c="">
+    Header unset ETag
+</ifmodule>
+<p>FileETag None
+```</p>
+
+<h2 id="miscellaneous">Miscellaneous</h2>
+
+<h3 id="set-php-variables">Set PHP Variables</h3>
+<pre><code class="language-apacheconf">php_value &lt;key&gt; &lt;val&gt;
+
+# For example:
+php_value upload_max_filesize 50M
+php_value max_execution_time 240
+</code></pre>
+
+<h3 id="custom-error-pages">Custom Error Pages</h3>
+<pre><code class="language-apacheconf">ErrorDocument 500 "Houston, we have a problem."
+ErrorDocument 401 http://error.example.com/mordor.html
+ErrorDocument 404 /errors/halflife3.html
+</code></pre>
+
+<h3 id="force-downloading">Force Downloading</h3>
+<p>Sometimes you want to force the browser to download some content instead of displaying it.
+<code class="highlighter-rouge">apacheconf
+&lt;Files *.md&gt;
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+&lt;/Files&gt;
+</code></p>
+
+<p>Now there is a yang to this yin:</p>
+
+<h3 id="prevent-downloading">Prevent Downloading</h3>
+<p>Sometimes you want to force the browser to display some content instead of downloading it.
+<code class="highlighter-rouge">apacheconf
+&lt;FilesMatch "\.(tex|log|aux)$"&gt;
+    Header set Content-Type text/plain
+&lt;/FilesMatch&gt;
+</code></p>
+
+<h3 id="allow-cross-domain-fonts">Allow Cross-Domain Fonts</h3>
+<p>CDN-served webfonts might not work in Firefox or IE due to <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>. This snippet solves the problem.
+``` apacheconf</p>
+<ifmodule mod_headers.c="">
+    &lt;FilesMatch "\.(eot|otf|ttc|ttf|woff|woff2)$"&gt;
+        Header set Access-Control-Allow-Origin "*"
+    
+</ifmodule>
+<div class="highlighter-rouge"><pre class="highlight"><code>[Source](https://github.com/h5bp/server-configs-apache/issues/32)
+
+### Auto UTF-8 Encode
+Your text content should always be UTF-8 encoded, no?
+``` apacheconf
+# Use UTF-8 encoding for anything served text/plain or text/html
+AddDefaultCharset utf-8
+
+# Force UTF-8 for a number of file formats
+AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
+</code></pre>
+</div>
+<p><a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
+
+<h3 id="switch-to-another-php-version">Switch to Another PHP Version</h3>
+<p>If you’re on a shared host, chances are there are more than one version of PHP installed, and sometimes you want a specific version for your website. The following snippet should switch the PHP version for you.</p>
+
+<pre><code class="language-apacheconf">AddHandler application/x-httpd-php56 .php
+
+# Alternatively, you can use AddType
+AddType application/x-httpd-php56 .php
+</code></pre>
+
+<h3 id="disable-internet-explorer-compatibility-view">Disable Internet Explorer Compatibility View</h3>
+<p>Compatibility View in IE may affect how some websites are displayed. The following snippet should force IE to use the Edge Rendering Engine and disable the Compatibility View.</p>
+
+<pre><code class="language-apacheconf">&lt;IfModule mod_headers.c&gt;
+    BrowserMatch MSIE is-msie
+    Header set X-UA-Compatible IE=edge env=is-msie
+&lt;/IfModule&gt;
+</code></pre>
+
+<h3 id="serve-webp-images">Serve WebP Images</h3>
+<p>If <a href="https://developers.google.com/speed/webp/?csw=1">WebP images</a> are supported and an image with a .webp extension and the same name is found at the same place as the jpg/png image that is going to be served, then the WebP image is served instead.</p>
+
+<pre><code class="language-apacheconf">RewriteEngine On
+RewriteCond %{HTTP_ACCEPT} image/webp
+RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
+RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
+</code></pre>
+<p><a href="https://github.com/vincentorback/WebP-images-with-htaccess">Source</a></p>
+
+    </article>
+
+      <!-- Twitter Tweet Button -->
+      <a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="_DigitalRoots" data-size="large">Tweet</a>
+    <div class="PageNavigation">
+  
+    <div>
+      <a class="prev" href="/blog/finding-influencer-digital-fundraising-part-2/">&laquo; Finding Influencers: Digital Fundraising (2 of 3)</a>
+    </div>
+  
+  
+  </div>
+      <!-- Comment Section -->
+    
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'grassrootsblog';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Digital Roots Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Digital Roots Blog</li>
+          <li><a href="mailto:webmaster@digitalroots.io">webmaster@digitalroots.io</a></li>
+          <li><a href="../sitemap.html">sitemap</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/Digital-Roots"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">Digital-Roots</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/_DigitalRoots"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">_DigitalRoots</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Engaging activities and voter through cutting edge digital and grassroots strategies. That deliver the hardest fought elections</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

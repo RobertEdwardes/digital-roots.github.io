@@ -5,29 +5,563 @@
     <description>Engaging activities and voter through cutting edge digital and grassroots strategies. That deliver the hardest fought elections</description>
     <link>http://www.digitalroots.io/blog/</link>
     <atom:link href="http://www.digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Feb 2017 11:06:42 -0500</pubDate>
-    <lastBuildDate>Mon, 27 Feb 2017 11:06:42 -0500</lastBuildDate>
+    <pubDate>Thu, 02 Mar 2017 07:56:19 -0500</pubDate>
+    <lastBuildDate>Thu, 02 Mar 2017 07:56:19 -0500</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>.htaccess Snippets</title>
+        <description>&lt;h1 id=&quot;htaccess-snippets&quot;&gt;.htaccess Snippets&lt;/h1&gt;
+&lt;p&gt;A collection of useful .htaccess snippets, all in one place.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; files are for people that do not have rights to edit the main server configuration file. They are intrinsically slower and more complicated than using the main config. Please see the &lt;a href=&quot;https://httpd.apache.org/docs/current/howto/htaccess.html&quot;&gt;howto in the httpd documentation&lt;/a&gt; for further details.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: While dropping the snippet into an &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file is most of the time sufficient, there are cases when certain modifications might be required. Use at your own risk.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Apache 2.4 introduces a few breaking changes, most notably in access control configuration. For more information, check the &lt;a href=&quot;https://httpd.apache.org/docs/2.4/upgrading.html&quot;&gt;upgrading document&lt;/a&gt; as well as &lt;a href=&quot;https://github.com/phanan/htaccess/issues/2&quot;&gt;this issue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
+&lt;p&gt;What we are doing here is mostly collecting useful snippets from all over the interwebs (for example, a good chunk is from &lt;a href=&quot;https://github.com/h5bp/server-configs-apache&quot;&gt;Apache Server Configs&lt;/a&gt;) into one place. While we’ve been trying to credit where due, things might be missing. If you believe anything here is your work and credits should be given, let us know, or just send a PR.&lt;/p&gt;
+
+&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#rewrite-and-redirection&quot;&gt;Rewrite and Redirection&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#force-www&quot;&gt;Force www&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#force-www-in-a-generic-way&quot;&gt;Force www in a Generic Way&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#force-non-www&quot;&gt;Force non-www&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#force-non-www-in-a-generic-way&quot;&gt;Force non-www in a Generic Way&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#force-https&quot;&gt;Force HTTPS&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#force-https-behind-a-proxy&quot;&gt;Force HTTPS Behind a Proxy&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#force-trailing-slash&quot;&gt;Force Trailing Slash&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#remove-trailing-slash&quot;&gt;Remove Trailing Slash&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#redirect-a-single-page&quot;&gt;Redirect a Single Page&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#redirect-using-redirectmatch&quot;&gt;Redirect Using RedirectMatch&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#alias-a-single-directory&quot;&gt;Alias a Single Directory&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#alias-paths-to-script&quot;&gt;Alias Paths to Script&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#redirect-an-entire-site&quot;&gt;Redirect an Entire Site&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#alias-clean-urls&quot;&gt;Alias “Clean” URLs&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#security&quot;&gt;Security&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#deny-all-access&quot;&gt;Deny All Access&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#deny-all-access-except-yours&quot;&gt;Deny All Access Except Yours&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#allow-all-access-except-spammers&quot;&gt;Allow All Access Except Spammers’&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#deny-access-to-hidden-files-and-directories&quot;&gt;Deny Access to Hidden Files and Directories&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#deny-access-to-backup-and-source-files&quot;&gt;Deny Access to Backup and Source Files&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#disable-directory-browsing&quot;&gt;Disable Directory Browsing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#disable-image-hotlinking&quot;&gt;Disable Image Hotlinking&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#disable-image-hotlinking-for-specific-domains&quot;&gt;Disable Image Hotlinking for Specific Domains&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#password-protect-a-directory&quot;&gt;Password Protect a Directory&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#password-protect-a-file-or-several-files&quot;&gt;Password Protect a File or Several Files&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#block-visitors-by-referrer&quot;&gt;Block Visitors by Referrer&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#prevent-framing-the-site&quot;&gt;Prevent Framing the Site&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#performance&quot;&gt;Performance&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#compress-text-files&quot;&gt;Compress Text Files&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#set-expires-headers&quot;&gt;Set Expires Headers&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#turn-etags-off&quot;&gt;Turn eTags Off&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#miscellaneous&quot;&gt;Miscellaneous&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#set-php-variables&quot;&gt;Set PHP Variables&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#custom-error-pages&quot;&gt;Custom Error Pages&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#force-downloading&quot;&gt;Force Downloading&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#prevent-downloading&quot;&gt;Prevent Downloading&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#allow-cross-domain-fonts&quot;&gt;Allow Cross-Domain Fonts&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#auto-utf-8-encode&quot;&gt;Auto UTF-8 Encode&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#switch-to-another-php-version&quot;&gt;Switch to Another PHP Version&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#disable-internet-explorer-compatibility-view&quot;&gt;Disable Internet Explorer Compatibility View&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#serve-webp-images&quot;&gt;Serve WebP Images&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rewrite-and-redirection&quot;&gt;Rewrite and Redirection&lt;/h2&gt;
+&lt;p&gt;Note: It is assumed that you have &lt;code class=&quot;highlighter-rouge&quot;&gt;mod_rewrite&lt;/code&gt; installed and enabled.&lt;/p&gt;
+
+&lt;h3 id=&quot;force-www&quot;&gt;Force www&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine on
+RewriteCond %{HTTP_HOST} ^example\.com [NC]
+RewriteRule ^(.*)$ http://www.example.com/$1 [L,R=301,NC]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;force-www-in-a-generic-way&quot;&gt;Force www in a Generic Way&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteCond %{HTTP_HOST} !^$
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTPS}s ^on(s)|
+RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This works for &lt;em&gt;any&lt;/em&gt; domain. &lt;a href=&quot;https://stackoverflow.com/questions/4916222/htaccess-how-to-force-www-in-a-generic-way&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;force-non-www&quot;&gt;Force non-www&lt;/h3&gt;
+&lt;p&gt;It’s &lt;a href=&quot;http://www.sitepoint.com/domain-www-or-no-www/&quot;&gt;still&lt;/a&gt; &lt;a href=&quot;https://devcenter.heroku.com/articles/apex-domains&quot;&gt;open&lt;/a&gt; &lt;a href=&quot;http://yes-www.org/&quot;&gt;for&lt;/a&gt; &lt;a href=&quot;http://no-www.org/&quot;&gt;debate&lt;/a&gt; whether www or non-www is the way to go, so if you happen to be a fan of bare domains, here you go:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.example\.com [NC]
+RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;force-non-www-in-a-generic-way&quot;&gt;Force non-www in a Generic Way&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.
+RewriteCond %{HTTPS}s ^on(s)|off
+RewriteCond http%1://%{HTTP_HOST} ^(https?://)(www\.)?(.+)$
+RewriteRule ^ %1%3%{REQUEST_URI} [R=301,L]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;force-https&quot;&gt;Force HTTPS&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine on
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+# Note: It’s also recommended to enable HTTP Strict Transport Security (HSTS)
+# on your HTTPS website to help prevent man-in-the-middle attacks.
+# See https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security
+&amp;lt;IfModule mod_headers.c&amp;gt;
+    Header always set Strict-Transport-Security &quot;max-age=31536000; includeSubDomains&quot;
+&amp;lt;/IfModule&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;force-https-behind-a-proxy&quot;&gt;Force HTTPS Behind a Proxy&lt;/h3&gt;
+&lt;p&gt;Useful if you have a proxy in front of your server performing TLS termination.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;force-trailing-slash&quot;&gt;Force Trailing Slash&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;remove-trailing-slash&quot;&gt;Remove Trailing Slash&lt;/h3&gt;
+&lt;p&gt;This snippet will redirect paths ending in slashes to their non-slash-terminated counterparts (except for actual directories), e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.example.com/blog/&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;http://www.example.com/blog&lt;/code&gt;. This is important for SEO, since it’s &lt;a href=&quot;http://overit.com/blog/canonical-urls&quot;&gt;recommended&lt;/a&gt; to have a canonical URL for every page.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+&lt;/code&gt;
+&lt;a href=&quot;https://stackoverflow.com/questions/21417263/htaccess-add-remove-trailing-slash-from-url#27264788&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;redirect-a-single-page&quot;&gt;Redirect a Single Page&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;Redirect 301 /oldpage.html http://www.example.com/newpage.html
+Redirect 301 /oldpage2.html http://www.example.com/folder/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;http://css-tricks.com/snippets/htaccess/301-redirects/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;redirect-using-redirectmatch&quot;&gt;Redirect Using RedirectMatch&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RedirectMatch 301 /subdirectory(.*) http://www.newsite.com/newfolder/$1
+RedirectMatch 301 ^/(.*).htm$ /$1.html
+RedirectMatch 301 ^/200([0-9])/([^01])(.*)$ /$2$3
+RedirectMatch 301 ^/category/(.*)$ /$1
+RedirectMatch 301 ^/(.*)/htaccesselite-ultimate-htaccess-article.html(.*) /htaccess/htaccess.html
+RedirectMatch 301 ^/(.*).html/1/(.*) /$1.html$2
+RedirectMatch 301 ^/manual/(.*)$ http://www.php.net/manual/$1
+RedirectMatch 301 ^/dreamweaver/(.*)$ /tools/$1
+RedirectMatch 301 ^/z/(.*)$ http://static.askapache.com/$1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.askapache.com/htaccess/301-redirect-with-mod_rewrite-or-redirectmatch.html#301_Redirects_RedirectMatch&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;alias-a-single-directory&quot;&gt;Alias a Single Directory&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine On
+RewriteRule ^source-directory/(.*) /target-directory/$1 [R=301,L]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;alias-paths-to-script&quot;&gt;Alias Paths To Script&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;FallbackResource /index.fcgi
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This example has an &lt;code class=&quot;highlighter-rouge&quot;&gt;index.fcgi&lt;/code&gt; file in some directory, and any requests within that directory that fail to resolve a filename/directory will be sent to the &lt;code class=&quot;highlighter-rouge&quot;&gt;index.fcgi&lt;/code&gt; script. It’s good if you want &lt;code class=&quot;highlighter-rouge&quot;&gt;baz.foo/some/cool/path&lt;/code&gt; to be handled by &lt;code class=&quot;highlighter-rouge&quot;&gt;baz.foo/index.fcgi&lt;/code&gt; (which also supports requests to &lt;code class=&quot;highlighter-rouge&quot;&gt;baz.foo&lt;/code&gt;) while maintaining &lt;code class=&quot;highlighter-rouge&quot;&gt;baz.foo/css/style.css&lt;/code&gt; and the like. Get access to the original path from the PATH_INFO environment variable, as exposed to your scripting environment.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine On
+RewriteRule ^$ index.fcgi/ [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.fcgi/$1 [QSA,L]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is a less efficient version of the FallbackResource directive (because using &lt;code class=&quot;highlighter-rouge&quot;&gt;mod_rewrite&lt;/code&gt; is more complex than just handling the &lt;code class=&quot;highlighter-rouge&quot;&gt;FallbackResource&lt;/code&gt; directive), but it’s also more flexible.&lt;/p&gt;
+
+&lt;h3 id=&quot;redirect-an-entire-site&quot;&gt;Redirect an Entire Site&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;Redirect 301 / http://newsite.com/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This way does it with links intact. That is &lt;code class=&quot;highlighter-rouge&quot;&gt;www.oldsite.com/some/crazy/link.html&lt;/code&gt; will become &lt;code class=&quot;highlighter-rouge&quot;&gt;www.newsite.com/some/crazy/link.html&lt;/code&gt;. This is extremely helpful when you are just “moving” a site to a new domain. &lt;a href=&quot;http://css-tricks.com/snippets/htaccess/301-redirects/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;alias-clean-urls&quot;&gt;Alias “Clean” URLs&lt;/h3&gt;
+&lt;p&gt;This snippet lets you use “clean” URLs – those without a PHP extension, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com/users&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com/users.php&lt;/code&gt;.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+&lt;/code&gt;
+&lt;a href=&quot;http://www.abeautifulsite.net/access-pages-without-the-php-extension-using-htaccess/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;### Deny All Access
+``` apacheconf
+## Apache 2.2
+Deny from all&lt;/p&gt;
+
+&lt;h2 id=&quot;apache-24&quot;&gt;Apache 2.4&lt;/h2&gt;
+&lt;p&gt;# Require all denied
+```&lt;/p&gt;
+
+&lt;p&gt;But wait, this will lock you out from your content as well! Thus introducing…&lt;/p&gt;
+
+&lt;h3 id=&quot;deny-all-access-except-yours&quot;&gt;Deny All Access Except Yours&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;## Apache 2.2
+Order deny,allow
+Deny from all
+Allow from xxx.xxx.xxx.xxx
+
+## Apache 2.4
+# Require all denied
+# Require ip xxx.xxx.xxx.xxx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xxx.xxx.xxx.xxx&lt;/code&gt; is your IP. If you replace the last three digits with &lt;code class=&quot;highlighter-rouge&quot;&gt;0/12&lt;/code&gt; for example, this will specify a range of IPs within the same network, thus saving you the trouble to list all allowed IPs separately. &lt;a href=&quot;http://speckyboy.com/2013/01/08/useful-htaccess-snippets-and-hacks/&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now of course there’s a reversed version:&lt;/p&gt;
+
+&lt;h3 id=&quot;allow-all-access-except-spammers&quot;&gt;Allow All Access Except Spammers’&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;## Apache 2.2
+Order deny,allow
+Deny from xxx.xxx.xxx.xxx
+Deny from xxx.xxx.xxx.xxy
+
+## Apache 2.4
+# Require all granted
+# Require not ip xxx.xxx.xxx.xxx
+# Require not ip xxx.xxx.xxx.xxy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;deny-access-to-hidden-files-and-directories&quot;&gt;Deny Access to Hidden Files and Directories&lt;/h3&gt;
+&lt;p&gt;Hidden files and directories (those whose names start with a dot &lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;) should most, if not all, of the time be secured. For example: &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.htpasswd&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.git&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.hg&lt;/code&gt;…
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+RewriteCond %{SCRIPT_FILENAME} -d [OR]
+RewriteCond %{SCRIPT_FILENAME} -f
+RewriteRule &quot;(^|/)\.&quot; - [F]
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Alternatively, you can just raise a “Not Found” error, giving the attacker no clue:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+RedirectMatch 404 /\..*$
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;deny-access-to-backup-and-source-files&quot;&gt;Deny Access to Backup and Source Files&lt;/h3&gt;
+&lt;p&gt;These files may be left by some text/HTML editors (like Vi/Vim) and pose a great security danger if exposed to public.
+``` apacheconf
+&amp;lt;FilesMatch “(.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$”&amp;gt;
+    ## Apache 2.2
+    Order allow,deny
+    Deny from all
+    Satisfy All&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## Apache 2.4
+# Require all denied
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;lt;/FilesMatch&amp;gt;
+```
+&lt;a href=&quot;https://github.com/h5bp/server-configs-apache&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;disable-directory-browsing&quot;&gt;Disable Directory Browsing&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;Options All -Indexes
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;disable-image-hotlinking&quot;&gt;Disable Image Hotlinking&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine on
+# Remove the following line if you want to block blank referrer too
+RewriteCond %{HTTP_REFERER} !^$
+
+RewriteCond %{HTTP_REFERER} !^https?://(.+\.)?example.com [NC]
+RewriteRule \.(jpe?g|png|gif|bmp)$ - [NC,F,L]
+
+# If you want to display a “blocked” banner in place of the hotlinked image,
+# replace the above rule with:
+# RewriteRule \.(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;disable-image-hotlinking-for-specific-domains&quot;&gt;Disable Image Hotlinking for Specific Domains&lt;/h3&gt;
+&lt;p&gt;Sometimes you want to disable image hotlinking from some bad guys only.
+``` apacheconf
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite2.com [NC,OR]
+RewriteRule .(jpe?g|png|gif|bmp)$ - [NC,F,L]&lt;/p&gt;
+
+&lt;h1 id=&quot;if-you-want-to-display-a-blocked-banner-in-place-of-the-hotlinked-image&quot;&gt;If you want to display a “blocked” banner in place of the hotlinked image,&lt;/h1&gt;
+&lt;p&gt;# replace the above rule with:
+# RewriteRule .(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]
+```&lt;/p&gt;
+
+&lt;h3 id=&quot;password-protect-a-directory&quot;&gt;Password Protect a Directory&lt;/h3&gt;
+&lt;p&gt;First you need to create a &lt;code class=&quot;highlighter-rouge&quot;&gt;.htpasswd&lt;/code&gt; file somewhere in the system:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;bash
+htpasswd -c /home/fellowship/.htpasswd boromir
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you can use it for authentication:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+AuthType Basic
+AuthName &quot;One does not simply&quot;
+AuthUserFile /home/fellowship/.htpasswd
+Require valid-user
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;password-protect-a-file-or-several-files&quot;&gt;Password Protect a File or Several Files&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;AuthName &quot;One still does not simply&quot;
+AuthType Basic
+AuthUserFile /home/fellowship/.htpasswd
+
+&amp;lt;Files &quot;one-ring.o&quot;&amp;gt;
+Require valid-user
+&amp;lt;/Files&amp;gt;
+
+&amp;lt;FilesMatch ^((one|two|three)-rings?\.o)$&amp;gt;
+Require valid-user
+&amp;lt;/FilesMatch&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;block-visitors-by-referrer&quot;&gt;Block Visitors by Referrer&lt;/h3&gt;
+&lt;p&gt;This denies access for all users who are coming from (referred by) a specific domain.
+&lt;a href=&quot;http://www.htaccess-guide.com/deny-visitors-by-referrer/&quot;&gt;Source&lt;/a&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+RewriteEngine on
+# Options +FollowSymlinks
+RewriteCond %{HTTP_REFERER} somedomain\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} anotherdomain\.com
+RewriteRule .* - [F]
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;prevent-framing-the-site&quot;&gt;Prevent Framing the Site&lt;/h3&gt;
+&lt;p&gt;This prevents the website to be framed (i.e. put into an &lt;code class=&quot;highlighter-rouge&quot;&gt;iframe&lt;/code&gt; tag), when still allows framing for a specific URI.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+SetEnvIf Request_URI &quot;/starry-night&quot; allow_framing=true
+Header set X-Frame-Options SAMEORIGIN env=!allow_framing
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;performance&quot;&gt;Performance&lt;/h2&gt;
+&lt;p&gt;### Compress Text Files
+``` apacheconf&lt;/p&gt;
+&lt;ifmodule mod_deflate.c=&quot;&quot;&gt;
+
+    # Force compression for mangled headers.
+    # https://developer.yahoo.com/blogs/ydn/pushing-beyond-gzipping-25601.html
+    &lt;ifmodule mod_setenvif.c=&quot;&quot;&gt;
+        &lt;ifmodule mod_headers.c=&quot;&quot;&gt;
+            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            RequestHeader append Accept-Encoding &quot;gzip,deflate&quot; env=HAVE_Accept-Encoding
+        &lt;/ifmodule&gt;
+    &lt;/ifmodule&gt;
+
+    # Compress all output labeled with one of the following MIME-types
+    # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`
+    #  and can remove the `&lt;ifmodule mod_filter.c=&quot;&quot;&gt;` and `&lt;/ifmodule&gt;` lines
+    #  as `AddOutputFilterByType` is still in the core directives).
+    &lt;ifmodule mod_filter.c=&quot;&quot;&gt;
+        AddOutputFilterByType DEFLATE application/atom+xml \
+                                      application/javascript \
+                                      application/json \
+                                      application/rss+xml \
+                                      application/vnd.ms-fontobject \
+                                      application/x-font-ttf \
+                                      application/x-web-app-manifest+json \
+                                      application/xhtml+xml \
+                                      application/xml \
+                                      font/opentype \
+                                      image/svg+xml \
+                                      image/x-icon \
+                                      text/css \
+                                      text/html \
+                                      text/plain \
+                                      text/x-component \
+                                      text/xml
+    &lt;/ifmodule&gt;
+
+&lt;/ifmodule&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Source](https://github.com/h5bp/server-configs-apache)
+
+
+### Set Expires Headers
+_Expires headers_ tell the browser whether they should request a specific file from the server or just grab it from the cache. It is advisable to set static content's expires headers to something far in the future.
+
+If you don’t control versioning with filename-based cache busting, consider lowering the cache time for resources like CSS and JS to something like 1 week. [Source](https://github.com/h5bp/server-configs-apache)
+``` apacheconf
+&amp;lt;IfModule mod_expires.c&amp;gt;
+    ExpiresActive on
+    ExpiresDefault                                      &quot;access plus 1 month&quot;
+
+  # CSS
+    ExpiresByType text/css                              &quot;access plus 1 year&quot;
+
+  # Data interchange
+    ExpiresByType application/json                      &quot;access plus 0 seconds&quot;
+    ExpiresByType application/xml                       &quot;access plus 0 seconds&quot;
+    ExpiresByType text/xml                              &quot;access plus 0 seconds&quot;
+
+  # Favicon (cannot be renamed!)
+    ExpiresByType image/x-icon                          &quot;access plus 1 week&quot;
+
+  # HTML components (HTCs)
+    ExpiresByType text/x-component                      &quot;access plus 1 month&quot;
+
+  # HTML
+    ExpiresByType text/html                             &quot;access plus 0 seconds&quot;
+
+  # JavaScript
+    ExpiresByType application/javascript                &quot;access plus 1 year&quot;
+
+  # Manifest files
+    ExpiresByType application/x-web-app-manifest+json   &quot;access plus 0 seconds&quot;
+    ExpiresByType text/cache-manifest                   &quot;access plus 0 seconds&quot;
+
+  # Media
+    ExpiresByType audio/ogg                             &quot;access plus 1 month&quot;
+    ExpiresByType image/gif                             &quot;access plus 1 month&quot;
+    ExpiresByType image/jpeg                            &quot;access plus 1 month&quot;
+    ExpiresByType image/png                             &quot;access plus 1 month&quot;
+    ExpiresByType video/mp4                             &quot;access plus 1 month&quot;
+    ExpiresByType video/ogg                             &quot;access plus 1 month&quot;
+    ExpiresByType video/webm                            &quot;access plus 1 month&quot;
+
+  # Web feeds
+    ExpiresByType application/atom+xml                  &quot;access plus 1 hour&quot;
+    ExpiresByType application/rss+xml                   &quot;access plus 1 hour&quot;
+
+  # Web fonts
+    ExpiresByType application/font-woff2                &quot;access plus 1 month&quot;
+    ExpiresByType application/font-woff                 &quot;access plus 1 month&quot;
+    ExpiresByType application/vnd.ms-fontobject         &quot;access plus 1 month&quot;
+    ExpiresByType application/x-font-ttf                &quot;access plus 1 month&quot;
+    ExpiresByType font/opentype                         &quot;access plus 1 month&quot;
+    ExpiresByType image/svg+xml                         &quot;access plus 1 month&quot;
+&amp;lt;/IfModule&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;turn-etags-off&quot;&gt;Turn eTags Off&lt;/h3&gt;
+&lt;p&gt;By removing the &lt;code class=&quot;highlighter-rouge&quot;&gt;ETag&lt;/code&gt; header, you disable caches and browsers from being able to validate files, so they are forced to rely on your &lt;code class=&quot;highlighter-rouge&quot;&gt;Cache-Control&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Expires&lt;/code&gt; header. &lt;a href=&quot;http://www.askapache.com/htaccess/apache-speed-etags.html&quot;&gt;Source&lt;/a&gt;
+``` apacheconf&lt;/p&gt;
+&lt;ifmodule mod_headers.c=&quot;&quot;&gt;
+    Header unset ETag
+&lt;/ifmodule&gt;
+&lt;p&gt;FileETag None
+```&lt;/p&gt;
+
+&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
+
+&lt;h3 id=&quot;set-php-variables&quot;&gt;Set PHP Variables&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;php_value &amp;lt;key&amp;gt; &amp;lt;val&amp;gt;
+
+# For example:
+php_value upload_max_filesize 50M
+php_value max_execution_time 240
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;custom-error-pages&quot;&gt;Custom Error Pages&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;ErrorDocument 500 &quot;Houston, we have a problem.&quot;
+ErrorDocument 401 http://error.example.com/mordor.html
+ErrorDocument 404 /errors/halflife3.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;force-downloading&quot;&gt;Force Downloading&lt;/h3&gt;
+&lt;p&gt;Sometimes you want to force the browser to download some content instead of displaying it.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+&amp;lt;Files *.md&amp;gt;
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+&amp;lt;/Files&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now there is a yang to this yin:&lt;/p&gt;
+
+&lt;h3 id=&quot;prevent-downloading&quot;&gt;Prevent Downloading&lt;/h3&gt;
+&lt;p&gt;Sometimes you want to force the browser to display some content instead of downloading it.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;apacheconf
+&amp;lt;FilesMatch &quot;\.(tex|log|aux)$&quot;&amp;gt;
+    Header set Content-Type text/plain
+&amp;lt;/FilesMatch&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;allow-cross-domain-fonts&quot;&gt;Allow Cross-Domain Fonts&lt;/h3&gt;
+&lt;p&gt;CDN-served webfonts might not work in Firefox or IE due to &lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-origin_resource_sharing&quot;&gt;CORS&lt;/a&gt;. This snippet solves the problem.
+``` apacheconf&lt;/p&gt;
+&lt;ifmodule mod_headers.c=&quot;&quot;&gt;
+    &amp;lt;FilesMatch &quot;\.(eot|otf|ttc|ttf|woff|woff2)$&quot;&amp;gt;
+        Header set Access-Control-Allow-Origin &quot;*&quot;
+    
+&lt;/ifmodule&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Source](https://github.com/h5bp/server-configs-apache/issues/32)
+
+### Auto UTF-8 Encode
+Your text content should always be UTF-8 encoded, no?
+``` apacheconf
+# Use UTF-8 encoding for anything served text/plain or text/html
+AddDefaultCharset utf-8
+
+# Force UTF-8 for a number of file formats
+AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/h5bp/server-configs-apache&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;switch-to-another-php-version&quot;&gt;Switch to Another PHP Version&lt;/h3&gt;
+&lt;p&gt;If you’re on a shared host, chances are there are more than one version of PHP installed, and sometimes you want a specific version for your website. The following snippet should switch the PHP version for you.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;AddHandler application/x-httpd-php56 .php
+
+# Alternatively, you can use AddType
+AddType application/x-httpd-php56 .php
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;disable-internet-explorer-compatibility-view&quot;&gt;Disable Internet Explorer Compatibility View&lt;/h3&gt;
+&lt;p&gt;Compatibility View in IE may affect how some websites are displayed. The following snippet should force IE to use the Edge Rendering Engine and disable the Compatibility View.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;&amp;lt;IfModule mod_headers.c&amp;gt;
+    BrowserMatch MSIE is-msie
+    Header set X-UA-Compatible IE=edge env=is-msie
+&amp;lt;/IfModule&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;serve-webp-images&quot;&gt;Serve WebP Images&lt;/h3&gt;
+&lt;p&gt;If &lt;a href=&quot;https://developers.google.com/speed/webp/?csw=1&quot;&gt;WebP images&lt;/a&gt; are supported and an image with a .webp extension and the same name is found at the same place as the jpg/png image that is going to be served, then the WebP image is served instead.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;RewriteEngine On
+RewriteCond %{HTTP_ACCEPT} image/webp
+RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
+RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/vincentorback/WebP-images-with-htaccess&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+ Seen First on href=&quot;http://www.digitalroots.io</description>
+        <pubDate>Thu, 02 Mar 2017 00:00:00 -0500</pubDate>
+        <link>http://www.digitalroots.io/blog/htaccess-snippets/?utm_source=rss</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/htaccess-snippets/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Finding Influencers: Digital Fundraising (2 of 3)</title>
         <description>&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
-&lt;p&gt;In &lt;a href=&quot;../blog/building-a-campaign-list-digital-fundraising-part-1&quot; rel=&quot;prev&quot;&gt;Digital Fundraising Part 1&lt;/a&gt; we covered what type of content you should have, and the layout you should use to maximize your email collection. In Digital Fundraising Part 2 we will look at how to find and reach out to Influence to help you connect to supports of your political or issue campaign.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&quot;../building-a-campaign-list-digital-fundraising-part-1&quot; rel=&quot;prev&quot;&gt;Digital Fundraising Part 1&lt;/a&gt; we covered what type of content you should have, and the layout you should use to maximize your email collection. In Digital Fundraising Part 2 we will look at how to find and reach out to Influence to help you connect to supports of your political or issue campaign.&lt;/p&gt;
 
 &lt;h2 id=&quot;finding-influencers&quot;&gt;Finding Influencers&lt;/h2&gt;
 &lt;p&gt;The best way to find influencer is to look for local individuals that have a local public profile (.ie radio host, county elected officials, local celebrities, and local businesses/organizations), and try to reach out to them. If you are having trouble finding people to reach out then there are 2 free services that I would recommend:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;www.epictions.com/&quot;&gt;&lt;strong&gt;Epictions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.epictions.com/&quot;&gt;&lt;strong&gt;Epictions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Epictions allows you to do a number of things, but the most useful is the Multi-channel Influencers search. This allows you to not only find influencers, but it gives you relevant information like what content they share, and how often they reply.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../img/epictions.jpg&quot; alt=&quot;Image of Epictions twitter influencers in justice democrats results&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../img/epictions.png&quot; alt=&quot;Image of Epictions twitter influencers in justice democrats results&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.socialmention.com/&quot;&gt;&lt;strong&gt;Social Mention&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Social Mention acts more like a search engine for social media feed then a tracker, but Social Mention does allow you to export data that will help with finding influencers, with most active users and most active hashtags. Quick tip microblogs = twitter and bookmarks = reddit.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../img/socialmention.jpg&quot; alt=&quot;Image of Social Mention microblogs for justice democrats results&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../img/socialmention.png&quot; alt=&quot;Image of Social Mention microblogs for justice democrats results&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;../Social-Media-Tracker/&quot;&gt;Full List of Social Media Tools&lt;/a&gt;&lt;/p&gt;
 
@@ -349,7 +883,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h6 id=&quot;a-hrefblogfinding-influencer-digital-fundraising-part-2-relnextpart-2-finding-influencera&quot;&gt;&lt;a href=&quot;../blog/finding-influencer-digital-fundraising-part-2/&quot; rel=&quot;next&quot;&gt;Part 2: Finding Influencer&lt;/a&gt;&lt;/h6&gt;
+&lt;h6 id=&quot;a-hreffinding-influencer-digital-fundraising-part-2-relnextpart-2-finding-influencera&quot;&gt;&lt;a href=&quot;../finding-influencer-digital-fundraising-part-2/&quot; rel=&quot;next&quot;&gt;Part 2: Finding Influencer&lt;/a&gt;&lt;/h6&gt;
 &lt;p&gt;In Part 2 we’ll go over how to find and reach out to influencers to help expand the reach of your content and tap into new supporters who haven’t heard of you.&lt;/p&gt;
  Seen First on href=&quot;http://www.digitalroots.io</description>
         <pubDate>Tue, 21 Feb 2017 00:00:00 -0500</pubDate>
@@ -417,7 +951,7 @@
 
 &lt;p&gt;Similarly, users have been found to not scroll to the true bottom of a page to find a link because they encountered a block of text in a very small font size. This small type led users to believe that they were at the true bottom of the page. Other elements that may stop users’ scrolling include horizontal lines, inappropriate placement of ’widgets,’ and cessation of background color.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../img/10-tip-ux/example-scroll-stoppers.jpg&quot; alt=&quot;Examples of scroll stoppers&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../img/10-tip-ux/example-scroll-stoppers.png&quot; alt=&quot;Examples of scroll stoppers&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;set-appropriate-page-lengths&quot;&gt;6. Set Appropriate Page Lengths&lt;/h3&gt;
 
@@ -814,106 +1348,6 @@ Changing treasurers&lt;/p&gt;
         <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
         <link>http://www.digitalroots.io/blog/how-to-get-inovlved-with-local-politics/?utm_source=rss</link>
         <guid isPermaLink="true">http://www.digitalroots.io/blog/how-to-get-inovlved-with-local-politics/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fundraising Plan (2 of 2)</title>
-        <description>&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
-&lt;p&gt;In &lt;a href=&quot;../fundraising-plan-1/&quot; rel=&quot;prev&quot;&gt;Fundraising Plan part 1&lt;/a&gt; we looked at how to lay the ground work for you political campaign fundraising. In part 2 we will look at the 6 components every political and advocacy fundraising plan needs to have.&lt;/p&gt;
-
-&lt;h1 id=&quot;the-6-components-of-a-successful-political-fundraising-plan&quot;&gt;The 6 Components of a Successful Political Fundraising Plan&lt;/h1&gt;
-
-&lt;p&gt;In my experience these are the 6 thing your political and advocacy Fundraising plan should focus on.&lt;/p&gt;
-
-&lt;h3 id=&quot;campaign-fundraising-goal&quot;&gt;1. Campaign Fundraising Goal&lt;/h3&gt;
-
-&lt;p&gt;As I have stated in part 1 your campaign fundraising goals are driven by your campaign strategy. You will need to know what it will take to win your election before you can raise enough to carry out that strategy.&lt;/p&gt;
-
-&lt;p&gt;Your political fundraising plan should set clearly defined overall fundraising goals that lays out how much your campaign will need to raise not just for the campaign overall, but at each major milestone - Candidate ID, Voter ID, Persuasion, and GOTV. Because each one of these steps will require some if not all new materials.&lt;/p&gt;
-
-&lt;p&gt;For example, if your campaign is planning to print GOTV materials you have to make sure that the campaign fundraising plan has that laid out so you don’t end up underfunding a key campaign activity. Similarly, if you have stuff you will need to make sure that you have a consistent cash flow in order to make payroll. By having a clear campaign fundraising plan you will make sure that you don’t end up underfunding any campaign activity last minute.&lt;/p&gt;
-
-&lt;h3 id=&quot;assumptions&quot;&gt;2. Assumptions&lt;/h3&gt;
-
-&lt;p&gt;The first thing you will do once you lay out how much you will need is to make some assumptions when formulating the plan. Every campaign makes assumptions, list them out in your fundraising plan so everyone is on the same page. Some examples of possible assumptions include:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Assuming that the campaign will receive endorsements from several trade groups or associations whose support comes with major donations&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Assuming that your candidate will be the “establishment candidate” and receive funding your political base&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Assuming that certain major fundraisers will line up to support your candidate&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;List your assumptions up front, and know that if one of the assumptions doesn’t bear out, you may need to rewrite part of the plan to map out a strategy for dealing with the new reality.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Warning DO NOT make payroll decisions on assumptions&lt;/strong&gt; this has happened to me early on in my career and it caused me to give leave a job I couldn’t get back. It’s better to be over worked then hire some you can’t keep on till the election.&lt;/p&gt;
-
-&lt;h3 id=&quot;fundraising-infrastructure&quot;&gt;3. Fundraising Infrastructure&lt;/h3&gt;
-
-&lt;p&gt;What infrastructure do you currently have in place for fundraising, and what infrastructure do you anticipate needing over the length of the campaign?&lt;/p&gt;
-
-&lt;p&gt;Fundraising infrastructure includes things like fundraising staff, a donor database, your fundraising, marketing materials, your &lt;a href=&quot;../website-platform/&quot;&gt;website’s fundraising capabilities&lt;/a&gt;, etc. – everything you use to fundraise. Map out what you will need in order to effectively raise money for your campaign. Be sure to include deadlines and responsibilities for implementation, as well as the cost for each item.&lt;/p&gt;
-
-&lt;h3 id=&quot;fundraising-tactics&quot;&gt;4. Fundraising Tactics&lt;/h3&gt;
-
-&lt;p&gt;This is the section where you lay out, in as much detail, all of the different ways you are going to raise money for your campaign. Each tactic should get its own subsection with action steps, deadlines and responsible persons. Common tactics include:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Direct Mail
-    &lt;ul&gt;
-      &lt;li&gt;Events&lt;/li&gt;
-      &lt;li&gt;Online Fundraising&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;../fundraising-plan-1/index.html#First-Step-for-Political-Fundraising---Finance-committee&quot;&gt;Finance Committee&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Major Donors&lt;/li&gt;
-      &lt;li&gt;Telemarketing&lt;/li&gt;
-      &lt;li&gt;PAC Fundraising&lt;/li&gt;
-      &lt;li&gt;Personal Solicitation by the Candidate&lt;/li&gt;
-      &lt;li&gt;Affinity Groups and Fundraising Networks&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Use this section to detail exactly how you will implement each of these tactics over the weeks and months of your campaign.&lt;/p&gt;
-
-&lt;h3 id=&quot;donor-communications-plan-and-calendar&quot;&gt;5. Donor Communications Plan and Calendar&lt;/h3&gt;
-
-&lt;p&gt;Use this section of your political fundraising plan to create a strategy for staying in touch with your donors and prospects.&lt;/p&gt;
-
-&lt;p&gt;Remember, in order to be successful, you want your campaign donors to feel as much as possible like part of your team. That requires communicating with them on a regular basis – and not every communication should be an ask. (For political campaigns, I recommend that you send your donors at least 1-2 non-ask communications in between every ask).&lt;/p&gt;
-
-&lt;p&gt;Great donor communication will lead to more and bigger gifts from your donors. There are lots of ways to stay in touch with your donors and prospects. They include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Email and snail mail newsletters&lt;/li&gt;
-  &lt;li&gt;Postcards&lt;/li&gt;
-  &lt;li&gt;Social media&lt;/li&gt;
-  &lt;li&gt;Telemarketing calls for low dollar donors&lt;/li&gt;
-  &lt;li&gt;Personal calls for mid-level and high dollar donors&lt;/li&gt;
-  &lt;li&gt;Non-ask events (cultivation or thank-you events)&lt;/li&gt;
-  &lt;li&gt;Volunteer opportunities and committees&lt;/li&gt;
-  &lt;li&gt;Public relations / PR&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Without a doubt, the easiest and most cost effective way to stay in touch with your donors on a regular basis is through e-mail newsletters.&lt;/p&gt;
-
-&lt;h3 id=&quot;action-step-timeline&quot;&gt;6. Action Step Timeline&lt;/h3&gt;
-
-&lt;p&gt;Finally, as I mentioned in &lt;a href=&quot;../fundraising-plan-1/&quot;&gt;Part 1&lt;/a&gt;, I like to include a list of action steps in each of the sections of the plan that lists what needs to be done by which deadline in order for the plan to succeed.&lt;/p&gt;
-
-&lt;p&gt;Your campaign action steps and fundraising milestones should be listed in chronological order. This will allow for anyone who reads it to get a good picture of where your campaign is at, where your campaign should, and what has to be done in both the short term and long term. Many campaigns I worked on have used weekly timelines for their fundraising staff meetings.&lt;/p&gt;
-
-&lt;p&gt;Remember, your fundraising plan is a living document and will change with the campaign, but it is important to write down your plan so you have a clear way to know if you are staying on the right path or need to reexamine your campaign.&lt;/p&gt;
- Seen First on href=&quot;http://www.digitalroots.io</description>
-        <pubDate>Fri, 03 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://www.digitalroots.io/blog/fundraising-plan-2/?utm_source=rss</link>
-        <guid isPermaLink="true">http://www.digitalroots.io/blog/fundraising-plan-2/</guid>
         
         
       </item>
