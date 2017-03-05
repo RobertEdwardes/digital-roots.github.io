@@ -5,9 +5,201 @@
     <description>Engaging activities and voter through cutting edge digital and grassroots strategies. That deliver the hardest fought elections</description>
     <link>http://www.digitalroots.io/blog/</link>
     <atom:link href="http://www.digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Mar 2017 07:56:19 -0500</pubDate>
-    <lastBuildDate>Thu, 02 Mar 2017 07:56:19 -0500</lastBuildDate>
+    <pubDate>Sun, 05 Mar 2017 06:24:19 -0500</pubDate>
+    <lastBuildDate>Sun, 05 Mar 2017 06:24:19 -0500</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Volunteer Voter Contact Formula</title>
+        <description>&lt;p&gt;The following formulas for voter contact are averages and assume all volunteer labor. The numbers in bold are for budgeting purposes; the actual number may vary depending on a number of factors  you should adjust your own budgeting accordingly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Door to Door Canvassing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Door-to -door canvassing assuming every door is knocked or a very dense walk list: average
+25 doors per hour; 6 contacts(5 8 contacts) per hour&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Door-to-door canvassing assuming a walk list or more suburban district with less density: average 15 doors per hour; 4 contacts (3 6 contacts) per hour
+Phone canvassing&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Non Predictive Dialing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Phone IDs straight ID, no persuasion: average 35 dials per hour; 10 contacts (7 - 14 contacts) per hour depending on length of script (assuming non - predictive dialing)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Normal 3 hour calling shift to calculate number of lines needed&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Normal 5 days per week (unless other reasons)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Calling through the list 4x you can expect on average to reach about 45 - 50% of the people. One call through you can expect about 15 - 25%.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;To calculate number of dials for repeated calls through the list multiply the original list number by the following factors: 3x call though = 2.25 – 4x call through = 2.5 (e.g. to call through a 1,000 name list 3x = 2,250 dials, assuming bad numbers and contacts are removed after each dial through.)&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Phone Persuasion — average 25 dials per hour; 7 contacts (5 - 11 contacts) per hour depending on length of script (assuming non - predictive dialing)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;GOTV calling — average 30 dials per hour; 10 contacts per hour, assuming no message.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Phone canvassing – Predictive Dialing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Phone IDs — average 110 dials per hour; 45 contacts (assuming less than one minute script) per hour&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;To calculate number of dials for repeated calls through the list multiply the original list number by the following factors: 3x call though = 2.25 – 4x call through = 2.5&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Phone Persuasion — average 90 dials per hour; 20 contacts (assuming an average 2.5 minute conversation) per hour&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;GOTV calling — average 100 dials per hour; 25 contacts per hour (assuming a 2 minute interactive conversation), assuming no message.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dropping Literature&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dropping literature — average 50 houses (30 – 70 houses) per person/per hour shift, depending on turf&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Volunteer Recruitment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Volunteer Recruitment calling — average 30 dials per hour; 10 contacts and 3 - 5 volunteers per hour depending on list and task (e.g. canvassing fewer, Persuasion calling fewer, ID calling more, GOTV calling more, dropping literature still more.&lt;/p&gt;
+
+&lt;h2 id=&quot;voter-contact-formulas---doing-the-math&quot;&gt;&lt;strong&gt;VOTER CONTACT FORMULAS - DOING THE MATH&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Persuasion Phone Calls&lt;/strong&gt;: Assume that you are asked to make 5000 persuasion calls in 5 days. You will need 14 volunteers, each working a 3 - hour shift and 14 phone lines to call the list one time.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Assume you do not have a predictive dialer. For volunteer persuasion calls, assume you can make 25 Dials per hour/per phone line. Divide to figure out how many hours it will take to make the calls. 5000 attempted contacts ÷ 25 dials per hour = 200 hours&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;Divide by 5 days (the number of days you have to call)&lt;/li&gt;
+          &lt;li&gt;= 40 calling hours per day&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;To figure out how many phone lines, determine how many hours per line you will be calling. If you assume you will have 3 hour shifts, then divide to determine how many lines per day you will need (and how many volunteers per day you will need).&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;40 calling hours per day ÷ 3 hours per shift = 13.3 shifts (14) per day. You will therefore need 14 phone lines and 14 volunteers per day to make 5000 persuasion calls in 5 days.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;To figure out how many actual contacts you will make, assume a 25% contact rate (based on calling through the list one time). You can expect at the end of five days to have made &lt;strong&gt;1,250 actual contacts&lt;/strong&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;To figure out how many names and volunteers you would need to make 5000 contacts do the reverse.&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;5000 contacts ÷ 50% contact rate (based on calling the list through 4 times) = 10,000 names/numbers to start with&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;10,000 x 2.5 (the factor for the number of dials to call though 4x) = 25,000 dials.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;25,000 ÷ 25 = 1000 hours&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;= 200 calling hours per day&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;= 67 shifts and volunteers&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;To figure out how long it would take to call one time through the list of 5,000 names using a predictive dialer.
+5000 attempted contacts ÷ 90 dials per hour = 56 hours
+= 11 calling hours per day
+= 4 stations and volunteer shifts&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;To figure out how to make 5,000 contacts using a predictive dialer.&lt;/p&gt;
+
+        &lt;p&gt;5000 contacts ÷ 20 contacts per hour = 250 calling hours
+= 50 hours per day
+= 14 shifts per day&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Door - to - Door Canvassing&lt;/strong&gt; Assume that you are asked to knock 3600 households of targeted voters in a dense urban district (although not every house will be knocked). You want to know how many volunteers you will need to knock it in ten days. To knock this number of houses in 10 days you will need 5 volunteers per day for 10 days, each person working a 3 hour shift. You will make approximately 864 contacts.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Start with 3600 households. To calculate how many hours it will take:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;3600 HH ÷ 25 doors knocked per hour = 144 hours&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;To calculate number of volunteers you need to determine how long a shift will be:&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;144 hours ÷ 3 hour shifts = 48 shifts (or volunteers)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;48 shifts (volunteers) ÷ 10 days = 4.8 (5) shifts (volunteers) per day&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To calculate the number of contacts:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;144 hours x 6 contacts per hour = 864 contacts&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;GOTV Calling&lt;/strong&gt;.Assume that you are asked to make 3000 GOTV calls on Monday as part of a GOTV effort. You will need 9 lines and 34 volunteers calling in 3 hour shifts over 12 hours.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For calculation purposes, assume that you will contact all 3000 with a message or direct contact (since they have already been contacted in some way).
+    &lt;ul&gt;
+      &lt;li&gt;3000 GOTV calls ÷ 30 calls per hour = 100 hours calling hours&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Assume that you will be calling Monday 9 am - 9pm = 12 hours. To determine how many phone lines are needed, divide the total number of calling hours needed to complete the calls by the total number of hours available to make the calls.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;100 hours calling hours needed ÷ 12 hours total to call = 8.5 (9) lines&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To determine the number of volunteers needed:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;100 calling hours ÷ 3 hours shifts = 33.3 (34) volunteer shifts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This means that not every phone line has to be filled at every moment, but that a full 33 shifts need to be filled over the 12 hour day&lt;/p&gt;
+ Seen First on href=&quot;http://www.digitalroots.io</description>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 -0500</pubDate>
+        <link>http://www.digitalroots.io/blog/voter-contact-math/?utm_source=rss</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/voter-contact-math/</guid>
+        
+        
+      </item>
     
       <item>
         <title>.htaccess Snippets</title>
@@ -1316,38 +1508,6 @@ Changing treasurers&lt;/p&gt;
         <pubDate>Fri, 10 Feb 2017 00:00:00 -0500</pubDate>
         <link>http://www.digitalroots.io/blog/intro-to-poltical-action-committes/?utm_source=rss</link>
         <guid isPermaLink="true">http://www.digitalroots.io/blog/intro-to-poltical-action-committes/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to Get Involved with Your Local Political Party</title>
-        <description>&lt;p&gt;With the November election long past and midterms still over 18 months away a lot of people I know have asked me how to get involved with local politics. While there are may ways to seem involved the new way in social media rarely will lead to making the kind of difference you want.&lt;/p&gt;
-
-&lt;h3 id=&quot;go-to-meeting&quot;&gt;Go To Meeting&lt;/h3&gt;
-&lt;p&gt;The first thing to do if you want to get involved is join a local group that is affiliated with the party. The best place to find out when they have meeting is to go to a county party site or an affiliated group site. If you do have a problem finding the event calendar or if it is blank look for an email address and ask them about getting involved. The reason why I would avoid the state party is because they are less responsive compared to the local parties and groups, and it’s often the local parties role to organize during none election years.&lt;/p&gt;
-
-&lt;h3 id=&quot;volunteer-at-head-quarters&quot;&gt;Volunteer at Head Quarters&lt;/h3&gt;
-&lt;p&gt;Depending on your state you can volunteer at the Head Quarters. This is a great opportunity because even though you start out with stuffing envelopes and answering phones it will give you an opportunity to meet a lot of the people who make the local and state parties run.&lt;/p&gt;
-
-&lt;h3 id=&quot;work-for-a-campaign&quot;&gt;Work For A Campaign&lt;/h3&gt;
-&lt;p&gt;Reach out to a campaign they are always looking for volunteers, and would be happy for you to join them. The thing to keep in mind you will be spending your first couple of weeks doing voter contact before you get to do more, but everyone has had to do this, and most people who work on campaigns still go out knock doors and make phone calls.&lt;/p&gt;
-
-&lt;h3 id=&quot;get-others-involved&quot;&gt;Get Others Involved&lt;/h3&gt;
-&lt;p&gt;After you have spent some time campaigning try to get others involved. Start with your friends and family, and then move on to more difficult places like online and from public club meetings.&lt;/p&gt;
-
-&lt;h3 id=&quot;start-a-state-or-local-group&quot;&gt;Start a State or Local Group&lt;/h3&gt;
-&lt;p&gt;Once you have been involved with the local party look at start a group that will help them reach out to the community, and have it sanctioned by the state party. One thing to keep in mind is that &lt;a href=&quot;../fundraising-plan-1&quot;&gt;fundraising&lt;/a&gt; is a critical part of any group, along with volunteer mobilization.&lt;/p&gt;
-
-&lt;h3 id=&quot;run-for-precinct-chair&quot;&gt;Run For Precinct Chair&lt;/h3&gt;
-&lt;p&gt;Precinct Chairs are the lowest level of elected official, and are elected in party primaries. Precinct Chairs have varying power depending on county and state party rules, but it is by far the best place to start if you want to be in party leadership. This is because in most counties I have worked in the Chairs are the ones who elect the local party official, and can be the ones who determine what kind of primary you have (.ie caucus, convention, or primary).&lt;/p&gt;
-
-&lt;h3 id=&quot;run-for-office&quot;&gt;Run For Office&lt;/h3&gt;
-&lt;p&gt;The last thing you can do to get involved is run for office. If you have gotten involved and are known in the local party it is relatively easy because you will have the party support to get through the primary and general election.  If you aren’t known in the local political party, you can still win with a &lt;a href=&quot;../Campaign-Plan&quot;&gt;strong campaign plan&lt;/a&gt;, and start with a smaller office. Running for Office is like baseball you have to start in the minors to be able to make it in the majors. So when you look at election to run in realizing that by starting local you will be able to win larger races in the future.&lt;/p&gt;
- Seen First on href=&quot;http://www.digitalroots.io</description>
-        <pubDate>Wed, 08 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://www.digitalroots.io/blog/how-to-get-inovlved-with-local-politics/?utm_source=rss</link>
-        <guid isPermaLink="true">http://www.digitalroots.io/blog/how-to-get-inovlved-with-local-politics/</guid>
         
         
       </item>
