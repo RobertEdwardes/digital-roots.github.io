@@ -66,7 +66,7 @@ A collection of useful .htaccess snippets, all in one place.
 
   <div class="wrapper">
 
-    <a class="site-title" href="/blog/">Digital Roots Blog</a>
+    <a class="site-title" href="www.digitalroots.io">Digital Roots Blog</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -77,7 +77,13 @@ A collection of useful .htaccess snippets, all in one place.
         </svg>
       </a>
       <div class="trigger">
-        <a class="page-link" href="http://digitalroots.io/" rel="home">Home</a>
+        <a class="page-link" href="http://digitalroots.io/blog" rel="home">Blog</a>
+        
+          
+        
+          
+          <a class="page-link" href="/blog/Videos">Campaign Documtaries</a>
+          
         
           
           <a class="page-link" href="/blog/about/">About</a>
@@ -239,12 +245,11 @@ RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 <p>This works for <em>any</em> domain. <a href="https://stackoverflow.com/questions/4916222/htaccess-how-to-force-www-in-a-generic-way">Source</a></p>
 
 <h3 id="force-non-www">Force non-www</h3>
-<p>It’s <a href="http://www.sitepoint.com/domain-www-or-no-www/">still</a> <a href="https://devcenter.heroku.com/articles/apex-domains">open</a> <a href="http://yes-www.org/">for</a> <a href="http://no-www.org/">debate</a> whether www or non-www is the way to go, so if you happen to be a fan of bare domains, here you go:
-<code class="highlighter-rouge">apacheconf
-RewriteEngine on
+<p>It’s <a href="http://www.sitepoint.com/domain-www-or-no-www/">still</a> <a href="https://devcenter.heroku.com/articles/apex-domains">open</a> <a href="http://yes-www.org/">for</a> <a href="http://no-www.org/">debate</a> whether www or non-www is the way to go, so if you happen to be a fan of bare domains, here you go:</p>
+<pre><code class="language-apacheconf">RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.example\.com [NC]
 RewriteRule ^(.*)$ http://example.com/$1 [L,R=301]
-</code></p>
+</code></pre>
 
 <h3 id="force-non-www-in-a-generic-way">Force non-www in a Generic Way</h3>
 <pre><code class="language-apacheconf">RewriteEngine on
@@ -268,11 +273,10 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 </code></pre>
 
 <h3 id="force-https-behind-a-proxy">Force HTTPS Behind a Proxy</h3>
-<p>Useful if you have a proxy in front of your server performing TLS termination.
-<code class="highlighter-rouge">apacheconf
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
+<p>Useful if you have a proxy in front of your server performing TLS termination.</p>
+<pre><code class="language-apacheconf">RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
-</code></p>
+</code></pre>
 
 <h3 id="force-trailing-slash">Force Trailing Slash</h3>
 <pre><code class="language-apacheconf">RewriteCond %{REQUEST_URI} /+[^\.]+$
@@ -280,13 +284,12 @@ RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 </code></pre>
 
 <h3 id="remove-trailing-slash">Remove Trailing Slash</h3>
-<p>This snippet will redirect paths ending in slashes to their non-slash-terminated counterparts (except for actual directories), e.g. <code class="highlighter-rouge">http://www.example.com/blog/</code> to <code class="highlighter-rouge">http://www.example.com/blog</code>. This is important for SEO, since it’s <a href="http://overit.com/blog/canonical-urls">recommended</a> to have a canonical URL for every page.
-<code class="highlighter-rouge">apacheconf
-RewriteCond %{REQUEST_FILENAME} !-d
+<p>This snippet will redirect paths ending in slashes to their non-slash-terminated counterparts (except for actual directories), e.g. <code class="highlighter-rouge">http://www.example.com/blog/</code> to <code class="highlighter-rouge">http://www.example.com/blog</code>. This is important for SEO, since it’s <a href="http://overit.com/blog/canonical-urls">recommended</a> to have a canonical URL for every page.</p>
+<pre><code class="language-apacheconf">RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} (.+)/$
 RewriteRule ^ %1 [R=301,L]
-</code>
-<a href="https://stackoverflow.com/questions/21417263/htaccess-add-remove-trailing-slash-from-url#27264788">Source</a></p>
+</code></pre>
+<p><a href="https://stackoverflow.com/questions/21417263/htaccess-add-remove-trailing-slash-from-url#27264788">Source</a></p>
 
 <h3 id="redirect-a-single-page">Redirect a Single Page</h3>
 <pre><code class="language-apacheconf">Redirect 301 /oldpage.html http://www.example.com/newpage.html
@@ -331,23 +334,21 @@ RewriteRule ^(.*)$ index.fcgi/$1 [QSA,L]
 <p>This way does it with links intact. That is <code class="highlighter-rouge">www.oldsite.com/some/crazy/link.html</code> will become <code class="highlighter-rouge">www.newsite.com/some/crazy/link.html</code>. This is extremely helpful when you are just “moving” a site to a new domain. <a href="http://css-tricks.com/snippets/htaccess/301-redirects/">Source</a></p>
 
 <h3 id="alias-clean-urls">Alias “Clean” URLs</h3>
-<p>This snippet lets you use “clean” URLs – those without a PHP extension, e.g. <code class="highlighter-rouge">example.com/users</code> instead of <code class="highlighter-rouge">example.com/users.php</code>.
-<code class="highlighter-rouge">apacheconf
-RewriteEngine On
+<p>This snippet lets you use “clean” URLs – those without a PHP extension, e.g. <code class="highlighter-rouge">example.com/users</code> instead of <code class="highlighter-rouge">example.com/users.php</code>.</p>
+<pre><code class="language-apacheconf">RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteRule ^([^.]+)$ $1.php [NC,L]
-</code>
-<a href="http://www.abeautifulsite.net/access-pages-without-the-php-extension-using-htaccess/">Source</a></p>
+</code></pre>
+<p><a href="http://www.abeautifulsite.net/access-pages-without-the-php-extension-using-htaccess/">Source</a></p>
 
 <h2 id="security">Security</h2>
-<p>### Deny All Access
-``` apacheconf
-## Apache 2.2
-Deny from all</p>
+<h3 id="deny-all-access">Deny All Access</h3>
+<pre><code class="language-apacheconf">## Apache 2.2
+Deny from all
 
-<h2 id="apache-24">Apache 2.4</h2>
-<p># Require all denied
-```</p>
+## Apache 2.4
+# Require all denied
+</code></pre>
 
 <p>But wait, this will lock you out from your content as well! Thus introducing…</p>
 
@@ -378,34 +379,29 @@ Deny from xxx.xxx.xxx.xxy
 </code></pre>
 
 <h3 id="deny-access-to-hidden-files-and-directories">Deny Access to Hidden Files and Directories</h3>
-<p>Hidden files and directories (those whose names start with a dot <code class="highlighter-rouge">.</code>) should most, if not all, of the time be secured. For example: <code class="highlighter-rouge">.htaccess</code>, <code class="highlighter-rouge">.htpasswd</code>, <code class="highlighter-rouge">.git</code>, <code class="highlighter-rouge">.hg</code>…
-<code class="highlighter-rouge">apacheconf
-RewriteCond %{SCRIPT_FILENAME} -d [OR]
+<p>Hidden files and directories (those whose names start with a dot <code class="highlighter-rouge">.</code>) should most, if not all, of the time be secured. For example: <code class="highlighter-rouge">.htaccess</code>, <code class="highlighter-rouge">.htpasswd</code>, <code class="highlighter-rouge">.git</code>, <code class="highlighter-rouge">.hg</code>…</p>
+<pre><code class="language-apacheconf">RewriteCond %{SCRIPT_FILENAME} -d [OR]
 RewriteCond %{SCRIPT_FILENAME} -f
 RewriteRule "(^|/)\." - [F]
-</code></p>
+</code></pre>
 
-<p>Alternatively, you can just raise a “Not Found” error, giving the attacker no clue:
-<code class="highlighter-rouge">apacheconf
-RedirectMatch 404 /\..*$
-</code></p>
+<p>Alternatively, you can just raise a “Not Found” error, giving the attacker no clue:</p>
+<pre><code class="language-apacheconf">RedirectMatch 404 /\..*$
+</code></pre>
 
 <h3 id="deny-access-to-backup-and-source-files">Deny Access to Backup and Source Files</h3>
-<p>These files may be left by some text/HTML editors (like Vi/Vim) and pose a great security danger if exposed to public.
-``` apacheconf
-&lt;FilesMatch “(.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$”&gt;
+<p>These files may be left by some text/HTML editors (like Vi/Vim) and pose a great security danger if exposed to public.</p>
+<pre><code class="language-apacheconf">&lt;FilesMatch "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$"&gt;
     ## Apache 2.2
     Order allow,deny
     Deny from all
-    Satisfy All</p>
+    Satisfy All
 
-<div class="highlighter-rouge"><pre class="highlight"><code>## Apache 2.4
-# Require all denied
+    ## Apache 2.4
+    # Require all denied
+&lt;/FilesMatch&gt;
 </code></pre>
-</div>
-<p>&lt;/FilesMatch&gt;
-```
-<a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
+<p><a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
 
 <h3 id="disable-directory-browsing">Disable Directory Browsing</h3>
 <pre><code class="language-apacheconf">Options All -Indexes
@@ -425,31 +421,29 @@ RewriteRule \.(jpe?g|png|gif|bmp)$ - [NC,F,L]
 </code></pre>
 
 <h3 id="disable-image-hotlinking-for-specific-domains">Disable Image Hotlinking for Specific Domains</h3>
-<p>Sometimes you want to disable image hotlinking from some bad guys only.
-``` apacheconf
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite.com [NC,OR]
-RewriteCond %{HTTP_REFERER} ^https?://(.+.)?badsite2.com [NC,OR]
-RewriteRule .(jpe?g|png|gif|bmp)$ - [NC,F,L]</p>
+<p>Sometimes you want to disable image hotlinking from some bad guys only.</p>
+<pre><code class="language-apacheconf">RewriteEngine on
+RewriteCond %{HTTP_REFERER} ^https?://(.+\.)?badsite\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://(.+\.)?badsite2\.com [NC,OR]
+RewriteRule \.(jpe?g|png|gif|bmp)$ - [NC,F,L]
 
-<h1 id="if-you-want-to-display-a-blocked-banner-in-place-of-the-hotlinked-image">If you want to display a “blocked” banner in place of the hotlinked image,</h1>
-<p># replace the above rule with:
-# RewriteRule .(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]
-```</p>
+# If you want to display a “blocked” banner in place of the hotlinked image,
+# replace the above rule with:
+# RewriteRule \.(jpe?g|png|gif|bmp) http://example.com/blocked.png [R,L]
+</code></pre>
 
 <h3 id="password-protect-a-directory">Password Protect a Directory</h3>
-<p>First you need to create a <code class="highlighter-rouge">.htpasswd</code> file somewhere in the system:
-<code class="highlighter-rouge">bash
-htpasswd -c /home/fellowship/.htpasswd boromir
-</code></p>
+<p>First you need to create a <code class="highlighter-rouge">.htpasswd</code> file somewhere in the system:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>htpasswd -c /home/fellowship/.htpasswd boromir
+</code></pre>
+</div>
 
-<p>Then you can use it for authentication:
-<code class="highlighter-rouge">apacheconf
-AuthType Basic
+<p>Then you can use it for authentication:</p>
+<pre><code class="language-apacheconf">AuthType Basic
 AuthName "One does not simply"
 AuthUserFile /home/fellowship/.htpasswd
 Require valid-user
-</code></p>
+</code></pre>
 
 <h3 id="password-protect-a-file-or-several-files">Password Protect a File or Several Files</h3>
 <pre><code class="language-apacheconf">AuthName "One still does not simply"
@@ -467,41 +461,38 @@ Require valid-user
 
 <h3 id="block-visitors-by-referrer">Block Visitors by Referrer</h3>
 <p>This denies access for all users who are coming from (referred by) a specific domain.
-<a href="http://www.htaccess-guide.com/deny-visitors-by-referrer/">Source</a>
-<code class="highlighter-rouge">apacheconf
-RewriteEngine on
+<a href="http://www.htaccess-guide.com/deny-visitors-by-referrer/">Source</a></p>
+<pre><code class="language-apacheconf">RewriteEngine on
 # Options +FollowSymlinks
 RewriteCond %{HTTP_REFERER} somedomain\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} anotherdomain\.com
 RewriteRule .* - [F]
-</code></p>
+</code></pre>
 
 <h3 id="prevent-framing-the-site">Prevent Framing the Site</h3>
-<p>This prevents the website to be framed (i.e. put into an <code class="highlighter-rouge">iframe</code> tag), when still allows framing for a specific URI.
-<code class="highlighter-rouge">apacheconf
-SetEnvIf Request_URI "/starry-night" allow_framing=true
+<p>This prevents the website to be framed (i.e. put into an <code class="highlighter-rouge">iframe</code> tag), when still allows framing for a specific URI.</p>
+<pre><code class="language-apacheconf">SetEnvIf Request_URI "/starry-night" allow_framing=true
 Header set X-Frame-Options SAMEORIGIN env=!allow_framing
-</code></p>
+</code></pre>
 
 <h2 id="performance">Performance</h2>
-<p>### Compress Text Files
-``` apacheconf</p>
-<ifmodule mod_deflate.c="">
+<h3 id="compress-text-files">Compress Text Files</h3>
+<pre><code class="language-apacheconf">&lt;IfModule mod_deflate.c&gt;
 
     # Force compression for mangled headers.
     # https://developer.yahoo.com/blogs/ydn/pushing-beyond-gzipping-25601.html
-    <ifmodule mod_setenvif.c="">
-        <ifmodule mod_headers.c="">
+    &lt;IfModule mod_setenvif.c&gt;
+        &lt;IfModule mod_headers.c&gt;
             SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
             RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
-        </ifmodule>
-    </ifmodule>
+        &lt;/IfModule&gt;
+    &lt;/IfModule&gt;
 
     # Compress all output labeled with one of the following MIME-types
     # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`
-    #  and can remove the `<ifmodule mod_filter.c="">` and `</ifmodule>` lines
+    #  and can remove the `&lt;IfModule mod_filter.c&gt;` and `&lt;/IfModule&gt;` lines
     #  as `AddOutputFilterByType` is still in the core directives).
-    <ifmodule mod_filter.c="">
+    &lt;IfModule mod_filter.c&gt;
         AddOutputFilterByType DEFLATE application/atom+xml \
                                       application/javascript \
                                       application/json \
@@ -519,18 +510,17 @@ Header set X-Frame-Options SAMEORIGIN env=!allow_framing
                                       text/plain \
                                       text/x-component \
                                       text/xml
-    </ifmodule>
+    &lt;/IfModule&gt;
 
-</ifmodule>
-<div class="highlighter-rouge"><pre class="highlight"><code>[Source](https://github.com/h5bp/server-configs-apache)
+&lt;/IfModule&gt;
+</code></pre>
+<p><a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
 
+<h3 id="set-expires-headers">Set Expires Headers</h3>
+<p><em>Expires headers</em> tell the browser whether they should request a specific file from the server or just grab it from the cache. It is advisable to set static content’s expires headers to something far in the future.</p>
 
-### Set Expires Headers
-_Expires headers_ tell the browser whether they should request a specific file from the server or just grab it from the cache. It is advisable to set static content's expires headers to something far in the future.
-
-If you don’t control versioning with filename-based cache busting, consider lowering the cache time for resources like CSS and JS to something like 1 week. [Source](https://github.com/h5bp/server-configs-apache)
-``` apacheconf
-&lt;IfModule mod_expires.c&gt;
+<p>If you don’t control versioning with filename-based cache busting, consider lowering the cache time for resources like CSS and JS to something like 1 week. <a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
+<pre><code class="language-apacheconf">&lt;IfModule mod_expires.c&gt;
     ExpiresActive on
     ExpiresDefault                                      "access plus 1 month"
 
@@ -580,16 +570,14 @@ If you don’t control versioning with filename-based cache busting, consider lo
     ExpiresByType image/svg+xml                         "access plus 1 month"
 &lt;/IfModule&gt;
 </code></pre>
-</div>
 
 <h3 id="turn-etags-off">Turn eTags Off</h3>
-<p>By removing the <code class="highlighter-rouge">ETag</code> header, you disable caches and browsers from being able to validate files, so they are forced to rely on your <code class="highlighter-rouge">Cache-Control</code> and <code class="highlighter-rouge">Expires</code> header. <a href="http://www.askapache.com/htaccess/apache-speed-etags.html">Source</a>
-``` apacheconf</p>
-<ifmodule mod_headers.c="">
+<p>By removing the <code class="highlighter-rouge">ETag</code> header, you disable caches and browsers from being able to validate files, so they are forced to rely on your <code class="highlighter-rouge">Cache-Control</code> and <code class="highlighter-rouge">Expires</code> header. <a href="http://www.askapache.com/htaccess/apache-speed-etags.html">Source</a></p>
+<pre><code class="language-apacheconf">&lt;IfModule mod_headers.c&gt;
     Header unset ETag
-</ifmodule>
-<p>FileETag None
-```</p>
+&lt;/IfModule&gt;
+FileETag None
+</code></pre>
 
 <h2 id="miscellaneous">Miscellaneous</h2>
 
@@ -608,44 +596,40 @@ ErrorDocument 404 /errors/halflife3.html
 </code></pre>
 
 <h3 id="force-downloading">Force Downloading</h3>
-<p>Sometimes you want to force the browser to download some content instead of displaying it.
-<code class="highlighter-rouge">apacheconf
-&lt;Files *.md&gt;
+<p>Sometimes you want to force the browser to download some content instead of displaying it.</p>
+<pre><code class="language-apacheconf">&lt;Files *.md&gt;
     ForceType application/octet-stream
     Header set Content-Disposition attachment
 &lt;/Files&gt;
-</code></p>
+</code></pre>
 
 <p>Now there is a yang to this yin:</p>
 
 <h3 id="prevent-downloading">Prevent Downloading</h3>
-<p>Sometimes you want to force the browser to display some content instead of downloading it.
-<code class="highlighter-rouge">apacheconf
-&lt;FilesMatch "\.(tex|log|aux)$"&gt;
+<p>Sometimes you want to force the browser to display some content instead of downloading it.</p>
+<pre><code class="language-apacheconf">&lt;FilesMatch "\.(tex|log|aux)$"&gt;
     Header set Content-Type text/plain
 &lt;/FilesMatch&gt;
-</code></p>
+</code></pre>
 
 <h3 id="allow-cross-domain-fonts">Allow Cross-Domain Fonts</h3>
-<p>CDN-served webfonts might not work in Firefox or IE due to <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>. This snippet solves the problem.
-``` apacheconf</p>
-<ifmodule mod_headers.c="">
+<p>CDN-served webfonts might not work in Firefox or IE due to <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing">CORS</a>. This snippet solves the problem.</p>
+<pre><code class="language-apacheconf">&lt;IfModule mod_headers.c&gt;
     &lt;FilesMatch "\.(eot|otf|ttc|ttf|woff|woff2)$"&gt;
         Header set Access-Control-Allow-Origin "*"
-    
-</ifmodule>
-<div class="highlighter-rouge"><pre class="highlight"><code>[Source](https://github.com/h5bp/server-configs-apache/issues/32)
+    &lt;/FilesMatch&gt;
+&lt;/IfModule&gt;
+</code></pre>
+<p><a href="https://github.com/h5bp/server-configs-apache/issues/32">Source</a></p>
 
-### Auto UTF-8 Encode
-Your text content should always be UTF-8 encoded, no?
-``` apacheconf
-# Use UTF-8 encoding for anything served text/plain or text/html
+<h3 id="auto-utf-8-encode">Auto UTF-8 Encode</h3>
+<p>Your text content should always be UTF-8 encoded, no?</p>
+<pre><code class="language-apacheconf"># Use UTF-8 encoding for anything served text/plain or text/html
 AddDefaultCharset utf-8
 
 # Force UTF-8 for a number of file formats
 AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 </code></pre>
-</div>
 <p><a href="https://github.com/h5bp/server-configs-apache">Source</a></p>
 
 <h3 id="switch-to-another-php-version">Switch to Another PHP Version</h3>
