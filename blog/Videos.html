@@ -124,7 +124,7 @@ function search(){
   for (i = 0; i < tr.length; i++ ){
     td = tr[i].getElementsByTagName('td')[1];
     if (td){
-      if (tr.innerHTML.toUpperCase().indexOf(fliter) > -1){
+      if (td.innerHTML.toUpperCase().indexOf(fliter) > -1){
         tr[i].style.display = '';
       }else{
         tr[i].style.display = 'none';
@@ -133,7 +133,7 @@ function search(){
   }
 }
 </script>
-<input id="Sinput" onkeyup="search()"  placeholder="campaign, local, finace..." type="text" />
+<input id='Sinput' onkeyup="search()"  placeholder="campaign, local, finace..." type="text" />
 <table id='Rtable'>
   <tr class="Theader">
     <th width="40%">
