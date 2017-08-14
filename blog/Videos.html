@@ -118,9 +118,9 @@ function googleTranslateElementInit() {
 function search(){
   var i, filter, table, tr, td, input;
   input = document.getElementById('Sinput');
-  fliter = input.value.toUpperCase();
+  filter = input.value.toUpperCase();
   table = document.getElementById('Rtable');
-  tr = document.getElementsByTagName(tr);
+  tr = document.getElementsByTagName('tr');
   for (i = 0; i < tr.length; i++ ){
     td = tr[i].getElementsByTagName('td')[1];
     if (td){
@@ -133,7 +133,7 @@ function search(){
   }
 }
 </script>
-<input id='Sinput' onkeyup="search()"  placeholder="campaign, local, finace..." type="text" />
+<input id='Sinput' onkeyup="search()"  placeholder="campaign, local, finance..." type="text" />
 <table id='Rtable'>
   <tr class="Theader">
     <th width="40%">
@@ -155,7 +155,31 @@ function search(){
       campaign, local
     </td>
     <td>
-      Christine Quinn 2013 election for New York Mayor
+      Christine C. Quinn, once the front-runner in the New York mayoral race (2013), lost in the Democratic primary. A behind-the-scenes film captures the campaign's final month.
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <a href='https://youtu.be/nypP4MX7KVs'>Inside The Bubble</a>
+    </td>
+    <td>
+      campaign, national
+    </td>
+    <td>
+      film by director Steve Rosenbaum (7 Days In September). and produced by Rob Barnett. They had broad access inside the 2004 presidential campaign of Sen. John Kerry (D-Mass.) campaign, whose senior team is seen early on election night prematurely proclaiming they'd recaptured the White House.
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <a href='http://www.pbs.org/wgbh/frontline/film/big-sky-big-money/'>Big Sky Big Money</a>
+    </td>
+    <td>
+      finance
+    </td>
+    <td>
+      How has the Supreme Court’s Citizens United decision changed campaigns in America? Ask Montana, which has tried to challenge the ruling in court, is investigating alleged campaign abuses, and is playing host to a bitter race that could decide control of the U.S. Senate.
     </td>
   </tr>
   
