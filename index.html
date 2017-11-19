@@ -21,6 +21,13 @@
   ga('send', 'pageview');
 
 </script>
+<style>
+#modal-container:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility 1s;
+}
+</style>
 <link rel="stylesheet" href="css/landing.css">
   <!--[if lt IE 9]>
   <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
@@ -30,7 +37,7 @@
   <!--[if lt IE 8]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-  <div id="bg-img" class="H-LG">
+  <div id="bg-img" style="background: url('../img/digital-marketing-1527799_1920.png') top/85% no-repeat #b3b3b3; height: 100px;"class="H-LG">
 
   </div>
   <div class="container">
@@ -121,7 +128,5 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" async></script>
   <script async>window.jQuery || document.write('<script async src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
   <script src="js/main.js" async></script>
-
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   </body>
   </html>
