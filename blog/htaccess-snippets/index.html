@@ -39,7 +39,7 @@ A collection of useful .htaccess snippets, all in one place.
   <meta property="fb:app_id" content="212566025744310" />
   <meta property="fb:admins" content="" />
   <link rel="alternate" type="application/rss+xml" title="Digital Roots" href="http://www.digitalroots.io/blog/feed.xml" />
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://www.digitalroots.io/blog/js/main.js"></script>
   <meta itemprop="url" content="http://www.digitalroots.io/blog/htaccess-snippets/">
   <link rel="stylesheet" type="text/css"  href="http://www.digitalroots.io/blog/css/main.css" />
@@ -80,7 +80,7 @@ A collection of useful .htaccess snippets, all in one place.
         <a class="page-link" href="http://digitalroots.io/blog" rel="home">Blog</a>
         
           
-          <a class="page-link" href="/blog/DataBase">Campaign Research</a>
+          <a class="page-link" href="/blog/DataBase">Research Papers</a>
           
         
           
@@ -436,9 +436,8 @@ RewriteRule \.(jpe?g|png|gif|bmp)$ - [NC,F,L]
 
 <h3 id="password-protect-a-directory">Password Protect a Directory</h3>
 <p>First you need to create a <code class="highlighter-rouge">.htpasswd</code> file somewhere in the system:</p>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>htpasswd -c /home/fellowship/.htpasswd boromir
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>htpasswd <span class="nt">-c</span> /home/fellowship/.htpasswd boromir
+</code></pre></div></div>
 
 <p>Then you can use it for authentication:</p>
 <pre><code class="language-apacheconf">AuthType Basic

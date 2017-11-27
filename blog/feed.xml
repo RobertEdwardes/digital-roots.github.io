@@ -5,9 +5,87 @@
     <description>Engaging activities and voter through cutting edge digital and grassroots strategies. That deliver the hardest fought elections</description>
     <link>http://www.digitalroots.io/blog/</link>
     <atom:link href="http://www.digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Oct 2017 06:41:27 -0400</pubDate>
-    <lastBuildDate>Sat, 07 Oct 2017 06:41:27 -0400</lastBuildDate>
-    <generator>Jekyll v3.5.1</generator>
+    <pubDate>Mon, 27 Nov 2017 11:41:51 -0500</pubDate>
+    <lastBuildDate>Mon, 27 Nov 2017 11:41:51 -0500</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Review: Free Media and Twitter in the 2016 Presidential Election: The Unconventional Campaign of Donald Trump</title>
+        <description>&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+&lt;p&gt;Peter L. Francia look into one of the leading theories for the stunning victory of President Donald Trump. Peter L. Francia looks at a number of different data sets to determine if there is validity to the free media thesis which states Donald Trump was able to surprises pundits and reporters because they looked at traditional metrics and didn’t take into account Trumps earned media. &lt;strong&gt;Peter L. Francia does state that his paper doesn’t prove or disprove the free media thesis but only adds to the body of work examining it&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../pdf/Free-Media-Twitter-2016-Presidential-Election.pdf&quot;&gt;Download Paper&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
+&lt;p&gt;The biggest issue with the free media theory is that Donald Trumps earned media was often more negative then positive, but in his study Dr. Francia points to a yougov/economist poll that showed illustrated why this wasn’t a major hindrance to Donald Trump profiting off of earned media.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Source. The Economist/YouGov Poll (2016).&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Trump Voters (%)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Clinton Voters (%)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;A great deal&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;39&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;A moderate amount&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;22&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Not much&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;54&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Not at all&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;23&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;N&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;342&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;476&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;hypothesis&quot;&gt;Hypothesis&lt;/h3&gt;
+&lt;p&gt;Dr. Francia sets 5 different Hypothesis to test wether the free media thesis is validate. The hypothesis can be grouped into 2 groups 1 being based on coverage in terms of followers and free media coverage especially around the crucial months of the campaign, and group 2 which uses polling on how much they saw and who they talked about the 2016 election:&lt;/p&gt;
+
+&lt;h4 id=&quot;hypothesis-1&quot;&gt;Hypothesis 1&lt;/h4&gt;
+&lt;p&gt;Donald Trump generated more free media coverage, especially during the key months of the election cycle, than did his chief opponent, Hillary Clinton.&lt;/p&gt;
+&lt;h4 id=&quot;hypothesis-2&quot;&gt;Hypothesis 2&lt;/h4&gt;
+&lt;p&gt;Donald Trump had more followers on Twitter than Hillary Clinton, especially during the key final months of the election cycle.&lt;/p&gt;
+&lt;h4 id=&quot;hypothesis-3&quot;&gt;Hypothesis 3&lt;/h4&gt;
+&lt;p&gt;A higher percentage of people reported seeing more social media posts supporting Donald Trump than Hillary Clinton.&lt;/p&gt;
+&lt;h4 id=&quot;hypothesis-4&quot;&gt;Hypothesis 4&lt;/h4&gt;
+&lt;p&gt;A higher percentage of people reported seeing more news stories about Donald Trump than about Hillary Clinton.&lt;/p&gt;
+&lt;h4 id=&quot;hypothesis-5&quot;&gt;Hypothesis 5&lt;/h4&gt;
+&lt;p&gt;A higher percentage of people reported that they spent more time talking about Donald Trump in their personal conversations than about Hillary Clinton.&lt;/p&gt;
+
+&lt;h3 id=&quot;critique&quot;&gt;Critique&lt;/h3&gt;
+&lt;p&gt;Hypothesis 3-5 aren’t good indicators to see if the free media thesis could have been the reason for Presidents Trump surprise victory because other research has shown that social media and private conversations about politics are often &lt;a href=&quot;https://news.vice.com/story/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows&quot;&gt;self sorting&lt;/a&gt; which means that it wouldn’t have reached persuadable voters.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Looking at the study of Peter L. Francia has accomplishes what he set out to do, which is contribute to the growing evidence of the legitimacy of the free media thesis being a driving factor behind Donald Trumps surprise victory. &lt;strong&gt;The major take away campaigns can use&lt;/strong&gt; is how social media can be used to gain media coverage
+&lt;img src=&quot;../img/FreeMediaThesis/Path-of-influence.png&quot; alt=&quot;flow chart from the study showing how information reaches voters&quot; /&gt;
+, but be warned if you are a local candidate this is not likely to work because federal and state wide office holders take precedence in the media which means there are better ways to gain media attention&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../pdf/Free-Media-Twitter-2016-Presidential-Election.pdf&quot;&gt;Download Paper&lt;/a&gt;&lt;/p&gt;
+ Seen First on href=&quot;http://www.digitalroots.io</description>
+        <pubDate>Thu, 30 Nov 2017 00:00:00 -0500</pubDate>
+        <link>http://www.digitalroots.io/blog/free-media-thesis/?utm_source=rss</link>
+        <guid isPermaLink="true">http://www.digitalroots.io/blog/free-media-thesis/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Basics Of Fundraising</title>
@@ -1529,9 +1607,8 @@ RewriteRule \.(jpe?g|png|gif|bmp)$ - [NC,F,L]
 
 &lt;h3 id=&quot;password-protect-a-directory&quot;&gt;Password Protect a Directory&lt;/h3&gt;
 &lt;p&gt;First you need to create a &lt;code class=&quot;highlighter-rouge&quot;&gt;.htpasswd&lt;/code&gt; file somewhere in the system:&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;htpasswd -c /home/fellowship/.htpasswd boromir
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;htpasswd &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; /home/fellowship/.htpasswd boromir
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Then you can use it for authentication:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-apacheconf&quot;&gt;AuthType Basic
@@ -1924,53 +2001,6 @@ RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
         <pubDate>Mon, 27 Feb 2017 00:00:00 -0500</pubDate>
         <link>http://www.digitalroots.io/blog/finding-influencer-digital-fundraising-part-2/?utm_source=rss</link>
         <guid isPermaLink="true">http://www.digitalroots.io/blog/finding-influencer-digital-fundraising-part-2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tools for Social Media Tracking and Engagement (Updated)</title>
-        <description>&lt;p&gt;Figuring out what is trending on Twitter can be difficult. Do you use the advance search to look for keywords? Do you look at a list of thought leader every day? Check to see what’s on your timeline?&lt;/p&gt;
-
-&lt;p&gt;There are a lot of tools out there that can help you discover what is popular right now to help you reach out to your targeted audience. Below are three that are some of the best around&lt;/p&gt;
-
-&lt;h4 id=&quot;buzzsumo&quot;&gt;&lt;a href=&quot;http://buzzsumo.com/&quot;&gt;Buzzsumo&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;../img/buzzsumo.jpg&quot; alt=&quot;Buzzsumo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Buzzzsumo searches multiple social sites for the most popular keywords or domains and can show results by time period, from last 24 hours up to a year. The best thing about Buzzsumo is that it tracks keywords and domains across multiple social media site including Google + this will allow you to add your two cents to the conversation no matter where it is, and know which platform will perform the best for you.&lt;/p&gt;
-
-&lt;p&gt;Buzzsumo tools for Twitter that lets you search for influencers with a number of filters that let you find individuals that can offer strong engagement, and have quality backlinks. Buzzsumo also lets you search twitter so you can Find people talking about your brand, your competitors, and topics relevant to you.&lt;/p&gt;
-
-&lt;h4 id=&quot;topsy-discontinued&quot;&gt;Topsy (Discontinued)&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;../img/topsy.jpg&quot; alt=&quot;Topsy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Topsy is a social search engine that displays results similar to Google. One of the biggest advantages to Topsy is that it offers a more immediate time filter the Buzzsumo ranging from the past hour to 30 days. You can also filter by links, videos, tweets, and by relevancy.&lt;/p&gt;
-
-&lt;p&gt;One of the biggest advantages of Topsy is that it goes further with Topsy Analytics. There you can look at the volume of tweets sent each day and compare them to up to 2 other keywords.&lt;/p&gt;
-
-&lt;h4 id=&quot;socialmention&quot;&gt;&lt;a href=&quot;http://socialmention.com/&quot;&gt;Socialmention&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;../img/socialmention.png&quot; alt=&quot;Socialmention&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Socialmention, unlike Buzzsumo and Topsy, focuses on real-time search results this means that doesn’t automatically sort by popularity or volume. The big advantage of Social mention is you can see the latest tweets, blog posts and other social posts about any topic you choose, from any time, or from a specific time like the past hour for the past month.&lt;/p&gt;
-
-&lt;p&gt;Along the left side, you can see some basic stats about your chosen keyword, such as the sentiment and reach. There is other useful information that you can use to dive deeper into what content is popular available too, like the top tweeters tweeting about your topic and the most popular related hashtags.&lt;/p&gt;
-
-&lt;h4 id=&quot;epictions&quot;&gt;&lt;a href=&quot;http://epictions.com/&quot;&gt;Epictions&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;../img/epictions.png&quot; alt=&quot;Epictions&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Epictions is a tool that focuses on influencer and hashtags on all social media Platforms and offers many of the same content tools as Buzzsumo. One of the strongest tools Epictions offers is the ability to search for multi-channel influencers, and know what kind of content they share.&lt;/p&gt;
-
-&lt;p&gt;The biggest advantage of Epictions is that it focuses on hashtag and content research so you are able to figure out what kind of content is being shared in your niche and the hashtags you should use to join the conversation.&lt;/p&gt;
-
-&lt;h6 id=&quot;first-posted-10-22-2015&quot;&gt;First Posted 10-22-2015&lt;/h6&gt;
- Seen First on href=&quot;http://www.digitalroots.io</description>
-        <pubDate>Fri, 24 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://www.digitalroots.io/blog/Social-Media-Tracker/?utm_source=rss</link>
-        <guid isPermaLink="true">http://www.digitalroots.io/blog/Social-Media-Tracker/</guid>
         
         
       </item>
