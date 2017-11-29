@@ -5,19 +5,19 @@
     <description>Engaging activities and voter through cutting edge digital and grassroots strategies. That deliver the hardest fought elections</description>
     <link>http://www.digitalroots.io/blog/</link>
     <atom:link href="http://www.digitalroots.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Nov 2017 11:41:51 -0500</pubDate>
-    <lastBuildDate>Mon, 27 Nov 2017 11:41:51 -0500</lastBuildDate>
+    <pubDate>Wed, 29 Nov 2017 00:32:39 -0500</pubDate>
+    <lastBuildDate>Wed, 29 Nov 2017 00:32:39 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Review: Free Media and Twitter in the 2016 Presidential Election: The Unconventional Campaign of Donald Trump</title>
         <description>&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
-&lt;p&gt;Peter L. Francia look into one of the leading theories for the stunning victory of President Donald Trump. Peter L. Francia looks at a number of different data sets to determine if there is validity to the free media thesis which states Donald Trump was able to surprises pundits and reporters because they looked at traditional metrics and didn’t take into account Trumps earned media. &lt;strong&gt;Peter L. Francia does state that his paper doesn’t prove or disprove the free media thesis but only adds to the body of work examining it&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Peter L. Francia looked into one of the leading theories for the stunning victory of President Donald Trump. In Free Media and Twitter in the 2016 Presidential Election: The Unconventional Campaign of Donald Trump Peter L. Francia looks at a number of different datasets to determine if there is validity to the free media thesis, which states Donald Trump was able to surprises pundits and reporters because they looked at traditional metrics and didn’t take into account Trumps earned media. &lt;strong&gt;Peter L. Francia does state that his paper doesn’t prove or disprove the free media thesis but only adds to the body of work examining it&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;../pdf/Free-Media-Twitter-2016-Presidential-Election.pdf&quot;&gt;Download Paper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;../pdf/Free-Media-Twitter-2016-Presidential-Election.pdf&quot;&gt;View/Download Paper&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;review&quot;&gt;Review&lt;/h2&gt;
-&lt;p&gt;The biggest issue with the free media theory is that Donald Trumps earned media was often more negative then positive, but in his study Dr. Francia points to a yougov/economist poll that showed illustrated why this wasn’t a major hindrance to Donald Trump profiting off of earned media.&lt;/p&gt;
+&lt;p&gt;The first issue with the free media theory is that Donald Trump’s earned media had been often more negative than positive, but in his study, Dr. Francia points to a YouGov/Economist poll that illustrated why this wasn’t a major hindrance to Donald Trump profiting off of earned media.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -57,30 +57,101 @@
 &lt;/table&gt;
 
 &lt;h3 id=&quot;hypothesis&quot;&gt;Hypothesis&lt;/h3&gt;
-&lt;p&gt;Dr. Francia sets 5 different Hypothesis to test wether the free media thesis is validate. The hypothesis can be grouped into 2 groups 1 being based on coverage in terms of followers and free media coverage especially around the crucial months of the campaign, and group 2 which uses polling on how much they saw and who they talked about the 2016 election:&lt;/p&gt;
+&lt;p&gt;Dr. Francia sets 5 different Hypothesis to test whether the free media thesis is validated. The hypothesis can be grouped into 2 groups 1 being based on coverage in terms of followers and free media coverage, especially around the crucial months of the campaign, and group 2 which uses polling on how much they saw and who they talked about the 2016 election:&lt;/p&gt;
 
-&lt;h4 id=&quot;hypothesis-1&quot;&gt;Hypothesis 1&lt;/h4&gt;
-&lt;p&gt;Donald Trump generated more free media coverage, especially during the key months of the election cycle, than did his chief opponent, Hillary Clinton.&lt;/p&gt;
-&lt;h4 id=&quot;hypothesis-2&quot;&gt;Hypothesis 2&lt;/h4&gt;
-&lt;p&gt;Donald Trump had more followers on Twitter than Hillary Clinton, especially during the key final months of the election cycle.&lt;/p&gt;
-&lt;h4 id=&quot;hypothesis-3&quot;&gt;Hypothesis 3&lt;/h4&gt;
-&lt;p&gt;A higher percentage of people reported seeing more social media posts supporting Donald Trump than Hillary Clinton.&lt;/p&gt;
-&lt;h4 id=&quot;hypothesis-4&quot;&gt;Hypothesis 4&lt;/h4&gt;
-&lt;p&gt;A higher percentage of people reported seeing more news stories about Donald Trump than about Hillary Clinton.&lt;/p&gt;
-&lt;h4 id=&quot;hypothesis-5&quot;&gt;Hypothesis 5&lt;/h4&gt;
-&lt;p&gt;A higher percentage of people reported that they spent more time talking about Donald Trump in their personal conversations than about Hillary Clinton.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;hypothesis-1&quot;&gt;Hypothesis 1&lt;/h4&gt;
+  &lt;p&gt;Donald Trump generated more free media coverage, especially during the key months of the election cycle, than did his chief opponent, Hillary Clinton.&lt;/p&gt;
+  &lt;h4 id=&quot;hypothesis-2&quot;&gt;Hypothesis 2&lt;/h4&gt;
+  &lt;p&gt;Donald Trump had more followers on Twitter than Hillary Clinton, especially during the key final months of the election cycle.&lt;/p&gt;
+  &lt;h4 id=&quot;hypothesis-3&quot;&gt;Hypothesis 3&lt;/h4&gt;
+  &lt;p&gt;A higher percentage of people reported seeing more social media posts supporting Donald Trump than Hillary Clinton.&lt;/p&gt;
+  &lt;h4 id=&quot;hypothesis-4&quot;&gt;Hypothesis 4&lt;/h4&gt;
+  &lt;p&gt;A higher percentage of people reported seeing more news stories about Donald Trump than about Hillary Clinton.&lt;/p&gt;
+  &lt;h4 id=&quot;hypothesis-5&quot;&gt;Hypothesis 5&lt;/h4&gt;
+  &lt;p&gt;A higher percentage of people reported that they spent more time talking about Donald Trump in their personal conversations than about Hillary Clinton.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;While he was able to prove all five hypothesis the last three had some issues due to how the data was collected, but both hypotheses, one and two were able to prove which can be seen in table 2 and in the media that have covered the &lt;a href=&quot;https://shorensteincenter.org/news-coverage-2016-general-election/&quot;&gt;amount of coverage the candidate had received&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Donald Trump Versus Hillary Clinton: Media Value and Media Mentions, June 2016 - Oct. 2016&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Source. &lt;a href=&quot;https://www.mediaquant.net&quot;&gt;MediaQuant&lt;/a&gt; (https://www.mediaquant.net).&lt;/td&gt;
+      &lt;td&gt;June 2016&lt;/td&gt;
+      &lt;td&gt;July 2016&lt;/td&gt;
+      &lt;td&gt;Aug. 2016&lt;/td&gt;
+      &lt;td&gt;Sep. 2016&lt;/td&gt;
+      &lt;td&gt;Oct. 2016&lt;/td&gt;
+      &lt;td&gt;Total&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Donald Trump&lt;/td&gt;
+      &lt;td&gt;$435,374,385&lt;/td&gt;
+      &lt;td&gt;$543,712,760&lt;/td&gt;
+      &lt;td&gt;$482,966,428&lt;/td&gt;
+      &lt;td&gt;$482,966,428&lt;/td&gt;
+      &lt;td&gt;$568,472,657&lt;/td&gt;
+      &lt;td&gt;$2,490,502,963&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;(71,029,693)&lt;/td&gt;
+      &lt;td&gt;(86,155,811)&lt;/td&gt;
+      &lt;td&gt;(70,124,397)&lt;/td&gt;
+      &lt;td&gt;(69,967,542)&lt;/td&gt;
+      &lt;td&gt;(73,802,984)&lt;/td&gt;
+      &lt;td&gt;(371,080,427)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hillary Clinton&lt;/td&gt;
+      &lt;td&gt;$298,767,825&lt;/td&gt;
+      &lt;td&gt;$505,324,483&lt;/td&gt;
+      &lt;td&gt;$340,878,265&lt;/td&gt;
+      &lt;td&gt;$418,339,706&lt;/td&gt;
+      &lt;td&gt;$479,094,664&lt;/td&gt;
+      &lt;td&gt;$2,042,404,943&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;(40,576,744)&lt;/td&gt;
+      &lt;td&gt;(72,175,075)&lt;/td&gt;
+      &lt;td&gt;(45,320,187)&lt;/td&gt;
+      &lt;td&gt;(61,782,564)&lt;/td&gt;
+      &lt;td&gt;60,378,488)&lt;/td&gt;
+      &lt;td&gt;(280,233,058)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h3 id=&quot;critique&quot;&gt;Critique&lt;/h3&gt;
-&lt;p&gt;Hypothesis 3-5 aren’t good indicators to see if the free media thesis could have been the reason for Presidents Trump surprise victory because other research has shown that social media and private conversations about politics are often &lt;a href=&quot;https://news.vice.com/story/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows&quot;&gt;self sorting&lt;/a&gt; which means that it wouldn’t have reached persuadable voters.&lt;/p&gt;
+&lt;p&gt;Hypothesis 3-5 aren’t good indicators to see if the free media thesis could have been the reason for Presidents Trump surprise victory because other research has shown that social media and private conversations about politics are often &lt;a href=&quot;https://news.vice.com/story/journalists-and-trump-voters-live-in-separate-online-bubbles-mit-analysis-shows&quot;&gt;self-sorted&lt;/a&gt; which means the people who were talking about politics were talking to people who were like-minded if they were for Trump.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/FreeMediaThesis/TwitterData1-01.png&quot; alt=&quot;Image of graph showing political division and segregation on Twitter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, given the negative coverage of Trump during the campaign and after there is a possibility that the polls might not include people who follow both Trump and Clinton, but support Trump because they are less likely to participate in the poll due to negative coverage which looked at in &lt;a href=&quot;../pdf/swing-voters.pdf&quot;&gt;Myth of the Swing Voter&lt;/a&gt;. With the possible nonresponse rates from marginal supports plus small dataset makes the evidence &lt;a href=&quot;https://www.bloomberg.com/view/articles/2017-11-27/the-economics-data-revolution-has-growing-pains&quot;&gt;more likely to be a false positive&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;Looking at the study of Peter L. Francia has accomplishes what he set out to do, which is contribute to the growing evidence of the legitimacy of the free media thesis being a driving factor behind Donald Trumps surprise victory. &lt;strong&gt;The major take away campaigns can use&lt;/strong&gt; is how social media can be used to gain media coverage
-&lt;img src=&quot;../img/FreeMediaThesis/Path-of-influence.png&quot; alt=&quot;flow chart from the study showing how information reaches voters&quot; /&gt;
-, but be warned if you are a local candidate this is not likely to work because federal and state wide office holders take precedence in the media which means there are better ways to gain media attention&lt;/p&gt;
+&lt;p&gt;Looking at the study of Peter L. Francia has accomplished what he set out to do, which is contributing to the growing evidence of the legitimacy of the free media thesis being a driving factor behind Donald Trump’s surprise victory. Because, as he points out, when proving hypothesis 1 and 2 the value of the earned media and the timing in which it happened could have had a meaningful impact on the election. &lt;strong&gt;The major take away campaigns can use&lt;/strong&gt; is how social media can be used to gain media coverage&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;../pdf/Free-Media-Twitter-2016-Presidential-Election.pdf&quot;&gt;Download Paper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../img/FreeMediaThesis/Path-of-influence.png&quot; alt=&quot;flow chart from the study showing how information reaches voters&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;, but be warned if you are a local candidate this is not likely to work because federal and statewide officeholders take precedence in the media which means there are better ways to gain media attention.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../pdf/Free-Media-Twitter-2016-Presidential-Election.pdf&quot;&gt;View/Download Paper&lt;/a&gt;&lt;/p&gt;
  Seen First on href=&quot;http://www.digitalroots.io</description>
-        <pubDate>Thu, 30 Nov 2017 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 29 Nov 2017 00:00:00 -0500</pubDate>
         <link>http://www.digitalroots.io/blog/free-media-thesis/?utm_source=rss</link>
         <guid isPermaLink="true">http://www.digitalroots.io/blog/free-media-thesis/</guid>
         
