@@ -39,6 +39,8 @@ With the election year coming grassroots programs will start to launch and...">
   <meta itemprop="url" content="http://www.digitalroots.io/blog/volunteer-system/">
   <link rel="stylesheet" type="text/css"  href="http://www.digitalroots.io/blog/css/main.css" />
   <link href="http://www.digitalroots.io" rel="home"></link>
+  <link rel="manifest" href="manifest.json"></link>
+  <script src="/js/pwabuilder-sw.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -107,7 +109,7 @@ With the election year coming grassroots programs will start to launch and...">
   </div>
 </header>
 
-    
+
     <div class="page-content">
 
     <div style="display: flex; justify-content: center; width: 100%;"><div id="google_translate_element"></div></div><script async type="text/javascript">
@@ -302,7 +304,7 @@ function googleTranslateElementInit() {
     <div class="PageNavigation">
 
 <div>
-  <a class="prev" href="/blog/free-media-thesis/">&laquo; Review: Free Media and Twitter in the 2016 Presidential Election: The Unconventional Campaign of Donald Trump</a>
+  <a class="prev" href="/blog/free-media-thesis/">&laquo; Free Media and Twitter in the 2016 Presidential Election</a>
 </div>
 
 
@@ -381,5 +383,17 @@ function googleTranslateElementInit() {
 
 
   </body>
+  <script>
+    if (navigator.serviceWorker.controller) {
+      console.log('[PWA Builder] active service worker found, no need to register')
+    } else {
 
+    //Register the ServiceWorker
+      navigator.serviceWorker.register('pwabuilder-sw.js', {
+        scope: './'
+      }).then(function(reg) {
+        console.log('Service worker has been registered for scope:'+ reg.scope);
+      });
+    }
+  </script>
 </html>
