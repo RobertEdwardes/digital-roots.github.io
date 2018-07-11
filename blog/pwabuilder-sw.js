@@ -1,7 +1,7 @@
 //This is the service worker with the Cache-first network
 var CACHE = 'pwabuilder-precache';
 var precacheFiles = [
-      'index.html', 'page2/index.html', 'page3/index.html', 'page4/index.html', 'page5/index.html', 'page6/index.html', 'page7/index.html', 'Videos.html', 'DataBase.html'
+      '/index.html', '/page2/index.html', '/page3/index.html', '/page4/index.html', '/page5/index.html', '/page6/index.html', '/page7/index.html', '/Videos.html', '/DataBase.html'
     ];
 
 //Install stage sets up the cache-array to configure pre-cache content
